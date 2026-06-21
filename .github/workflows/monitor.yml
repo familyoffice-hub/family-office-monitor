@@ -38,7 +38,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RUN_MODE: once
           MIN_SCORE_TO_ALERT: "4"
-          DAILY_SUMMARY_HOUR: "0"   # 0 UTC = 07:00 WIB
+          DAILY_SUMMARY_HOUR: "7"   # 7 = jam 07:00 WIB (Daily Digest pagi)
         run: python main.py
 
       - name: Simpan riwayat (seen.json) agar tidak kirim duplikat
