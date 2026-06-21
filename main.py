@@ -367,7 +367,7 @@ def call_gemini(system, user, max_tokens=700):
             "thinkingConfig": {"thinkingBudget": 0},
         },
     }
-    for attempt in range(3):
+    for attempt in range(4):
         try:
             r = requests.post(
                 url,
@@ -391,11 +391,18 @@ def call_gemini(system, user, max_tokens=700):
                 print("[i] Gemini limit (429), tunggu 25s lalu coba lagi...")
                 time.sleep(25)
                 continue
+            if r.status_code in (500, 502, 503, 504):
+                # Server Gemini sedang penuh/sibuk: coba lagi dengan jeda bertambah.
+                wait = 8 * (attempt + 1)
+                print(f"[i] Gemini sibuk ({r.status_code}), tunggu {wait}s lalu coba lagi...")
+                time.sleep(wait)
+                continue
             print("[!] Gemini API error", r.status_code, r.text[:300])
             return None
         except Exception as e:
             print("[!] Gemini API exception", e)
             time.sleep(5)
+    print("[i] Gemini tetap gagal setelah beberapa percobaan; alert dikirim tanpa ringkasan AI.")
     return None
 
 def call_ai(system, user, max_tokens=700):
