@@ -1,0 +1,6 @@
+# Jangan upload rahasia & file sementara ke GitHub
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
