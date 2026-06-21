@@ -58,6 +58,28 @@ SEND_DELAY_SECONDS = int(os.getenv("SEND_DELAY_SECONDS", "4"))
 # supaya run pertama tidak membanjiri Telegram (anti-flood).
 MAX_ALERTS_PER_CYCLE = int(os.getenv("MAX_ALERTS_PER_CYCLE", "12"))
 
+# --- AI (opsional). Pilih penyedia: "gemini" (gratis) atau "claude". ---
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "").strip()
+
+# Tentukan penyedia: pakai AI_PROVIDER jika diisi, kalau tidak deteksi dari kunci yang ada.
+AI_PROVIDER = os.getenv("AI_PROVIDER", "").strip().lower()
+if not AI_PROVIDER:
+    if GEMINI_API_KEY:
+        AI_PROVIDER = "gemini"
+    elif ANTHROPIC_API_KEY:
+        AI_PROVIDER = "claude"
+
+# Model default per penyedia (boleh ditimpa lewat AI_MODEL).
+_DEFAULT_MODEL = {"gemini": "gemini-2.5-flash-lite", "claude": "claude-haiku-4-5"}
+AI_MODEL = os.getenv("AI_MODEL", "").strip() or _DEFAULT_MODEL.get(AI_PROVIDER, "")
+
+AI_ENABLED = (AI_PROVIDER == "gemini" and bool(GEMINI_API_KEY)) or \
+             (AI_PROVIDER == "claude" and bool(ANTHROPIC_API_KEY))
+
+# Buat draft LinkedIn + catatan IC hanya untuk alert prioritas tinggi (hemat kuota/biaya).
+AI_DRAFTS_FOR_HIGH_ONLY = os.getenv("AI_DRAFTS_FOR_HIGH_ONLY", "true").lower() == "true"
+
 # File penyimpanan riwayat (agar tidak kirim berita yang sama dua kali)
 SEEN_FILE = os.getenv("SEEN_FILE", "seen.json")
 STATE_FILE = os.getenv("STATE_FILE", "state.json")
@@ -283,7 +305,142 @@ def send_telegram(message):
             ok_all = False
     return ok_all
 
-def format_news_alert(item):
+# ----------------------------------------------------------------------------
+# FUNGSI AI (opsional) - ringkasan & draft konten memakai Claude API
+# ----------------------------------------------------------------------------
+
+def call_claude(system, user, max_tokens=700):
+    """Panggil Claude API. Return teks balasan, atau None jika gagal."""
+    try:
+        r = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": ANTHROPIC_API_KEY,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model": AI_MODEL,
+                "max_tokens": max_tokens,
+                "system": system,
+                "messages": [{"role": "user", "content": user}],
+            },
+            timeout=40,
+        )
+        if r.status_code != 200:
+            print("[!] Claude API error", r.status_code, r.text[:200])
+            return None
+        data = r.json()
+        parts = [b.get("text", "") for b in data.get("content", []) if b.get("type") == "text"]
+        return "\n".join(parts).strip()
+    except Exception as e:
+        print("[!] Claude API exception", e)
+        return None
+
+def call_gemini(system, user, max_tokens=700):
+    """Panggil Gemini API (gratis). Return teks balasan, atau None jika gagal."""
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{AI_MODEL}:generateContent"
+    body = {
+        "system_instruction": {"parts": [{"text": system}]},
+        "contents": [{"role": "user", "parts": [{"text": user}]}],
+        "generationConfig": {
+            "maxOutputTokens": max_tokens,
+            "temperature": 0.4,
+            # Matikan "thinking" pada Gemini 2.5 agar token tidak habis & balasan tidak kosong.
+            "thinkingConfig": {"thinkingBudget": 0},
+        },
+    }
+    for attempt in range(3):
+        try:
+            r = requests.post(
+                url,
+                headers={"x-goog-api-key": GEMINI_API_KEY, "Content-Type": "application/json"},
+                json=body, timeout=40,
+            )
+            if r.status_code == 200:
+                data = r.json()
+                cands = data.get("candidates", [])
+                if not cands:
+                    print("[!] Gemini: tidak ada candidates (mungkin diblok filter).")
+                    return None
+                parts = cands[0].get("content", {}).get("parts", [])
+                text = "".join(p.get("text", "") for p in parts).strip()
+                if not text:
+                    fr = cands[0].get("finishReason", "?")
+                    print(f"[!] Gemini: balasan kosong (finishReason={fr}).")
+                    return None
+                return text
+            if r.status_code == 429:
+                print("[i] Gemini limit (429), tunggu 25s lalu coba lagi...")
+                time.sleep(25)
+                continue
+            print("[!] Gemini API error", r.status_code, r.text[:300])
+            return None
+        except Exception as e:
+            print("[!] Gemini API exception", e)
+            time.sleep(5)
+    return None
+
+def call_ai(system, user, max_tokens=700):
+    """Arahkan ke penyedia AI yang aktif."""
+    if not AI_ENABLED:
+        return None
+    if AI_PROVIDER == "gemini":
+        return call_gemini(system, user, max_tokens)
+    return call_claude(system, user, max_tokens)
+
+def ai_enrich(item):
+    """Minta AI: ringkasan 2 kalimat + why + (opsional) draft LinkedIn & memo IC.
+    Mengembalikan dict, atau None jika AI mati/gagal (program tetap jalan tanpa AI)."""
+    if not AI_ENABLED:
+        return None
+
+    want_drafts = (not AI_DRAFTS_FOR_HIGH_ONLY) or (item["priority"] == "High")
+    area = ", ".join(item["matched"][:4]) if item["matched"] else "wealth management"
+
+    system = (
+        "Anda analis senior di sebuah Family Office di Indonesia. "
+        "Anda menulis ringkas, tajam, dan praktis dalam Bahasa Indonesia. "
+        "Anda hanya punya JUDUL + cuplikan singkat berita, bukan artikel penuh, "
+        "jadi JANGAN mengarang angka, kutipan, atau detail spesifik yang tidak ada. "
+        "Jika detail tidak pasti, tetap umum namun berguna."
+    )
+
+    draft_instr = ""
+    if want_drafts:
+        draft_instr = (
+            ', "linkedin": "<draft LinkedIn post 4-6 kalimat, profesional, '
+            'sudut pandang wealth/family office, tanpa tagar berlebihan>", '
+            '"ic_memo": "<3-4 poin singkat untuk catatan investment committee: '
+            'observasi, dampak, usulan tindakan>"'
+        )
+    else:
+        draft_instr = ', "linkedin": "", "ic_memo": ""'
+
+    user = (
+        f"JUDUL: {item['title']}\n"
+        f"SUMBER: {item['source']}\n"
+        f"AREA TERKAIT: {area}\n"
+        f"PRIORITAS: {item['priority']}\n\n"
+        "Balas HANYA dalam format JSON valid (tanpa teks lain, tanpa ```), persis:\n"
+        '{"ringkasan": "<2 kalimat ringkas apa isi berita ini>", '
+        '"why": "<1 kalimat: kenapa ini penting bagi family office/investor/keluarga bisnis>"'
+        + draft_instr + "}"
+    )
+
+    raw = call_ai(system, user, max_tokens=900 if want_drafts else 350)
+    if not raw:
+        return None
+    # Bersihkan jika model membungkus dengan ```
+    raw = re.sub(r"^```(json)?", "", raw.strip())
+    raw = re.sub(r"```$", "", raw.strip()).strip()
+    try:
+        return json.loads(raw)
+    except Exception as e:
+        print("[!] Gagal baca JSON AI:", e)
+        return None
+
+def format_news_alert(item, enrich=None):
     matched = item["matched"]
     area = " / ".join(matched[:4]) if matched else "General"
     content_idea = "LinkedIn post / Newsletter" 
@@ -302,18 +459,45 @@ def format_news_alert(item):
     elif item["priority"] == "Medium":
         action = "Review exposure / Prepare client memo"
 
+    # Jika AI aktif, pakai ringkasan & alasan dari AI. Jika tidak, pakai teks default.
+    if enrich and enrich.get("ringkasan"):
+        why = enrich.get("why") or f"Menyentuh area {area}."
+        summary_block = [
+            f"📄 <b>RINGKASAN AI:</b> {tg_escape(enrich['ringkasan'])}",
+            f"<b>WHY IT MATTERS:</b> {tg_escape(why)}",
+        ]
+    else:
+        summary_block = [
+            f"<b>WHY IT MATTERS:</b> Relevan untuk Family Office / investor: menyentuh area {tg_escape(area)}.",
+            f"<b>IMPACT:</b> Berpotensi memengaruhi {tg_escape(area)} dalam portfolio / struktur keluarga.",
+        ]
+
     lines = [
         f"<b>[{item['alert_type']}]</b>",
         f"<b>{tg_escape(item['title'])}</b>",
         "",
-        f"<b>WHY IT MATTERS:</b> Relevan untuk Family Office / investor: menyentuh area {tg_escape(area)}.",
-        f"<b>IMPACT:</b> Berpotensi memengaruhi {tg_escape(area)} dalam portfolio / struktur keluarga.",
+    ] + summary_block + [
         f"<b>RECOMMENDED ACTION:</b> {tg_escape(action)}",
         f"<b>ASSET CLASS / AREA:</b> {tg_escape(area)}",
         f"<b>SOURCE:</b> {tg_escape(item['source'])} — {tg_escape(item['link'])}",
         f"<b>CONTENT IDEA:</b> {tg_escape(content_idea)}",
         f"<b>PRIORITY:</b> {item['priority']}  |  Score: {item['score']}",
     ]
+    return "\n".join(lines)
+
+def format_drafts_message(item, enrich):
+    """Pesan kedua khusus berisi draft konten (LinkedIn + catatan IC) dari AI."""
+    if not enrich:
+        return None
+    linkedin = (enrich.get("linkedin") or "").strip()
+    ic_memo = (enrich.get("ic_memo") or "").strip()
+    if not linkedin and not ic_memo:
+        return None
+    lines = [f"✍️ <b>DRAFT KONTEN</b> — {tg_escape(item['title'][:80])}"]
+    if linkedin:
+        lines += ["", "<b>LinkedIn post:</b>", tg_escape(linkedin)]
+    if ic_memo:
+        lines += ["", "<b>Catatan Investment Committee:</b>", tg_escape(ic_memo)]
     return "\n".join(lines)
 
 def format_market_alert(label, pct, kind="MARKET"):
@@ -485,6 +669,16 @@ def prune_seen(seen):
 def run_cycle():
     print("=" * 60)
     print("Mulai siklus:", datetime.now(JAKARTA).strftime("%Y-%m-%d %H:%M:%S WIB"))
+    # --- Diagnostik AI: tampil jelas di log ---
+    if AI_ENABLED:
+        klen = len(GEMINI_API_KEY) if AI_PROVIDER == "gemini" else len(ANTHROPIC_API_KEY)
+        print(f"AI: AKTIF | provider={AI_PROVIDER} | model={AI_MODEL} | panjang_kunci={klen}")
+        test = call_ai("Jawab singkat.", "Balas satu kata: OK", max_tokens=50)
+        print("AI TEST:", ("BERHASIL -> " + test[:40]) if test else "GAGAL (lihat baris [!] di atas/bawah)")
+    else:
+        print(f"AI: NONAKTIF | provider={AI_PROVIDER or 'kosong'} | "
+              f"gemini_key={'ada' if GEMINI_API_KEY else 'kosong'} | "
+              f"anthropic_key={'ada' if ANTHROPIC_API_KEY else 'kosong'}")
     seen = load_json(SEEN_FILE, {})
     sent_today = []
 
@@ -508,11 +702,17 @@ def run_cycle():
 
     for item in to_send:
         uid = "news::" + (item["link"] or item["title"])
-        ok = send_telegram(format_news_alert(item))
+        enrich = ai_enrich(item)   # None jika AI mati / gagal -> alert tetap terkirim
+        ok = send_telegram(format_news_alert(item, enrich))
         # Tandai sudah-dilihat apa pun hasilnya, supaya tidak dikirim berulang tiap jam.
         seen[uid] = datetime.now(timezone.utc).isoformat()
         if ok:
             sent_today.append(item)
+            # Kirim draft konten (LinkedIn + memo IC) sebagai pesan terpisah, jika ada.
+            drafts = format_drafts_message(item, enrich)
+            if drafts:
+                time.sleep(SEND_DELAY_SECONDS)
+                send_telegram(drafts)
         save_json(SEEN_FILE, seen)   # simpan bertahap agar aman bila run terhenti
         time.sleep(SEND_DELAY_SECONDS)
 
