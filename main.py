@@ -266,6 +266,22 @@ def tg_escape(s):
     """Telegram HTML mode: escape karakter < > &."""
     return html.escape(s or "")
 
+def _split_message(text, limit=3800):
+    """Pecah pesan panjang menjadi beberapa bagian agar tidak melebihi batas Telegram."""
+    if len(text) <= limit:
+        return [text]
+    chunks, current = [], ""
+    for line in text.split("\n"):
+        if len(current) + len(line) + 1 > limit:
+            if current:
+                chunks.append(current)
+            current = line
+        else:
+            current = (current + "\n" + line) if current else line
+    if current:
+        chunks.append(current)
+    return chunks
+
 def send_telegram(message):
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_IDS:
         print("[!] TELEGRAM_TOKEN / TELEGRAM_CHAT_IDS belum diisi. Pesan tidak terkirim.")
@@ -274,35 +290,36 @@ def send_telegram(message):
     ok_all = True
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     for chat_id in TELEGRAM_CHAT_IDS:
-        sent = False
-        # Coba sampai 4 kali. Jika kena 429, tunggu sesuai 'retry_after' lalu ulang.
-        for attempt in range(4):
-            try:
-                r = requests.post(url, data={
-                    "chat_id": chat_id,
-                    "text": message,
-                    "parse_mode": "HTML",
-                    "disable_web_page_preview": "true",
-                }, timeout=20)
-                if r.status_code == 200:
-                    sent = True
+        for part in _split_message(message):
+            sent = False
+            # Coba sampai 4 kali. Jika kena 429, tunggu sesuai 'retry_after' lalu ulang.
+            for attempt in range(4):
+                try:
+                    r = requests.post(url, data={
+                        "chat_id": chat_id,
+                        "text": part,
+                        "parse_mode": "HTML",
+                        "disable_web_page_preview": "true",
+                    }, timeout=20)
+                    if r.status_code == 200:
+                        sent = True
+                        break
+                    if r.status_code == 429:
+                        try:
+                            wait = r.json().get("parameters", {}).get("retry_after", 5)
+                        except Exception:
+                            wait = 5
+                        print(f"[i] Kena limit (429) untuk {chat_id}, tunggu {wait}s lalu coba lagi...")
+                        time.sleep(int(wait) + 1)
+                        continue
+                    # error lain (mis. 400/403): jangan diulang, catat saja
+                    print("[!] Telegram error", chat_id, r.status_code, r.text[:200])
                     break
-                if r.status_code == 429:
-                    try:
-                        wait = r.json().get("parameters", {}).get("retry_after", 5)
-                    except Exception:
-                        wait = 5
-                    print(f"[i] Kena limit (429) untuk {chat_id}, tunggu {wait}s lalu coba lagi...")
-                    time.sleep(int(wait) + 1)
-                    continue
-                # error lain (mis. 400/403): jangan diulang, catat saja
-                print("[!] Telegram error", chat_id, r.status_code, r.text[:200])
-                break
-            except Exception as e:
-                print("[!] Telegram exception", e)
-                time.sleep(3)
-        if not sent:
-            ok_all = False
+                except Exception as e:
+                    print("[!] Telegram exception", e)
+                    time.sleep(3)
+            if not sent:
+                ok_all = False
     return ok_all
 
 # ----------------------------------------------------------------------------
@@ -658,21 +675,108 @@ def check_crypto(seen):
 # BAGIAN 10 - RINGKASAN HARIAN
 # ============================================================================
 
-def maybe_daily_summary(sent_today, seen):
+def _safe_dt(s):
+    """Parse waktu ISO dengan aman; jika gagal, kembalikan waktu sangat lampau."""
+    try:
+        return datetime.fromisoformat(s)
+    except Exception:
+        return datetime(1970, 1, 1, tzinfo=timezone.utc)
+
+def record_daily(seen, item):
+    """Catat ringkas setiap alert yang terkirim, untuk bahan Daily Digest."""
+    log = seen.get("__daily_log__")
+    if not isinstance(log, list):
+        log = []
+        seen["__daily_log__"] = log
+    log.append({
+        "ts": datetime.now(timezone.utc).isoformat(),
+        "title": item.get("title", ""),
+        "source": item.get("source", ""),
+        "area": " / ".join(item.get("matched", [])[:3]) if item.get("matched") else "General",
+        "priority": item.get("priority", "Low"),
+        "alert_type": item.get("alert_type", ""),
+    })
+
+def build_digest_message(now, items):
+    """Bangun pesan Daily Digest. Pakai AI bila aktif; jika tidak, daftar ringkas."""
+    tanggal = now.strftime("%d %b %Y")
+    if not items:
+        return (f"<b>📋 DAILY DIGEST</b> — {tanggal}\n\n"
+                "Tidak ada alert signifikan dalam 24 jam terakhir.")
+
+    # Urutkan: High dulu
+    pr = {"High": 0, "Medium": 1, "Low": 2}
+    items = sorted(items, key=lambda r: pr.get(r.get("priority"), 3))[:40]
+
+    # --- Versi AI ---
+    if AI_ENABLED:
+        daftar = "\n".join(
+            f"- [{r.get('priority')}] {r.get('title')} (area: {r.get('area')}, sumber: {r.get('source')})"
+            for r in items
+        )
+        system = (
+            "Anda Chief Investment Officer sebuah Family Office di Indonesia. "
+            "Tulis executive briefing harian dalam Bahasa Indonesia yang ringkas, tajam, dan rapi. "
+            "Anda hanya punya daftar judul alert, bukan artikel penuh — jangan mengarang angka/detail. "
+            "Gunakan HTML sederhana Telegram: <b>...</b> untuk judul bagian (JANGAN pakai #, *, atau tabel)."
+        )
+        user = (
+            f"Tanggal: {tanggal}. Berikut {len(items)} alert penting 24 jam terakhir:\n\n"
+            f"{daftar}\n\n"
+            "Buat executive briefing dengan struktur:\n"
+            "1. Kalimat pembuka (1-2 kalimat: gambaran besar hari ini).\n"
+            "2. Kelompokkan temuan ke bagian relevan saja (pilih dari): "
+            "<b>Makro & Pasar</b>, <b>Regulasi & Pajak</b>, <b>Family Office & Wealth</b>, "
+            "<b>Risiko & Keamanan</b>, <b>Peluang Investasi</b>. "
+            "Tiap bagian 1-3 poin singkat (pakai tanda '•').\n"
+            "3. <b>Fokus / Rekomendasi</b>: 2-3 tindakan prioritas untuk minggu ini.\n"
+            "Total maksimal sekitar 350 kata. Jangan mengulang judul mentah; sarikan."
+        )
+        ai = call_ai(system, user, max_tokens=1400)
+        if ai:
+            return (f"<b>📋 DAILY DIGEST</b> — {tanggal}\n"
+                    f"<i>{len(items)} alert penting · 24 jam terakhir</i>\n\n{ai}")
+
+    # --- Versi tanpa AI (daftar ringkas) ---
+    by_pr = {"High": [], "Medium": [], "Low": []}
+    for r in items:
+        by_pr.get(r.get("priority"), by_pr["Low"]).append(r)
+    lines = [f"<b>📋 DAILY DIGEST</b> — {tanggal}",
+             f"<i>{len(items)} alert penting · 24 jam terakhir</i>"]
+    for label in ("High", "Medium", "Low"):
+        rows = by_pr[label]
+        if not rows:
+            continue
+        lines.append(f"\n<b>{label} priority ({len(rows)})</b>")
+        for r in rows[:15]:
+            lines.append(f"• {tg_escape(r.get('title',''))} — <i>{tg_escape(r.get('area',''))}</i>")
+    lines.append("\nGunakan untuk bahan investment committee / family briefing.")
+    return "\n".join(lines)
+
+def maybe_daily_digest(seen):
+    """Kirim Daily Digest sekali sehari pada jam DAILY_SUMMARY_HOUR (WIB)."""
     if DAILY_SUMMARY_HOUR < 0:
         return
     now = datetime.now(JAKARTA)
     if now.hour != DAILY_SUMMARY_HOUR:
         return
-    key = "summary::" + now.strftime("%Y-%m-%d")
+    key = "digest::" + now.strftime("%Y-%m-%d")
     if key in seen:
-        return
-    total = len(sent_today)
-    msg = (f"<b>[DAILY SUMMARY]</b> {now.strftime('%d %b %Y')}\n\n"
-           f"Total alert penting 24 jam terakhir: <b>{total}</b>.\n"
-           "Periksa channel untuk detail. Gunakan untuk bahan investment committee / family briefing.")
-    send_telegram(msg)
-    seen[key] = datetime.now(timezone.utc).isoformat()
+        return  # sudah dikirim hari ini
+    log = seen.get("__daily_log__", [])
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    items, titles = [], set()
+    for r in log:
+        if not isinstance(r, dict) or _safe_dt(r.get("ts")) < cutoff:
+            continue
+        t = r.get("title", "")
+        if t and t not in titles:
+            titles.add(t)
+            items.append(r)
+    msg = build_digest_message(now, items)
+    if msg and send_telegram(msg):
+        seen[key] = datetime.now(timezone.utc).isoformat()
+        print(f"[i] Daily digest terkirim ({len(items)} item).")
 
 # ============================================================================
 # BAGIAN 11 - SATU SIKLUS PEMERIKSAAN
@@ -681,11 +785,19 @@ def maybe_daily_summary(sent_today, seen):
 def prune_seen(seen):
     cutoff = datetime.now(timezone.utc) - timedelta(days=SEEN_RETENTION_DAYS)
     for k in list(seen.keys()):
+        if k == "__daily_log__":
+            continue  # ini daftar untuk digest, ditangani terpisah
         try:
             if datetime.fromisoformat(seen[k]) < cutoff:
                 del seen[k]
         except Exception:
             pass
+    # Pangkas catatan harian agar tidak menumpuk (simpan 3 hari terakhir).
+    log = seen.get("__daily_log__")
+    if isinstance(log, list):
+        dcut = datetime.now(timezone.utc) - timedelta(days=3)
+        seen["__daily_log__"] = [r for r in log
+                                 if isinstance(r, dict) and _safe_dt(r.get("ts")) >= dcut]
 
 def run_cycle():
     print("=" * 60)
@@ -729,6 +841,7 @@ def run_cycle():
         seen[uid] = datetime.now(timezone.utc).isoformat()
         if ok:
             sent_today.append(item)
+            record_daily(seen, item)   # catat untuk Daily Digest
             # Kirim draft konten (LinkedIn + memo IC) sebagai pesan terpisah, jika ada.
             drafts = format_drafts_message(item, enrich)
             if drafts:
@@ -747,8 +860,8 @@ def run_cycle():
         send_telegram(msg)
         time.sleep(SEND_DELAY_SECONDS)
 
-    # 4) Ringkasan harian
-    maybe_daily_summary(sent_today, seen)
+    # 4) Daily Digest (executive briefing, sekali sehari)
+    maybe_daily_digest(seen)
 
     prune_seen(seen)
     save_json(SEEN_FILE, seen)
