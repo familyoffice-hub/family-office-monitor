@@ -838,6 +838,64 @@ def prune_seen(seen):
         seen["__daily_log__"] = [r for r in log
                                  if isinstance(r, dict) and _safe_dt(r.get("ts")) >= dcut]
 
+# ============================================================================
+# FASE 2 — kirim alert High ke inbox.json Orchestrator (papan tulis bersama)
+# ============================================================================
+ORCH_REPO = os.getenv("ORCH_REPO", "").strip()            # "user/family-office-orchestrator"
+GH_PUSH_TOKEN = os.getenv("GH_PUSH_TOKEN", "").strip()    # PAT fine-grained, Contents: RW
+ORCH_INBOX_PATH = os.getenv("ORCH_INBOX_PATH", "inbox.json")
+
+def push_to_orchestrator(rows):
+    """Tambahkan beberapa baris ke inbox.json repo orchestrator via GitHub API (1 commit)."""
+    if not ORCH_REPO or not GH_PUSH_TOKEN or not rows:
+        if rows and not (ORCH_REPO and GH_PUSH_TOKEN):
+            print("[i] ORCH_REPO/GH_PUSH_TOKEN belum diset -> lewati push ke orchestrator.")
+        return
+    import base64
+    url = f"https://api.github.com/repos/{ORCH_REPO}/contents/{ORCH_INBOX_PATH}"
+    headers = {"Authorization": f"Bearer {GH_PUSH_TOKEN}", "Accept": "application/vnd.github+json"}
+    try:
+        r = requests.get(url, headers=headers, timeout=20)
+        if r.status_code == 200:
+            data = r.json(); sha = data["sha"]
+            content = json.loads(base64.b64decode(data["content"]).decode("utf-8"))
+            if not isinstance(content, list):
+                content = []
+        else:
+            sha = None; content = []
+        content.extend(rows)
+        content = content[-1000:]
+        new_b64 = base64.b64encode(json.dumps(content, ensure_ascii=False, indent=2).encode()).decode()
+        payload = {"message": f"Tools A: +{len(rows)} alert High ke inbox", "content": new_b64}
+        if sha:
+            payload["sha"] = sha
+        pr = requests.put(url, headers=headers, json=payload, timeout=20)
+        if pr.status_code in (200, 201):
+            print(f"[i] {len(rows)} alert High dikirim ke Orchestrator inbox.")
+        else:
+            print("[!] Gagal push ke orchestrator:", pr.status_code, pr.text[:150])
+    except Exception as e:
+        print("[!] Exception push ke orchestrator:", e)
+
+def _orch_row(item, enrich):
+    summary = ""
+    if isinstance(enrich, dict):
+        summary = _as_text(enrich.get("summary") or enrich.get("why") or "")
+    if not summary:
+        summary = _as_text(item.get("summary") or item.get("title") or "")
+    return {
+        "output_id": "o" + format(int(time.time() * 1000) % 10_000_000, "x"),
+        "agent_id": "Tools A Monitor",
+        "title": _as_text(item.get("title", "")),
+        "summary": summary[:600],
+        "raw_output": "",
+        "source_url": item.get("link", ""),
+        "category": item.get("area", ""),
+        "confidentiality_level": "internal",
+        "created_at": datetime.now(timezone.utc).isoformat(),
+        "is_processed": False,
+    }
+
 def run_cycle():
     print("=" * 60)
     print("Mulai siklus:", datetime.now(JAKARTA).strftime("%Y-%m-%d %H:%M:%S WIB"))
@@ -872,6 +930,7 @@ def run_cycle():
     if to_skip:
         print(f"[i] {len(to_skip)} berita lama dilewati (anti-flood), ditandai sudah dilihat.")
 
+    orch_rows = []  # Fase 2: kumpulkan alert High untuk dikirim ke Orchestrator
     for item in to_send:
         uid = "news::" + (item["link"] or item["title"])
         enrich = ai_enrich(item)   # None jika AI mati / gagal -> alert tetap terkirim
@@ -881,6 +940,8 @@ def run_cycle():
         if ok:
             sent_today.append(item)
             record_daily(seen, item)   # catat untuk Daily Digest
+            if item.get("priority") == "High":
+                orch_rows.append(_orch_row(item, enrich))
             # Kirim draft konten (LinkedIn + memo IC) sebagai pesan terpisah, jika ada.
             drafts = format_drafts_message(item, enrich)
             if drafts:
@@ -888,6 +949,9 @@ def run_cycle():
                 send_telegram(drafts)
         save_json(SEEN_FILE, seen)   # simpan bertahap agar aman bila run terhenti
         time.sleep(SEND_DELAY_SECONDS)
+
+    # Fase 2: kirim semua alert High ke inbox Orchestrator dalam 1 commit.
+    push_to_orchestrator(orch_rows)
 
     # 2) Market data
     for msg in check_market(seen):
