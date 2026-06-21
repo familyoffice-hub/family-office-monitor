@@ -52,6 +52,12 @@ MIN_SCORE_TO_ALERT = int(os.getenv("MIN_SCORE_TO_ALERT", "4"))
 # Jam (waktu Jakarta, 0-23) untuk mengirim ringkasan harian. -1 = matikan ringkasan.
 DAILY_SUMMARY_HOUR = int(os.getenv("DAILY_SUMMARY_HOUR", "7"))
 
+# Jeda antar pesan Telegram (detik). Grup butuh jeda lebih panjang agar tidak kena limit.
+SEND_DELAY_SECONDS = int(os.getenv("SEND_DELAY_SECONDS", "4"))
+# Maksimum alert berita per putaran. Sisanya ditandai "sudah dilihat" tanpa dikirim,
+# supaya run pertama tidak membanjiri Telegram (anti-flood).
+MAX_ALERTS_PER_CYCLE = int(os.getenv("MAX_ALERTS_PER_CYCLE", "12"))
+
 # File penyimpanan riwayat (agar tidak kirim berita yang sama dua kali)
 SEEN_FILE = os.getenv("SEEN_FILE", "seen.json")
 STATE_FILE = os.getenv("STATE_FILE", "state.json")
@@ -246,19 +252,35 @@ def send_telegram(message):
     ok_all = True
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     for chat_id in TELEGRAM_CHAT_IDS:
-        try:
-            r = requests.post(url, data={
-                "chat_id": chat_id,
-                "text": message,
-                "parse_mode": "HTML",
-                "disable_web_page_preview": "true",
-            }, timeout=20)
-            if r.status_code != 200:
-                ok_all = False
+        sent = False
+        # Coba sampai 4 kali. Jika kena 429, tunggu sesuai 'retry_after' lalu ulang.
+        for attempt in range(4):
+            try:
+                r = requests.post(url, data={
+                    "chat_id": chat_id,
+                    "text": message,
+                    "parse_mode": "HTML",
+                    "disable_web_page_preview": "true",
+                }, timeout=20)
+                if r.status_code == 200:
+                    sent = True
+                    break
+                if r.status_code == 429:
+                    try:
+                        wait = r.json().get("parameters", {}).get("retry_after", 5)
+                    except Exception:
+                        wait = 5
+                    print(f"[i] Kena limit (429) untuk {chat_id}, tunggu {wait}s lalu coba lagi...")
+                    time.sleep(int(wait) + 1)
+                    continue
+                # error lain (mis. 400/403): jangan diulang, catat saja
                 print("[!] Telegram error", chat_id, r.status_code, r.text[:200])
-        except Exception as e:
+                break
+            except Exception as e:
+                print("[!] Telegram exception", e)
+                time.sleep(3)
+        if not sent:
             ok_all = False
-            print("[!] Telegram exception", e)
     return ok_all
 
 def format_news_alert(item):
@@ -470,25 +492,39 @@ def run_cycle():
     news = collect_news()
     news = [n for n in news if n["score"] >= MIN_SCORE_TO_ALERT]
     news.sort(key=lambda x: x["score"], reverse=True)
-    for item in news:
+
+    # Ambil hanya yang BELUM pernah dikirim
+    fresh = [n for n in news if ("news::" + (n["link"] or n["title"])) not in seen]
+
+    # ANTI-FLOOD: kirim maksimal MAX_ALERTS_PER_CYCLE (yang skornya tertinggi).
+    # Sisanya ditandai "sudah dilihat" TANPA dikirim, agar tidak membanjiri & tidak diulang.
+    to_send = fresh[:MAX_ALERTS_PER_CYCLE]
+    to_skip = fresh[MAX_ALERTS_PER_CYCLE:]
+    for item in to_skip:
         uid = "news::" + (item["link"] or item["title"])
-        if uid in seen:
-            continue
+        seen[uid] = datetime.now(timezone.utc).isoformat()
+    if to_skip:
+        print(f"[i] {len(to_skip)} berita lama dilewati (anti-flood), ditandai sudah dilihat.")
+
+    for item in to_send:
+        uid = "news::" + (item["link"] or item["title"])
         ok = send_telegram(format_news_alert(item))
+        # Tandai sudah-dilihat apa pun hasilnya, supaya tidak dikirim berulang tiap jam.
+        seen[uid] = datetime.now(timezone.utc).isoformat()
         if ok:
-            seen[uid] = datetime.now(timezone.utc).isoformat()
             sent_today.append(item)
-            time.sleep(1)  # jeda agar tidak kena rate limit Telegram
+        save_json(SEEN_FILE, seen)   # simpan bertahap agar aman bila run terhenti
+        time.sleep(SEND_DELAY_SECONDS)
 
     # 2) Market data
     for msg in check_market(seen):
-        if send_telegram(msg):
-            time.sleep(1)
+        send_telegram(msg)
+        time.sleep(SEND_DELAY_SECONDS)
 
     # 3) Crypto
     for msg in check_crypto(seen):
-        if send_telegram(msg):
-            time.sleep(1)
+        send_telegram(msg)
+        time.sleep(SEND_DELAY_SECONDS)
 
     # 4) Ringkasan harian
     maybe_daily_summary(sent_today, seen)
