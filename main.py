@@ -266,6 +266,31 @@ def tg_escape(s):
     """Telegram HTML mode: escape karakter < > &."""
     return html.escape(s or "")
 
+# Tombol untuk menghubungkan ke Connector Bot (Tools B).
+# callback_data HARUS sama dengan yang dikenali Connector Bot.
+ADVISORY_BUTTONS = [
+    ("📝 IC Memo", "gen:ic"),
+    ("📨 Client Advisory", "gen:advisory"),
+    ("👪 Family Briefing", "gen:family"),
+    ("⚠️ Portfolio Risk", "gen:risk"),
+    ("🧾 Tax/Legal Update", "gen:tax"),
+    ("💼 LinkedIn Post", "gen:linkedin"),
+    ("📰 Newsletter", "gen:newsletter"),
+    ("📣 Telegram Post", "gen:telegram"),
+    ("🎬 Video Script", "gen:video"),
+    ("🚫 Ignore", "ignore"),
+]
+
+def _build_keyboard():
+    rows, row = [], []
+    for label, data in ADVISORY_BUTTONS:
+        row.append({"text": label, "callback_data": data})
+        if len(row) == 2:
+            rows.append(row); row = []
+    if row:
+        rows.append(row)
+    return {"inline_keyboard": rows}
+
 def _split_message(text, limit=3800):
     """Pecah pesan panjang menjadi beberapa bagian agar tidak melebihi batas Telegram."""
     if len(text) <= limit:
@@ -282,7 +307,7 @@ def _split_message(text, limit=3800):
         chunks.append(current)
     return chunks
 
-def send_telegram(message):
+def send_telegram(message, buttons=False):
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_IDS:
         print("[!] TELEGRAM_TOKEN / TELEGRAM_CHAT_IDS belum diisi. Pesan tidak terkirim.")
         print(message)
@@ -290,17 +315,22 @@ def send_telegram(message):
     ok_all = True
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     for chat_id in TELEGRAM_CHAT_IDS:
-        for part in _split_message(message):
+        parts = _split_message(message)
+        for idx, part in enumerate(parts):
             sent = False
             # Coba sampai 4 kali. Jika kena 429, tunggu sesuai 'retry_after' lalu ulang.
             for attempt in range(4):
                 try:
-                    r = requests.post(url, data={
+                    data = {
                         "chat_id": chat_id,
                         "text": part,
                         "parse_mode": "HTML",
                         "disable_web_page_preview": "true",
-                    }, timeout=20)
+                    }
+                    # Tombol hanya pada bagian terakhir pesan.
+                    if buttons and idx == len(parts) - 1:
+                        data["reply_markup"] = json.dumps(_build_keyboard())
+                    r = requests.post(url, data=data, timeout=20)
                     if r.status_code == 200:
                         sent = True
                         break
@@ -843,7 +873,7 @@ def run_cycle():
     for item in to_send:
         uid = "news::" + (item["link"] or item["title"])
         enrich = ai_enrich(item)   # None jika AI mati / gagal -> alert tetap terkirim
-        ok = send_telegram(format_news_alert(item, enrich))
+        ok = send_telegram(format_news_alert(item, enrich), buttons=True)
         # Tandai sudah-dilihat apa pun hasilnya, supaya tidak dikirim berulang tiap jam.
         seen[uid] = datetime.now(timezone.utc).isoformat()
         if ok:
