@@ -460,10 +460,11 @@ def format_news_alert(item, enrich=None):
         action = "Review exposure / Prepare client memo"
 
     # Jika AI aktif, pakai ringkasan & alasan dari AI. Jika tidak, pakai teks default.
-    if enrich and enrich.get("ringkasan"):
-        why = enrich.get("why") or f"Menyentuh area {area}."
+    ai_ringkasan = _as_text(enrich.get("ringkasan")) if enrich else ""
+    if ai_ringkasan:
+        why = _as_text(enrich.get("why")) or f"Menyentuh area {area}."
         summary_block = [
-            f"📄 <b>RINGKASAN AI:</b> {tg_escape(enrich['ringkasan'])}",
+            f"📄 <b>RINGKASAN AI:</b> {tg_escape(ai_ringkasan)}",
             f"<b>WHY IT MATTERS:</b> {tg_escape(why)}",
         ]
     else:
@@ -485,12 +486,32 @@ def format_news_alert(item, enrich=None):
     ]
     return "\n".join(lines)
 
+def _as_text(value):
+    """Ubah nilai dari AI menjadi teks, apa pun bentuknya (str, list, dict, None)."""
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, list):
+        parts = []
+        for v in value:
+            if isinstance(v, str):
+                parts.append(v)
+            elif isinstance(v, dict):
+                parts.append(" ".join(str(x) for x in v.values()))
+            else:
+                parts.append(str(v))
+        return "\n".join(p.strip() for p in parts if p).strip()
+    if isinstance(value, dict):
+        return "\n".join(f"{k}: {v}" for k, v in value.items()).strip()
+    return str(value).strip()
+
 def format_drafts_message(item, enrich):
     """Pesan kedua khusus berisi draft konten (LinkedIn + catatan IC) dari AI."""
     if not enrich:
         return None
-    linkedin = (enrich.get("linkedin") or "").strip()
-    ic_memo = (enrich.get("ic_memo") or "").strip()
+    linkedin = _as_text(enrich.get("linkedin"))
+    ic_memo = _as_text(enrich.get("ic_memo"))
     if not linkedin and not ic_memo:
         return None
     lines = [f"✍️ <b>DRAFT KONTEN</b> — {tg_escape(item['title'][:80])}"]
