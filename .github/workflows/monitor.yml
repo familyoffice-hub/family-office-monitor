@@ -35,6 +35,8 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ORCH_REPO: ${{ secrets.ORCH_REPO }}
+          GH_PUSH_TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           RUN_MODE: once
           MIN_SCORE_TO_ALERT: "4"
