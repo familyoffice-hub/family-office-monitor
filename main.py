@@ -79,6 +79,9 @@ AI_ENABLED = (AI_PROVIDER == "gemini" and bool(GEMINI_API_KEY)) or \
 
 # Buat draft LinkedIn + catatan IC hanya untuk alert prioritas tinggi (hemat kuota/biaya).
 AI_DRAFTS_FOR_HIGH_ONLY = os.getenv("AI_DRAFTS_FOR_HIGH_ONLY", "true").lower() == "true"
+# Hemat kuota: panggil AI (ringkasan) HANYA untuk alert High. Medium/Low tetap terkirim
+# tanpa memanggil AI (pakai cuplikan asli). Set "false" untuk memanggil AI di semua alert.
+AI_SUMMARY_FOR_HIGH_ONLY = os.getenv("AI_SUMMARY_FOR_HIGH_ONLY", "true").lower() == "true"
 
 # File penyimpanan riwayat (agar tidak kirim berita yang sama dua kali)
 SEEN_FILE = os.getenv("SEEN_FILE", "seen.json")
@@ -449,6 +452,10 @@ def ai_enrich(item):
     """Minta AI: ringkasan 2 kalimat + why + (opsional) draft LinkedIn & memo IC.
     Mengembalikan dict, atau None jika AI mati/gagal (program tetap jalan tanpa AI)."""
     if not AI_ENABLED:
+        return None
+
+    # HEMAT KUOTA: untuk alert non-High, jangan panggil AI sama sekali.
+    if AI_SUMMARY_FOR_HIGH_ONLY and item.get("priority") != "High":
         return None
 
     want_drafts = (not AI_DRAFTS_FOR_HIGH_ONLY) or (item["priority"] == "High")
