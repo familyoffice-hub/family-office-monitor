@@ -1,0 +1,48 @@
+name: Family Office Monitor
+
+# Jalan otomatis setiap jam (menit ke-0). Waktu di GitHub memakai UTC.
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:        # tombol "Run workflow" manual di tab Actions
+
+# Izin agar workflow boleh menyimpan kembali file seen.json ke repo
+permissions:
+  contents: write
+
+# Cegah dua jalan bertabrakan
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil kode dari repo
+        uses: actions/checkout@v4
+
+      - name: Siapkan Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependency
+        run: pip install -r requirements.txt
+
+      - name: Jalankan monitor (sekali)
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
+          RUN_MODE: once
+          MIN_SCORE_TO_ALERT: "4"
+          DAILY_SUMMARY_HOUR: "0"   # 0 UTC = 07:00 WIB
+        run: python main.py
+
+      - name: Simpan riwayat (seen.json) agar tidak kirim duplikat
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add seen.json || true
+          git commit -m "update seen.json" || echo "Tidak ada perubahan"
+          git push || echo "Tidak ada yang di-push"
