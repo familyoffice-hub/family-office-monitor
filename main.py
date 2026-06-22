@@ -898,6 +898,7 @@ def _orch_row(item, enrich):
         "raw_output": "",
         "source_url": item.get("link", ""),
         "category": item.get("area", ""),
+        "priority": item.get("priority", "High"),
         "confidentiality_level": "internal",
         "created_at": datetime.now(timezone.utc).isoformat(),
         "is_processed": False,
