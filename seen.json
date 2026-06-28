@@ -286,102 +286,6 @@
   "news::https://www.sec.gov/newsroom/press-releases/2026-45-sec-rescinds-policy-regarding-denials-settlements-enforcement-actions": "2026-06-21T22:00:08.612063+00:00",
   "__daily_log__": [
     {
-      "ts": "2026-06-25T19:22:50.376210+00:00",
-      "title": "DJP: Penerimaan pajak Kalsel tumbuh 40,33 persen menjadi Rp4,72 triliun - ANTARA News",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T19:24:33.132645+00:00",
-      "title": "JPMorgan names two co-presidents in succession planning move - Investing.com",
-      "source": "GN Estate/Trust",
-      "area": "Succession / Big Institution",
-      "priority": "High",
-      "alert_type": "SUCCESSION PLANNING"
-    },
-    {
-      "ts": "2026-06-25T19:26:18.334707+00:00",
-      "title": "JPMorgan Promotes Two Insiders to Co-Presidents as Part of Leadership Succession Planning - marketscreener.com",
-      "source": "GN Estate/Trust",
-      "area": "Succession / Big Institution",
-      "priority": "High",
-      "alert_type": "SUCCESSION PLANNING"
-    },
-    {
-      "ts": "2026-06-25T19:28:04.501325+00:00",
-      "title": "JPMorgan names two co-presidents in succession planning move By Investing.com - Investing.com Nigeria",
-      "source": "GN Estate/Trust",
-      "area": "Succession / Big Institution",
-      "priority": "High",
-      "alert_type": "SUCCESSION PLANNING"
-    },
-    {
-      "ts": "2026-06-25T19:29:50.835321+00:00",
-      "title": "DJP Hentikan Sementara Layanan Coretax Malam Ini - Ikatan Konsultan Pajak Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T19:31:20.090961+00:00",
-      "title": "DJP Ubah Syarat Pegawai Penilai Pajak lewat SE-4/PJ/2026 - Pajakku",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T19:33:06.264852+00:00",
-      "title": "Biar Tarif Pajak UMKM 0,5%, DJP Temukan Modus Pecah Usaha - MetroTVNews.com",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T19:34:59.611957+00:00",
-      "title": "Omzet Rp500 Juta Tak Dipungut PPh Pasal 22, DJP Minta Merchant Jujur - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T19:36:45.880570+00:00",
-      "title": "'Family office' sold $40 million in notes without a broker license, SEC alleges - InvestmentNews",
-      "source": "GN Family Office",
-      "area": "Family Office / Global Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T19:38:32.367205+00:00",
-      "title": "Supertri and UBS Global Wealth Management strengthen partnership to build on community impact in Jersey - Endurance Sportswire",
-      "source": "GN Wealth Mgmt",
-      "area": "Wealth Management / Big Institution",
-      "priority": "High",
-      "alert_type": "PORTFOLIO INSIGHT"
-    },
-    {
-      "ts": "2026-06-25T19:40:33.120619+00:00",
-      "title": "JPMorgan names Petno, Rohrbaugh co-presidents, sharpening Dimon succession planning - The Edge Malaysia",
-      "source": "GN Estate/Trust",
-      "area": "Succession / Big Institution",
-      "priority": "High",
-      "alert_type": "SUCCESSION PLANNING"
-    },
-    {
-      "ts": "2026-06-25T19:40:38.458097+00:00",
-      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "source": "The Fed (press)",
-      "area": "Macro",
-      "priority": "Medium",
-      "alert_type": "MACRO ALERT"
-    },
-    {
       "ts": "2026-06-26T00:06:52.212266+00:00",
       "title": "Succession Planning Is Wealth Management's Defining Talent Crisis - ThinkAdvisor",
       "source": "GN Wealth Mgmt",
@@ -1140,6 +1044,78 @@
       "area": "Wealth Management",
       "priority": "Low",
       "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-06-28T21:45:46.460759+00:00",
+      "title": "Eurojust Coordinates Global Crackdown on €600 Million Crypto Investment Fraud Network - TRM Labs",
+      "source": "GN Security",
+      "area": "Crypto & Digital / Security Risk",
+      "priority": "High",
+      "alert_type": "SECURITY WARNING"
+    },
+    {
+      "ts": "2026-06-28T21:45:51.469954+00:00",
+      "title": "Penandatanganan Perjanjian Kerja Sama Optimalisasi Pemungutan Pajak Pusat dan Pajak Daerah Antara DJP - DJPK - PEMDA TAHUN 2021 :: Berita Cilegon - Berita Cilegon",
+      "source": "GN DJP/Pajak",
+      "area": "Tax Planning / Indonesia Regulator",
+      "priority": "High",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-06-28T21:45:56.426480+00:00",
+      "title": "Wyoming Cultural Trust Fund awards $529,405 in grant funding across Wyoming - County 10",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-06-28T21:46:01.388646+00:00",
+      "title": "Peran Penting OJK dan BEI dalam Investasi Saham - maybanktrade.co.id",
+      "source": "GN OJK",
+      "area": "Indonesia Regulator",
+      "priority": "Medium",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-06-28T21:46:06.406717+00:00",
+      "title": "Asia’s Stablecoin Push Gains Speed as SBI Launches JPY Token, Russia Drafts Rules - Cryptonews.net",
+      "source": "GN Crypto Reg",
+      "area": "Crypto & Digital",
+      "priority": "Medium",
+      "alert_type": "CRYPTO / RWA"
+    },
+    {
+      "ts": "2026-06-28T21:46:11.376676+00:00",
+      "title": "Goldman Sachs quietly resets oil price forecast for 2027 - Yahoo Finance",
+      "source": "GN Big Managers",
+      "area": "Gold & Commodities / Big Institution",
+      "priority": "Medium",
+      "alert_type": "PORTFOLIO INSIGHT"
+    },
+    {
+      "ts": "2026-06-28T21:46:16.328439+00:00",
+      "title": "Callan Family Office Named to Inaugural CNBC Elite Advisors - GlobeNewswire",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Low",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-06-28T21:46:21.280487+00:00",
+      "title": "US DOJ Announces Largest Ever Seizure of Funds Related to Crypto Scams - TRM Labs",
+      "source": "GN Security",
+      "area": "Crypto & Digital",
+      "priority": "Low",
+      "alert_type": "CRYPTO / RWA"
+    },
+    {
+      "ts": "2026-06-28T21:46:26.245898+00:00",
+      "title": "With Fed set to meet next week, December's rate cut now looks questionable - Axios",
+      "source": "GN Fed/Rates",
+      "area": "Macro",
+      "priority": "Low",
+      "alert_type": "MACRO ALERT"
     }
   ],
   "news::https://news.google.com/rss/articles/CBMivwFBVV95cUxQUGFhU0Q0amNScVB5YmYwQ0xleHphUm82LXZzSjhGc0NDSkVrV1pjMlpCYWNIN1VyWHVrQXBYZGJPejllczJfU1FhVXJyOGpIcUd4azljSFJQQjNnU0FYNENjc3pudEg5M0pBa0RVQnFqak9TWDloSkVfV0FwME1qX3hTREdTbFh5Z3I4NWtRUGdEVmZ0cUVKRktySm9hOFdXN29QV19WbnBXZUlxS2NVc2tSTmtBc0ZCODJrRTlvbw?oc=5": "2026-06-21T22:00:20.958675+00:00",
@@ -1858,5 +1834,14 @@
   "news::https://news.google.com/rss/articles/CBMijgFBVV95cUxNbFpNYmdKajRVdXVpa2c0VzBSaUItdTBoTng4RFpRTFVkc0V4Q3BxSm9xelBPVmxjRXhGODVHaWVzZkhNeE9pYVFpS2c0TWdxNXRwQS1UZllQSVZlbFVFa1JGTHFJaFZHMUlwR2NMWVAyTllGb3JXdnN4Ym5tYVNURGpybUFUMXdaYVgyTGxn?oc=5": "2026-06-28T16:45:51.613616+00:00",
   "news::https://news.google.com/rss/articles/CBMitwFBVV95cUxPVkdsT0VSb2ZjMUdvSVFMUUtGcnhWbVhITVdud29zb2FwWVRySzJiNDlhaUNsUl9RbjI4TlgtaTRRSktjR0FueGRXcUxZcnhjNDBrUnlPeHpKb2xMQkUwS3ZrOWVHYjhWTVZsUmpqLWFOdTM0SlBiVmZzZXlXNzkwRnRaS3NEdjdpdmxCQXV3anV4WXhuc3Z6MDVBM1otYk1wSVRIY2JoYm9XSk4tSGFqUnpBemV6VDg?oc=5": "2026-06-28T16:45:56.809192+00:00",
   "news::https://news.google.com/rss/articles/CBMisgFBVV95cUxQM0xESTFSckZQVXJKQ0RMNDRWbzFSbXNHRmEzZFBHUlNvdW1PVWtGODFyNUd5eFFoVmIxUFRtSDlqLXFEbXRFQkZ2Ym10NlB3V0JfOHJXU2dndzlRN0IxMXBvbFJic3k0RUFOXzFXQ2NyUmxtMGtmdm9Fem1Wb1RSYzZoTjFVbGFFRkY2NTNjY1BSLVRrX0sweWZaOXM5WWNDV0UySEdpV0NHbzN1emdqT0dn?oc=5": "2026-06-28T16:46:02.002860+00:00",
-  "news::https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMUR0aFpZSW5pSHBPcjA2Yy1ZR0c4NkpHcU9QZWpWNXFpcUZKak9hb052UVBNUGxlejUxSTZDUndtdUpPMl9FQVRlX2kwT0E3U1luZjBWdEtkRmdLTllmdW83eS0ya2VXZWRqZEd2UXdFM1NOai1UUFo1UXZFVmxjMFdUNkdLaXFkZFBTd2Z3ZUZscmhDMVRzSmFlZlFMdTdqeUR2RTRIa2VFREJlYW02VEcxOVliS3YtcEZJM19sOHVUYnZQNks2Ul9Gbk5aZ0JBYlNR?oc=5": "2026-06-28T16:46:07.190042+00:00"
+  "news::https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMUR0aFpZSW5pSHBPcjA2Yy1ZR0c4NkpHcU9QZWpWNXFpcUZKak9hb052UVBNUGxlejUxSTZDUndtdUpPMl9FQVRlX2kwT0E3U1luZjBWdEtkRmdLTllmdW83eS0ya2VXZWRqZEd2UXdFM1NOai1UUFo1UXZFVmxjMFdUNkdLaXFkZFBTd2Z3ZUZscmhDMVRzSmFlZlFMdTdqeUR2RTRIa2VFREJlYW02VEcxOVliS3YtcEZJM19sOHVUYnZQNks2Ul9Gbk5aZ0JBYlNR?oc=5": "2026-06-28T16:46:07.190042+00:00",
+  "news::https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQnNyT0xUdGM5QmZUOENkMzlCNHVPZFRMV2dJTGxWYmR1OGE3SVN5d2Z3dk9PemNoS1lnWVZROUJDQkl1SUxmell0cWRHUXl1a28zcXpweXNRR1V0eGw1eno0QURsSUpjbzNjTFRmRmNQbDNtbi1wTDVCb183Tkt1S1FDRXBQdC1KalhCUEFIT3RFRVl6LS10MEd6NHpJemM2ZXVrVDRqVmJyNEVyWW5pQjZ6Wndidmp0Xzg0V1A4ODdwOG8?oc=5": "2026-06-28T21:45:46.460747+00:00",
+  "news::https://news.google.com/rss/articles/CBMihwJBVV95cUxQdENYMV84ZXl4MkNyN1JzemtMUEJvbk5WQWdtMzNXSVdrMm04SnlGcmlWdGlIc1M1T25kb2g4OXhkNTR3RzdScmswVTlwbmNWM1BOX0JXaEJ3SldvOVdEc1NkYUpKUVd0X1J2TjFXWVNicnJIUEdPLTRBTjVxakdqZ241Rkt0S0g4Uk9RMldHQnVGM3pDb1pQdEFWWHFwRlhvbHp4cm8tMzFQWGFPQVQ3d3RpTFdxUmRNSXRycTFKTDZwSy1qX1lBWWoxdVRyUWdlZDl2LUc4dDNsUTVIZ3loMXNkM3JJSFJVRGtnRDZaTzZ5dzFUakswQVVUdUFBdk01UkxyZERUbw?oc=5": "2026-06-28T21:45:51.469940+00:00",
+  "news::https://news.google.com/rss/articles/CBMimwFBVV95cUxOaGxtbjVtTmd0TzBLRVRNZlhsbDd1SGZublB1dlcyZk1HRUhRR01uRExzNHNlV0wweGpHWHhTSXhzM2Frb29qVXBvT0ctc2trc3dxRXV5M2txUzEyaGE4ZTBURzdGS3R2bHRzTlcwYWpndVlxenEzd1hqM09CNGR5SDRvQkxDOERHRXJ1dVNiUXZ0NjdNYzd0SUtQUQ?oc=5": "2026-06-28T21:45:56.426467+00:00",
+  "news::https://news.google.com/rss/articles/CBMijwFBVV95cUxPS1hYNS1XN1U3VEhMZzBScmJQTlZ0Z19fbC1RTTJBVjdBMHlGUy00LTVKc1FFeGNyc0dXcFM1NGk0UVVoN0syV3NjejB0dHFXdU82WS1UUjVZb25vRldKMlNObmRxbVZRdk1CNkdGMWJBaTR4ZUliZUxmQ2RyM3FQaTNFX3d2cEx6N1RUeHFDWQ?oc=5": "2026-06-28T21:46:01.388631+00:00",
+  "news::https://news.google.com/rss/articles/CBMiWEFVX3lxTFBvakxTVGlFM19sZ3RGVzRvRGVoeFlqOEZYS19qWllkTnprWC1OeW1LSHR3WDRIMWZGSkYxQThYU0x1U2lyM1k0UFowMEw4NEw2TmxlVV96VnU?oc=5": "2026-06-28T21:46:06.406702+00:00",
+  "news::https://news.google.com/rss/articles/CBMingFBVV95cUxNeDRBa0hXdzJHeWpnMU1wNkh2dEFlaDFHaTMzdWRwTS1sMnVmT2RxdmNBQWNNZ2w2UWdzdlMtWUNkYnN3ZUdadjdUMzd4RFZIR2lrQ1l2dkc2QnR5MjFQM1NiSnRZb3pBRjBmUnNucHF2Y1pkbHRrUzNfV2VaSy1acWhUMlNEQ3MxeUEtR3VKeE9xTE1pVjdSSzZsSkhpZw?oc=5": "2026-06-28T21:46:11.376661+00:00",
+  "news::https://news.google.com/rss/articles/CBMirgJBVV95cUxOeUYtMTBGSGhQbFZmZ0JwaHhKTVUwdUpnbXpSQUJUNmZFdjBMb0NpTkdza1RLTDliZGNRTjRGS29mXzgxcGpYUFFtcmw0S2dCbXhPLVg0bFlPbnI1NGdwVEZfSHAwM21qVnVGZDF0ZS1IVVBxY1I4ZWtaTWxSQmpQTzQtVkdGR1RvSzltN2QwdzdEd1RQbFdqb1dwR2RFUFRUZTFMbDJBZXRPdE5RVTNnb1VteW1uNVVoZXBTLTcyQld0YnhwZF9nMGZBZ2hnY3Q2a0o5bXlJVzlSNURhbGVrZEdCWGdzQ0VabmVadnVidkhHSm40Ym54VTZHbjd0S0NUdTFvSUhYQ05QZHZDX1RKNWdjaldyaU1WX3FhRjBCMkxCaXRHQTMxVDRVWmdhdw?oc=5": "2026-06-28T21:46:16.328422+00:00",
+  "news::https://news.google.com/rss/articles/CBMirgFBVV95cUxPd1g1SDV1WFVOVzNVM3d3VW1KZ1lJWDVMVWxhU0tkVEZHLXYxR1N6LUs2alZSdmxPN2RlaVljLWtaY24zVm5SQU40NTY1STNqcXJDZzJJOU9WRzVkdmU2N0hzWEU5RGNtek1FY2F4S1pPcjRUMEotNE9hTU8zM29lOERlN2R4aDlKZllIMGFIT3JjQmxoRmplV2NxYlJwMkUzT1dzYmIwaWg4WlRMTUE?oc=5": "2026-06-28T21:46:21.280470+00:00",
+  "news::https://news.google.com/rss/articles/CBMickFVX3lxTE5mMHNEekJHOUswbW9rX2Z4YXJxTm8yWXZram9wc2xXQ0p3dEhJVk44cGhvc3dSdWhHZzNBUWVVMGNUNmtHY0p3OHEtX0tjQkZOTnBNeE40LTRVNlp4VFdmODdvNUQ5VkoxdExYeEtKbmc4UQ?oc=5": "2026-06-28T21:46:26.245884+00:00"
 }
