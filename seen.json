@@ -286,102 +286,6 @@
   "news::https://www.sec.gov/newsroom/press-releases/2026-45-sec-rescinds-policy-regarding-denials-settlements-enforcement-actions": "2026-06-21T22:00:08.612063+00:00",
   "__daily_log__": [
     {
-      "ts": "2026-06-25T10:31:43.688799+00:00",
-      "title": "Bank Indonesia Naikkan Suku Bunga Acuan Jadi 5,25% - Ikatan Konsultan Pajak Indonesia",
-      "source": "GN Bank Indonesia",
-      "area": "Tax Planning / Indonesia Regulator / Macro",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T10:33:22.615715+00:00",
-      "title": "Pajak Marketplace Berlaku Mulai 1 Juli? DJP: Tunggu Keputusan Menkeu - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T10:33:43.839427+00:00",
-      "title": "DJP Bertemu Asosiasi, Bahas Aturan Teknis Pajak Marketplace 0,5% - kontan.co.id",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T10:34:30.197168+00:00",
-      "title": "Pajak Dipungut Marketplace, DJP: Uangnya Tidak Hilang, Bisa Dikreditkan - kontan.co.id",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T10:36:07.419630+00:00",
-      "title": "DJP Sita 518 Aset Penunggak Pajak Senilai Hampir Rp 78,96 Miliar di Jabar dan Jatim - Kompas.com",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T10:36:32.308134+00:00",
-      "title": "DJP: Pajak Pedagang Online Dihitung dari Total Omzet di Seluruh Marketplace - MetroTVNews.com",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T10:38:26.026289+00:00",
-      "title": "DJP Sita 518 Aset Penunggak Pajak Senilai Rp78,9 Miliar - pdiperjuanganbali.id",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T10:40:11.852294+00:00",
-      "title": "Tiga Kanwil DJP Jawa Barat Sita 288 Aset Penunggak Pajak, Nilainya Capai Rp54 Miliar - IDX Channel",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T10:41:57.611222+00:00",
-      "title": "DJP Amankan 230 Aset Senilai Rp 24,9 Miliar dari Pengemplang Pajak - investor.id",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T10:43:43.455331+00:00",
-      "title": "Meristem Family Office report highlights succession, founder dependence as key risks to family wealth continuity - The Guardian Nigeria News",
-      "source": "GN Family Office",
-      "area": "Family Office / Succession",
-      "priority": "High",
-      "alert_type": "FAMILY OFFICE INSIGHT"
-    },
-    {
-      "ts": "2026-06-25T10:45:29.305941+00:00",
-      "title": "Marketplace Jadi Pemungut Pajak Mulai Juli, DJP Jelaskan Persiapannya - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-06-25T10:47:26.858246+00:00",
-      "title": "Marketplace Jadi Pemungut PPh, DJP Jamin Pajaknya Tak Akan Dobel - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
       "ts": "2026-06-25T19:22:50.376210+00:00",
       "title": "DJP: Penerimaan pajak Kalsel tumbuh 40,33 persen menjadi Rp4,72 triliun - ANTARA News",
       "source": "GN DJP/Pajak",
@@ -1140,6 +1044,102 @@
       "area": "Tax Planning",
       "priority": "Medium",
       "alert_type": "TAX UPDATE"
+    },
+    {
+      "ts": "2026-06-28T16:43:28.331044+00:00",
+      "title": "Pajak UMKM di Marketplace Segera Berlaku? DJP Tunggu Keputusan Menkue - Harianjogja.com",
+      "source": "GN DJP/Pajak",
+      "area": "Tax Planning / Indonesia Regulator",
+      "priority": "High",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-06-28T16:45:14.207683+00:00",
+      "title": "DJP Pastikan Aturan Pajak Marketplace Tidak Berlaku untuk Ojol - Ikatan Konsultan Pajak Indonesia",
+      "source": "GN DJP/Pajak",
+      "area": "Tax Planning / Indonesia Regulator",
+      "priority": "High",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-06-28T16:45:19.445779+00:00",
+      "title": "JPMorgan Expands Singapore Private Banking Team to Over 50, Focuses on Indonesia - Analyst Earnings Estimate - lwvtexas.org",
+      "source": "GN Wealth Mgmt",
+      "area": "Private Banking / Big Institution",
+      "priority": "Medium",
+      "alert_type": "PRIVATE BANKING"
+    },
+    {
+      "ts": "2026-06-28T16:45:24.645666+00:00",
+      "title": "The Social Security trust fund will run dry in 2032 – what that means for retirees and workers who hope to retire (Opinion) - Daily Camera",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-06-28T16:45:29.862275+00:00",
+      "title": "Unmarried Couples Face Estate Planning Risks Many Don't See Coming - thestreet.com",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-06-28T16:45:35.723240+00:00",
+      "title": "Penerimaan Pajak Ekonomi Digital Capai Rp52,85 Triliun hingga Mei 2026 - SWA.co.id",
+      "source": "GN DJP/Pajak",
+      "area": "Tax Planning",
+      "priority": "Medium",
+      "alert_type": "TAX UPDATE"
+    },
+    {
+      "ts": "2026-06-28T16:45:41.081601+00:00",
+      "title": "Pajak dari Kripto Capai Rp2,06 Triliun, Berkontribusi 5% dari Total Pajak Ekonomi Digital - SWA.co.id",
+      "source": "GN DJP/Pajak",
+      "area": "Tax Planning",
+      "priority": "Medium",
+      "alert_type": "TAX UPDATE"
+    },
+    {
+      "ts": "2026-06-28T16:45:46.267175+00:00",
+      "title": "Coretax Siapkan Pencatatan Sederhana untuk UMKM Berjualan di Marketplace - Ikatan Konsultan Pajak Indonesia",
+      "source": "GN DJP/Pajak",
+      "area": "Tax Planning",
+      "priority": "Medium",
+      "alert_type": "TAX UPDATE"
+    },
+    {
+      "ts": "2026-06-28T16:45:51.613634+00:00",
+      "title": "NH Investment & Securities Presents New Wealth Management Standards - 조선일보",
+      "source": "GN Wealth Mgmt",
+      "area": "Wealth Management",
+      "priority": "Medium",
+      "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-06-28T16:45:56.809231+00:00",
+      "title": "Simak Strategi Investasi di Tengah Tren Suku Bunga BI yang Tinggi - Kompas.com",
+      "source": "GN Bank Indonesia",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-06-28T16:46:02.002878+00:00",
+      "title": "PPh Final UMKM Berubah? Petugas Pajak Jelaskan Ketentuan Terbarunya - DDTCNews",
+      "source": "GN DJP/Pajak",
+      "area": "Tax Planning",
+      "priority": "Medium",
+      "alert_type": "TAX UPDATE"
+    },
+    {
+      "ts": "2026-06-28T16:46:07.190056+00:00",
+      "title": "Wealth Management Partners LLC Sells 10,638 Shares of NVIDIA Corporation $NVDA - MarketBeat",
+      "source": "GN Wealth Mgmt",
+      "area": "Wealth Management",
+      "priority": "Low",
+      "alert_type": "MARKET INTELLIGENCE"
     }
   ],
   "news::https://news.google.com/rss/articles/CBMivwFBVV95cUxQUGFhU0Q0amNScVB5YmYwQ0xleHphUm82LXZzSjhGc0NDSkVrV1pjMlpCYWNIN1VyWHVrQXBYZGJPejllczJfU1FhVXJyOGpIcUd4azljSFJQQjNnU0FYNENjc3pudEg5M0pBa0RVQnFqak9TWDloSkVfV0FwME1qX3hTREdTbFh5Z3I4NWtRUGdEVmZ0cUVKRktySm9hOFdXN29QV19WbnBXZUlxS2NVc2tSTmtBc0ZCODJrRTlvbw?oc=5": "2026-06-21T22:00:20.958675+00:00",
@@ -1841,5 +1841,22 @@
   "news::https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYXhRUS01cWF2bFZuX2tvT3djM1hiUDRCY0U2bmdjYWdtN1gwS1lyVm9tTDFmcjcwRjV3d1duUGw3U0hKZ2EyaEJQU0FNUHNDZEI5MXZ0VUlWOWlqTF81NUdTaXNMOUpEY2FOcDNKNHpRNVFFX2J5SjdpY1JNNmJHMDhjQ3Y3djRsV0RzaklicHExSkhadGNSNjdkMHlmbGdoSC1kT25tY3JPY213dmc3M0hGQVhUWVBS?oc=5": "2026-06-28T10:26:36.634151+00:00",
   "news::https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWm5aalpFejVLUHZUV2d3Q1U4S3VIUE1CSGs3Y29rVnltOEc2QlJGY3BsalN3cE56OXJxX2MtQ3U2cW1vc2VLQlI1VGdFcl9zeUh3VTBCYVIzbjFRTzRQVFZhamdGTzBzZkw4QVVYaVd6RXc3SWo1REZJYy1tdTNON29Hdnh1THZrQTE2Zzd3bWFaaWZyU3F3RS1BTTFseTNicWM5VUs1NVFEMkI3Tjc3bTRPcF85R3FFcEdmUHlDWmlfdVHSAcgBQVVfeXFMT3NmZm4zNXRMMlpTdWhJZmR6dFczdERSdHJYLXJiUkhBRDJhUk5LLVBIOTQ2T0s0YkVKbEs2ajc2b0lLdzFuNklHQWZ0TDd4bnZNR0hacF9jamlLQjB6Wmx4NHBSM2UwVWczdXZZQ0hUZ2h2RkFiLUo2RDVpVGVITnZocHJyNi1kMXZWNEhzRmNFc09Yakl1dWhhSWVleV9pMGNteWtSSUczNmhORnJxX3JwUUZvd2tfQ3dwNldJT0xQaWhiYWFXb2w?oc=5": "2026-06-28T10:26:42.057238+00:00",
   "news::https://news.google.com/rss/articles/CBMitgFBVV95cUxNdUxsR3dlNV9pVFQyNEtYUG1NMzdxdVlCUmRWVmVLY2U5aUd3eVBaUklEeGVtT1dnU0tHd2ZpT3pLQkcyeURhY1JyVlNtNkZOMHFHR24yQVBUWncxdTlORVZ0d1R3NVF4ejJNM0NXS2V5amxNd0QxZ1Y1WjJEMDRCSkdQQUdweHhvZjkyNGY2ZFVDLWtTREJfTG1sMEdRV25XeXFIaDZrOG1xTHdlQzhlU0t1YjVWZw?oc=5": "2026-06-28T10:26:47.400083+00:00",
-  "news::https://news.google.com/rss/articles/CBMirwFBVV95cUxNV0VNUmY2OTRsU2h3NktkcTdZbTBiZXJfVWZ3WkZBVldaWmNTcTNCT3cxVmRMNGVuWGZWQ1dPMzRmMXdVVTNrY0k5Qmg2MXJZWE9BanZ6bHRMME1QTjBxT3pod3hQLVZPbW4xVlBySl9JVjQwdmNRdGNDRmFVVWFVTTZGTHBSUmN3b1FicF83TUJkcDl6cDl6amdsQTluSU9kZUlVVnhZVFh0UXdyUThn?oc=5": "2026-06-28T10:26:52.718543+00:00"
+  "news::https://news.google.com/rss/articles/CBMirwFBVV95cUxNV0VNUmY2OTRsU2h3NktkcTdZbTBiZXJfVWZ3WkZBVldaWmNTcTNCT3cxVmRMNGVuWGZWQ1dPMzRmMXdVVTNrY0k5Qmg2MXJZWE9BanZ6bHRMME1QTjBxT3pod3hQLVZPbW4xVlBySl9JVjQwdmNRdGNDRmFVVWFVTTZGTHBSUmN3b1FicF83TUJkcDl6cDl6amdsQTluSU9kZUlVVnhZVFh0UXdyUThn?oc=5": "2026-06-28T10:26:52.718543+00:00",
+  "news::https://news.google.com/rss/articles/CBMiywFBVV95cUxPZzRfUkZLY21mLVVpV0lKWDduZVYtclZsVEFaT2ZpZWNCWFFRNEZ2MUY5bDJrMkJvY25ibUxLNzZIUzJMSFBTRmJ5MnlrRnhtSDBHVjVscGotRUlVTzZqNkxjSWNKQTBWTlRSZmlTN2ZYSW1neURhcXdFNTF6Y3BLQ2dodDdxcGVhSTJlUnBRdHU1YkFGTnBPdVQxSmxEVEprSnNoT0tYTERBRTVpRFhMaXh4Y2RHT3lTV2tvYWM4c2xhLXhPcmJ4N3BkOA?oc=5": "2026-06-28T16:41:46.426692+00:00",
+  "news::https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZ0xFMHFua3J5X1AwczBmNEtnZUhfV0o5Rm92VFU0UTE0b0JFSzBZemQtV3RnbGl0UlBnRVVDdExmOE9IWE1LSGlCbDlQUUM1cU5vbVFRcFRlSkhhLWhMWmdFMzRnSEFZb0JIc3c3R0RVRHBuNTNSdFRSTHhYNk04V29UZllwN1d3VzIxemJIN01PWFQ1bGN2OGZjQzVxN3BmVkNaUEVGeXlJeHQ0VklZMUxpaGlwY20xTkcwWG5SNTlOLWkzY29kS0FDRVlLM3B0Qnc?oc=5": "2026-06-28T16:41:46.426702+00:00",
+  "news::https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcTdRRkx4MGZxeDNhUTBDRDY3MVBkUnlhT29Ic0J6Yk9ISDBYVU83dWg5ekt0MGNHNVQ3cDlQZmRyZ1oyQ0tqUFFHUFRzLUNiSlI0SkRZZF9sS1B0UVJCaFBIYnNVMEtkT0NIeUZzQVh3WW1lQjdaQ1lYcm8yQlVnOWFrOTdWWFdhbUJqR2Y1RU9oZThleXlxOFRCSFhmb0ZyR0VtQ0FscVRqZw?oc=5": "2026-06-28T16:41:46.426705+00:00",
+  "news::https://news.google.com/rss/articles/CBMizwFBVV95cUxObEwzUkFhdzhhaTY5dklJQzJ5Q0ptOERwNUJlT05OWDVaa0pvdzM0eWpWT2pQelFQemZuVGlycVNiUXgxOG51QWFfcUliSnpZMGFjVkZxY3AySWtWaG9JTE5rNnZTYmtUSUFfbFRGclI1OTJubmYzSDFpTVR2d25JUHNoVFVLTDVheHQ0RVZtWHlhYXkzanN5YkNMVTFrWEZCdDQ2V3VzNFhIRWtVNXBCTFRjM3h6Vnk2amcxalpaUThXQXVWUEU4RTd1dUsyZDg?oc=5": "2026-06-28T16:41:46.426706+00:00",
+  "news::https://news.google.com/rss/articles/CBMimAFBVV95cUxNckFiUmxBMnZZOTFTa09YQ3N2Qi1SZmszWG1tX3hISEg2TFBKTkViVXA3b2lEQlFEVzd6ai1ybVBDRWJXWVdxSE9BZEVMdEh2Q2JNcWRkUzY4LUJ2RFlPVGNhQllXcTBVWjM2MVB4cFBEVnZhbUF0S2ZBU2p1NFpUaE1ZSWpxZ2Z0eU9qLW9heEpGaUdyNTUxYQ?oc=5": "2026-06-28T16:41:46.426708+00:00",
+  "news::https://news.google.com/rss/articles/CBMirAFBVV95cUxOVl9xek9kZ1poV2RtbEpfRG90NGN3Q2h2dndRZFprQkVfYThUbmExdTd5WkRFc1NpQWVTZ1dwUG95RDdESHI4ZFhsdmNGdDlfdDM0NmFJX0NxUlNsRzJzLTVYcXg1QndvQm40cDAwVlljLUphcTRFWHA5bGRTRUFRdU9FSEQ3LU4xMDZaZFF1a1phZFM3dHhyVkxIVlF0eXh4dGRlaTNkQzlOQnBH?oc=5": "2026-06-28T16:43:28.331025+00:00",
+  "news::https://news.google.com/rss/articles/CBMiigFBVV95cUxNbFhDcjktR3RXUnZENW9aX3cxT2dORXU0MVlab0w4Z0w2VlA2WlMwek9jb1dsU3dSOGNDQUhRdFNLNkNYV0s5b1JfNWs5engxODRoNU5pYlNpc2lZVmJhaDdON25wVjRfMVRxVEladjZZOXFpdFpEVGZ6bHN6b2xqY3FnZUhQTHBCSmc?oc=5": "2026-06-28T16:45:14.207665+00:00",
+  "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOUhXQTdCRnJEN2hPWTFUZkdPcW9QUl8wOWFpallWeFpkUTBfMlR3UTdhdEw2QUZqVExCaUR3aEs5UDM5bi0zb3JPZ1RqdDBJYnNsWG5sRERGTG0tUXNnVDRnUU1qQzdFdkxpNEN1MFIza1NGM283S1RjcmpDbmM1MlNSa0xESENCdWN6SmNzUDFETUdtUXhXMzdPMDFNYTVINlhiT1MwQi0wUE5uMUpHcWZHZnVWQWZzLW5TNGI0dDZMUQ?oc=5": "2026-06-28T16:45:19.445760+00:00",
+  "news::https://news.google.com/rss/articles/CBMi8AFBVV95cUxNQ1VleDhVMXVhZ3QzcTBFSzNLcWJSbkdmN2NEUVU0Q0NIY3FQNjJIM28xYkpiS2xtTzdWTDhwbkdqR2ZONlkweHctdDVGY1YzdDhJRktqRXluU21CSlVkU3hLSEdaQ2lVZ1g3ckFmWUtiVm1JU3o0MmFuNlB5a2ZkY1o3RklWVzk2SmM3QjlKSzJtYWhQR296T05vYW9fZHVTRkVkNmJXbHNPMnlsZDc2TGw2N0NBVHVuSHdmRE5WY25ZMDh2Uk9DNHVoa2xFMWFaWTVxUy1jV2EyajFQbFdZLUItZENUdjM1UmpyV1hzVXY?oc=5": "2026-06-28T16:45:24.645645+00:00",
+  "news::https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ3NFWXU0a1c1UFJTc2hqUnNjQml0Mi1DbnJQTko2Ynd1a2oxa3hHUHZzS0dOaTZmWDlMU0RhLXZ3RnBrWm5XSF9IdG1jNHJ2c2JnTEpzRWVaTm80c2lhTUtIazZsVFRqdVBzaDJvTHZJWXV5d3lKVTJaci1rLUJmNS1DNVhwM25oMWV0MVgxOA?oc=5": "2026-06-28T16:45:29.862257+00:00",
+  "news::https://news.google.com/rss/articles/CBMioAFBVV95cUxOOVRVSlFkWmdKNjBKZEVnSUJBVkUxNFhVNkItV1dPaXZ4dGZjV1Zjb2lnbEEyZmRzUldvaWZqcy1HSzRTWG1yRDBoR05adlRaazREZmFIaVcwb082TzYzZ2ZQcGdianI3QUxnc0owQUFKMXVpQ24tR29YSGM0R1o3S1BtUlM3QTY1RkgtSlM4R0NRSVJKaEM4WHctbExTTWJt?oc=5": "2026-06-28T16:45:35.723221+00:00",
+  "news::https://news.google.com/rss/articles/CBMitwFBVV95cUxQbHI4Z1lzXzB2MFZjeEp3cGcwOUlUN2c2N3JIU3ZrM01CSXV6LV96V1laYzNXM003NVVhNUZfemJXelAzSHZjR3VFdnhsOVZrUGJHSFhfU3VWQkxfMnU3MXMwS1pOV2diZkM3Z3RsMWhRaTdrU0t2Snh5a2RRMVpGS05NQzE1TlAtcEZSVmJTRTNQSHdHMTU3YlFWMERVdHMtYUFaQjBESnZDOGRkRG5DWmxNQjVUb3M?oc=5": "2026-06-28T16:45:41.081580+00:00",
+  "news::https://news.google.com/rss/articles/CBMilwFBVV95cUxQOXFTQkNOaks0VDNoaU10YURTX3VENVhpRXFHZmxFaF9xM1RZZWVOQmtKbWI0SVlzQTdXSTdmMkVDUlZfcjlTUFJaRVV6dUZJTzJmY2c0QndMc3JJTmhsUl9PRHZEN29aX3NZaFVkVDR2bVlBeTBPS3kyaU1qNks2RkVOd2hYdkNLLTBPN0JuTzQ5MFNBck44?oc=5": "2026-06-28T16:45:46.267157+00:00",
+  "news::https://news.google.com/rss/articles/CBMijgFBVV95cUxNbFpNYmdKajRVdXVpa2c0VzBSaUItdTBoTng4RFpRTFVkc0V4Q3BxSm9xelBPVmxjRXhGODVHaWVzZkhNeE9pYVFpS2c0TWdxNXRwQS1UZllQSVZlbFVFa1JGTHFJaFZHMUlwR2NMWVAyTllGb3JXdnN4Ym5tYVNURGpybUFUMXdaYVgyTGxn?oc=5": "2026-06-28T16:45:51.613616+00:00",
+  "news::https://news.google.com/rss/articles/CBMitwFBVV95cUxPVkdsT0VSb2ZjMUdvSVFMUUtGcnhWbVhITVdud29zb2FwWVRySzJiNDlhaUNsUl9RbjI4TlgtaTRRSktjR0FueGRXcUxZcnhjNDBrUnlPeHpKb2xMQkUwS3ZrOWVHYjhWTVZsUmpqLWFOdTM0SlBiVmZzZXlXNzkwRnRaS3NEdjdpdmxCQXV3anV4WXhuc3Z6MDVBM1otYk1wSVRIY2JoYm9XSk4tSGFqUnpBemV6VDg?oc=5": "2026-06-28T16:45:56.809192+00:00",
+  "news::https://news.google.com/rss/articles/CBMisgFBVV95cUxQM0xESTFSckZQVXJKQ0RMNDRWbzFSbXNHRmEzZFBHUlNvdW1PVWtGODFyNUd5eFFoVmIxUFRtSDlqLXFEbXRFQkZ2Ym10NlB3V0JfOHJXU2dndzlRN0IxMXBvbFJic3k0RUFOXzFXQ2NyUmxtMGtmdm9Fem1Wb1RSYzZoTjFVbGFFRkY2NTNjY1BSLVRrX0sweWZaOXM5WWNDV0UySEdpV0NHbzN1emdqT0dn?oc=5": "2026-06-28T16:46:02.002860+00:00",
+  "news::https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMUR0aFpZSW5pSHBPcjA2Yy1ZR0c4NkpHcU9QZWpWNXFpcUZKak9hb052UVBNUGxlejUxSTZDUndtdUpPMl9FQVRlX2kwT0E3U1luZjBWdEtkRmdLTllmdW83eS0ya2VXZWRqZEd2UXdFM1NOai1UUFo1UXZFVmxjMFdUNkdLaXFkZFBTd2Z3ZUZscmhDMVRzSmFlZlFMdTdqeUR2RTRIa2VFREJlYW02VEcxOVliS3YtcEZJM19sOHVUYnZQNks2Ul9Gbk5aZ0JBYlNR?oc=5": "2026-06-28T16:46:07.190042+00:00"
 }
