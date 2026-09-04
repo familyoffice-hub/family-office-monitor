@@ -1,102 +1,6 @@
 {
   "__daily_log__": [
     {
-      "ts": "2026-09-01T11:21:23.856934+00:00",
-      "title": "Penerimaan Pajak Agustus Tumbuh 27%, DJP Buka-bukaan soal Proyeksi Shortfall 2026 - Bisnis.com - Ekonomi",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-01T11:21:29.234651+00:00",
-      "title": "Datangi DJP, Gapembi Minta Kepastian Aturan Pajak bagi SPPG - RCTI+",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-01T11:21:34.368920+00:00",
-      "title": "Trust Has to Be Structured: Munish Randev on Building for the Next Generation - Hubbis",
-      "source": "GN Family Office",
-      "area": "Estate & Trust / Succession",
-      "priority": "High",
-      "alert_type": "SUCCESSION PLANNING"
-    },
-    {
-      "ts": "2026-09-01T11:21:39.541233+00:00",
-      "title": "Investors return to real estate — but pick their spots - Professional Wealth Management",
-      "source": "GN Wealth Mgmt",
-      "area": "Wealth Management / Estate & Trust / Real Estate",
-      "priority": "High",
-      "alert_type": "TRUST & ESTATE"
-    },
-    {
-      "ts": "2026-09-01T11:21:44.737599+00:00",
-      "title": "Top 5 Ways To Recover Funds From Crypto Scam in 2025 - Blockchain Council",
-      "source": "GN Security",
-      "area": "Crypto & Digital / Security Risk",
-      "priority": "High",
-      "alert_type": "CRYPTO / RWA"
-    },
-    {
-      "ts": "2026-09-01T11:21:50.028834+00:00",
-      "title": "DJP Akan Mutasi Ribuan Pegawai, dari Penyuluh hingga Pemeriksa Pajak - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-01T11:21:55.211966+00:00",
-      "title": "Euro zone inflation is back above 3%. Higher interest rates are likely to follow",
-      "source": "CNBC Markets",
-      "area": "Global Regulator / Macro",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-01T11:22:00.351093+00:00",
-      "title": "OJK Jatuhkan 1.277 Sanksi hingga Agustus 2026, Emiten ini Masuk Daftar - KabarBursa.com",
-      "source": "GN OJK",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-01T11:22:05.550126+00:00",
-      "title": "OJK Tetapkan 1.277 Sanksi Pelanggaran Pasar Modal - jatengpos.co.id",
-      "source": "GN OJK",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-01T11:22:10.721548+00:00",
-      "title": "Pelanggaran Pasar Modal, OJK Ambil Langkah Tegas - Harapan Rakyat",
-      "source": "GN OJK",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-01T11:22:15.963849+00:00",
-      "title": "Perkuat Penegakan Hukum Pasar Modal, OJK Jatuhkan 1.277 Sanksi dan Denda Ratusan Miliar Rupiah - portal.id",
-      "source": "GN OJK",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-01T11:22:21.160300+00:00",
-      "title": "DJP Buka Pendaftaran Relawan Pajak Mulai Hari Ini - CNN Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
       "ts": "2026-09-01T16:18:16.101350+00:00",
       "title": "Bank Indonesia di Persimpangan Suku Bunga, Likuiditas dan Pertumbuhan - Vibiznews.com",
       "source": "GN Bank Indonesia",
@@ -1247,6 +1151,102 @@
       "area": "Indonesia Regulator",
       "priority": "High",
       "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-09-04T16:01:58.742432+00:00",
+      "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
+      "source": "SEC (press)",
+      "area": "Global Regulator / Security Risk",
+      "priority": "High",
+      "alert_type": "SECURITY WARNING"
+    },
+    {
+      "ts": "2026-09-04T16:02:03.853591+00:00",
+      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "source": "The Fed (press)",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-04T16:02:08.961618+00:00",
+      "title": "2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates",
+      "source": "CNBC Markets",
+      "area": "Gold & Commodities / Bond & Yield / Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-04T16:02:13.978216+00:00",
+      "title": "SEC: 38 Entities Feigned Legitimacy as U.S. Advisers Through False Filings to Lure Retail Investors",
+      "source": "SEC (press)",
+      "area": "Global Regulator",
+      "priority": "Medium",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-09-04T16:02:19.019592+00:00",
+      "title": "SEC Names Paul Knight as Chief Operating Officer",
+      "source": "SEC (press)",
+      "area": "Global Regulator",
+      "priority": "Medium",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-09-04T16:02:24.066383+00:00",
+      "title": "Gloria Steinem hosted salons in her living room for decades—how to gather for conversation and connection, says expert",
+      "source": "CNBC Markets",
+      "area": "Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-09-04T16:02:29.098336+00:00",
+      "title": "Bitcoin heads for third winning week in a row as macro pressures mount",
+      "source": "CNBC Markets",
+      "area": "Bond & Yield / Crypto & Digital",
+      "priority": "Medium",
+      "alert_type": "CRYPTO / RWA"
+    },
+    {
+      "ts": "2026-09-04T16:02:34.258331+00:00",
+      "title": "Bitcoin heads for third winning week in a row as macro pressures mount",
+      "source": "CNBC Finance",
+      "area": "Bond & Yield / Crypto & Digital",
+      "priority": "Medium",
+      "alert_type": "CRYPTO / RWA"
+    },
+    {
+      "ts": "2026-09-04T16:02:39.371941+00:00",
+      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "source": "The Fed (press)",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-04T16:02:44.517650+00:00",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "source": "The Fed (press)",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-04T16:02:49.643544+00:00",
+      "title": "Trump tells Fed to slash rates or he'll end trade with countries with U.S. surpluses",
+      "source": "CNBC Markets",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-04T16:02:54.717787+00:00",
+      "title": "Analysis: Lower Treasury yields could require a weaker economy. Trump won't fix them",
+      "source": "CNBC Markets",
+      "area": "Gold & Commodities",
+      "priority": "Low",
+      "alert_type": "MARKET INTELLIGENCE"
     }
   ],
   "news::https://www.cnbc.com/2026/08/28/bessent-warren-yen-intervention-treasury-japan.html": "2026-08-28T21:57:11.557741+00:00",
@@ -2303,5 +2303,16 @@
   "news::https://news.google.com/rss/articles/CBMitAFBVV95cUxOTlF2TlNEdThxZ0hxcEpReXRMRWpzZXZ5Y2VSaktYelU4U1JkSW5MVmY5dEdCVXNfbUZuRTJqTXVmY3NoNVZHSEptbkRmRERxRnJKYVBoRVRzbU5iTE55cXdlTG40NFRYbTVYUXhGcDRkQTBuendwb05RZHlPYThBcnlJbndzYXBhcDFMMUp2Sk5TWW8tWW1FVm44M1M3U0VHSHhweFlSdS1UVmpCTmQ2aWMwVWk?oc=5": "2026-09-04T10:55:42.313771+00:00",
   "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOTdEWVJ4MjRZMHNVSHV3WVBfNzc1ZGlROHZHY0RPaTFxRW1wd2p2Y2VJcXl6VFlmY1Y1Rjl3THp2bXhLTUlqdUNydV94V2tnU3FueUxwSnJOWExqdWFvVks3Vlhzd29xaHA5Z1hCdVNKd2VTN0xVQ3BvNGxlM0RsTzN3c0FPSXZHYkV5aUVSZEVTMDlSV1dIVTdZTXJBX0JPR0RkenBYaF83cXRURTFKMmZSUDV3a1dnT2hZWDVHNXRLZw?oc=5": "2026-09-04T10:55:47.588046+00:00",
   "news::https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXRtTmVveVN1azhwVkFKM1hoamtiR0hKRDFKVGdxUElIR3UzMTAweGwteTl1SFNpb2pxai1WUmZtdUJUakpXOTNqMGNsQ1RuVUZVMzdCc25WUTU1aENJTG1hdVFlOHktWjJZNUJtRnNZX01XUFVKMWZWZWVsaFlQRE9Wa2FHeTJsQjlvZjFEbUR3cGpDWTNWbDl1cURjSlB3OS1aempn?oc=5": "2026-09-04T10:55:53.006021+00:00",
-  "news::https://news.google.com/rss/articles/CBMixwFBVV95cUxQVlZ4Y1V3dGU5M3VWMElRbFQtRHZVd291djVuS3RmSWVDdWxNYzBicFFSUW5pMi0zeW9LTzYzaXpUVFVxckNrMXItRHUtcHpfaFRRUmtNZHhKUC0zSGlpQ1kyLUFueXpmZXpyWFlENnRPQU80MEdSQjFOX2tHandIbnJXM2hxeWpNRlRlSVQtNi03eVhqTnNhek1Ia0J4SUdKbXZPblFqZndoNXhNTjJScUVDa3huS290Y1N3WkdlcG5hZEItVUlJ?oc=5": "2026-09-04T10:55:58.298228+00:00"
+  "news::https://news.google.com/rss/articles/CBMixwFBVV95cUxQVlZ4Y1V3dGU5M3VWMElRbFQtRHZVd291djVuS3RmSWVDdWxNYzBicFFSUW5pMi0zeW9LTzYzaXpUVFVxckNrMXItRHUtcHpfaFRRUmtNZHhKUC0zSGlpQ1kyLUFueXpmZXpyWFlENnRPQU80MEdSQjFOX2tHandIbnJXM2hxeWpNRlRlSVQtNi03eVhqTnNhek1Ia0J4SUdKbXZPblFqZndoNXhNTjJScUVDa3huS290Y1N3WkdlcG5hZEItVUlJ?oc=5": "2026-09-04T10:55:58.298228+00:00",
+  "news::https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division": "2026-09-04T16:01:58.742412+00:00",
+  "news::https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm": "2026-09-04T16:02:03.853571+00:00",
+  "news::https://www.cnbc.com/2026/09/04/treasurys-bonds-nonfarm-payrolls-unemployment-data.html": "2026-09-04T16:02:08.961599+00:00",
+  "news::https://www.sec.gov/newsroom/press-releases/2026-78-sec-38-entities-feigned-legitimacy-us-advisers-through-false-filings-lure-retail-investors": "2026-09-04T16:02:13.978196+00:00",
+  "news::https://www.sec.gov/newsroom/press-releases/2026-62-sec-names-paul-knight-chief-operating-officer": "2026-09-04T16:02:19.019571+00:00",
+  "news::https://www.cnbc.com/2026/09/04/how-to-gather-and-connect-like-gloria-steinem-says-expert.html": "2026-09-04T16:02:24.066362+00:00",
+  "news::https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html": "2026-09-04T16:02:34.258309+00:00",
+  "news::https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm": "2026-09-04T16:02:39.371922+00:00",
+  "news::https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm": "2026-09-04T16:02:44.517632+00:00",
+  "news::https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html": "2026-09-04T16:02:49.643526+00:00",
+  "news::https://www.cnbc.com/2026/09/04/treasury-bonds-yield-trump-ai-mortgage-rates-analysis.html": "2026-09-04T16:02:54.717769+00:00"
 }
