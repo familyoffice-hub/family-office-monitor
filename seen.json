@@ -1,102 +1,6 @@
 {
   "__daily_log__": [
     {
-      "ts": "2026-09-16T16:28:08.384260+00:00",
-      "title": "SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
-      "source": "SEC (press)",
-      "area": "Global Regulator / Security Risk",
-      "priority": "High",
-      "alert_type": "SECURITY WARNING"
-    },
-    {
-      "ts": "2026-09-16T16:28:13.761939+00:00",
-      "title": "Perkuat Pemeriksaan Pajak Daerah, ASN Diberi Pelatihan oleh DJP - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-16T16:28:19.259531+00:00",
-      "title": "Crypto giant Circle rebuffed efforts to help scam victims, police say - International Consortium of Investigative Journalists - ICIJ",
-      "source": "GN Security",
-      "area": "Crypto & Digital / Security Risk",
-      "priority": "High",
-      "alert_type": "CRYPTO / RWA"
-    },
-    {
-      "ts": "2026-09-16T16:28:24.608432+00:00",
-      "title": "SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process",
-      "source": "SEC (press)",
-      "area": "Global Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-16T16:28:29.961057+00:00",
-      "title": "Wirex One Launches Publicly on Arc, Bringing Stablecoin Private Banking to the Mass Affluent Market - PR Newswire",
-      "source": "GN Wealth Mgmt",
-      "area": "Private Banking / Crypto & Digital",
-      "priority": "Medium",
-      "alert_type": "PRIVATE BANKING"
-    },
-    {
-      "ts": "2026-09-16T16:28:35.210257+00:00",
-      "title": "Forget the Rate Hike! The Fed’s Dot Plot Could Trigger a Massive Crypto Shock Today - Yahoo Finance",
-      "source": "GN Fed/Rates",
-      "area": "Crypto & Digital / Macro",
-      "priority": "Medium",
-      "alert_type": "CRYPTO / RWA"
-    },
-    {
-      "ts": "2026-09-16T16:28:40.495088+00:00",
-      "title": "SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
-      "source": "SEC (press)",
-      "area": "Global Regulator",
-      "priority": "Medium",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-16T16:28:45.796909+00:00",
-      "title": "Ormazabal's family office takes 5.05% of Irish EV charger EZO in €150M network push - Dealroom",
-      "source": "GN Family Office",
-      "area": "Family Office",
-      "priority": "Medium",
-      "alert_type": "FAMILY OFFICE INSIGHT"
-    },
-    {
-      "ts": "2026-09-16T16:28:51.018957+00:00",
-      "title": "India’s next-gen women build a legacy beyond inheritance - AsianInvestor Wealth",
-      "source": "GN Family Office",
-      "area": "Estate & Trust",
-      "priority": "Medium",
-      "alert_type": "TRUST & ESTATE"
-    },
-    {
-      "ts": "2026-09-16T16:28:56.263347+00:00",
-      "title": "Free estate planning seminar happening at St. Paul's this Saturday - MiltonToday.ca",
-      "source": "GN Estate/Trust",
-      "area": "Estate & Trust",
-      "priority": "Medium",
-      "alert_type": "TRUST & ESTATE"
-    },
-    {
-      "ts": "2026-09-16T16:29:01.476427+00:00",
-      "title": "Goldman Sachs rStock (RGS) Price Prediction | Forecast for 2026, 2027, 2028, 2030 & Beyond｜MEXC - MEXC",
-      "source": "GN Big Managers",
-      "area": "Big Institution",
-      "priority": "Medium",
-      "alert_type": "PORTFOLIO INSIGHT"
-    },
-    {
-      "ts": "2026-09-16T16:29:06.703262+00:00",
-      "title": "OJK beri sanksi 23 emiten, mulai dari Bakrie Group hingga CBRE - IDNFinancials",
-      "source": "GN OJK",
-      "area": "Indonesia Regulator",
-      "priority": "Medium",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
       "ts": "2026-09-16T21:03:49.404411+00:00",
       "title": "DJP Ubah Mekanisme Penunjukan Kuasa di Coretax, Kini Wajib Lewat TTE Dua Pihak dan e-Meterai - Ikatan Konsultan Pajak Indonesia",
       "source": "GN DJP/Pajak",
@@ -1223,6 +1127,102 @@
       "area": "Family Office",
       "priority": "Low",
       "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-09-19T20:17:23.363145+00:00",
+      "title": "Who's Moving Where In Wealth Management? – Katten, Citi Private Bank, Baird - Family Wealth Report",
+      "source": "GN Wealth Mgmt",
+      "area": "Wealth Management / Private Banking / Big Institution",
+      "priority": "High",
+      "alert_type": "PRIVATE BANKING"
+    },
+    {
+      "ts": "2026-09-19T20:17:28.435992+00:00",
+      "title": "SEC Proposes Amendments to Exchange Act Rule 3a12-8 to Add European Union Debt Obligations",
+      "source": "SEC (press)",
+      "area": "Global Regulator",
+      "priority": "Medium",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-09-19T20:17:33.530802+00:00",
+      "title": "GCF to host estate planning seminar at PAC - The Cumberland Times-News",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-09-19T20:17:38.627181+00:00",
+      "title": "How it's rewarding to break your trust fund and maintain a trust deficit - The Economic Times",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-09-19T20:17:43.739658+00:00",
+      "title": "The Fed Naikkan Suku Bunga Acuan 25 Bps Jadi 3.75-4 Persen - suaralandak.co.id",
+      "source": "GN Bank Indonesia",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-19T20:17:48.812848+00:00",
+      "title": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
+      "source": "The Fed (press)",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-19T20:17:53.927988+00:00",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Regions Bank",
+      "source": "The Fed (press)",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-19T20:17:59.026063+00:00",
+      "title": "How Millionaires Are Shielding Their Money in the Great Wealth Transfer - Kiplinger",
+      "source": "GN Estate/Trust",
+      "area": "Succession",
+      "priority": "Medium",
+      "alert_type": "SUCCESSION PLANNING"
+    },
+    {
+      "ts": "2026-09-19T20:18:04.125430+00:00",
+      "title": "Podcast: Supporters of creating a state trust fund for unclaimed property explain Amendment K - News From The States",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust / Real Estate",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-09-19T20:18:09.203197+00:00",
+      "title": "Binance Research Confirms Onchain RWA Assets Have Reached - Cryptonews.net",
+      "source": "GN Crypto Reg",
+      "area": "Crypto & Digital",
+      "priority": "Medium",
+      "alert_type": "CRYPTO / RWA"
+    },
+    {
+      "ts": "2026-09-19T20:18:14.283610+00:00",
+      "title": "Dampak Kenaikan Suku Bunga BI terhadap Harga Emas di Pasar Nasional - Pegadaian",
+      "source": "GN Bank Indonesia",
+      "area": "Gold & Commodities / Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-19T20:18:19.356538+00:00",
+      "title": "Simak! Ini 8 Jenis Family Office yang Ada di Dunia - CNBC Indonesia",
+      "source": "GN Family Office ID",
+      "area": "Family Office",
+      "priority": "Low",
+      "alert_type": "FAMILY OFFICE INSIGHT"
     }
   ],
   "news::https://news.google.com/rss/articles/CBMitwFBVV95cUxOT21BbEYyM2ZUU1h5XzV5R2NBY1pOa056MUc5Q0xqbTFwYzg4cFFrMnk5bVBLcm4wQlhGb3lqTUJGYnlzLWRBZ0x5VXVJNWpHU0hIaEFxM2YtV1JJVHJxVTR4YUQtT3FzNXpWeTNYb29fTi1oQ295aDdyQXZlMjlXVmRMNkxBTTdtZjFKcHg5c1JKb0N5YTQzN0QtY2Y3YTF6R0R3bnpveHpjX25KRFBIVWJtbi1BTVE?oc=5": "2026-09-12T21:34:13.913563+00:00",
@@ -2225,5 +2225,20 @@
   "news::https://news.google.com/rss/articles/CBMihwFBVV95cUxPWEZKeEhvcWhCeDF4eDlxNnJ5OXhwaGtQYjFtbFBFWVc0Sl9qRzRSU0t2OC1BdEZSangxWnpEbWFkWVNNWXZYZzFVaVpUaDRrQ0lpTU9TNUNWV09YNlV2R0FRTGl1SE5YanpFcWZ2WFY1RFd5SVhfZ0JGMVBqekxnWmdKRzJWQXc?oc=5": "2026-09-19T15:38:48.431531+00:00",
   "news::https://news.google.com/rss/articles/CBMifkFVX3lxTE9PN3ZycWtJaGFsX0pHMmZBOHBBUUd3cDljdGdxVGVISjNwdmN1c1hxTlJWQUhFX1FLekdfNEtQX0pjd1NSWFpZSG9wMG5sYTBzeElDVm9KdzJwQzV3SGdURDh4Q2VTNlhIRXFpVlJGR2lJV2E5OElYd2pCU1hydw?oc=5": "2026-09-19T15:38:53.734296+00:00",
   "news::https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYTdNc2JNOGoyOTFuaWhZQ0E1N2tiR2ZLUG9FWFdwU2x4Vm1fakVITWkwbWxyNll4Nzl3Y3RmM25nbEZSY2lSeW40WmZYSjdGNE83Q2JIX0lITElKeUJhdTJtaVkxV0VkTDBQME4wQzFCZkdHNFpzYUJRQ1lPTm9UNURDQTZNU3NWNjRWelNkMVUwNkRsdTVpZzRQeWFNUk9vZXlLYXlxZExheWE0c25lYjQ4UGZPcnduUy1MdmRObi1ma0pHbzN3X213dVBzWmp6ZzQyaQ?oc=5": "2026-09-19T15:38:59.031674+00:00",
-  "news::https://news.google.com/rss/articles/CBMiswFBVV95cUxON2ZhRDFROXp3QXNmcGNQY1pLZTY3M1UycXlORVRFZGFyMFJzbTJHV3JzdnBIcjl3dUdUbEJBY1E3aHNIZGxvX3Y1anFWTTl1RFRBa0FHZU5nSVNscDd0SWRrUmhLZXFKS1J3YmFBakFlT21oS094QThPZzdJZmhTSkYxLThsVHM2T0diRFhDVzBpeVkyb1pONGw1S2czdmxZdEpaaklIRE5HOFV4dzE5UDhPWQ?oc=5": "2026-09-19T15:39:04.358991+00:00"
+  "news::https://news.google.com/rss/articles/CBMiswFBVV95cUxON2ZhRDFROXp3QXNmcGNQY1pLZTY3M1UycXlORVRFZGFyMFJzbTJHV3JzdnBIcjl3dUdUbEJBY1E3aHNIZGxvX3Y1anFWTTl1RFRBa0FHZU5nSVNscDd0SWRrUmhLZXFKS1J3YmFBakFlT21oS094QThPZzdJZmhTSkYxLThsVHM2T0diRFhDVzBpeVkyb1pONGw1S2czdmxZdEpaaklIRE5HOFV4dzE5UDhPWQ?oc=5": "2026-09-19T15:39:04.358991+00:00",
+  "news::https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html": "2026-09-19T20:17:22.045451+00:00",
+  "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYmZreXptREpFOVRKTEUydUQ4akczQ0N0V1FvdXNzalZmYkFJU1JBdVI2UDlrbjhOUmppaENvQjlwT3pYWTljQVdXMmw1X1M5MFpIamc3U1doRWtSZS1lbDNzdzVzb25FQVZOMzVEZ3BkZVNsYXdoSS02TlBtbC1iMTNaTzJGV3dHODVGMUtETVd3Tzc5X2VORjcybTNLczZoWE9uR2ZaQmdUY0ZIWDlpLWNRTkJEZ0Q0dWdfN0pydlBwZw?oc=5": "2026-09-19T20:17:22.045462+00:00",
+  "news::https://news.google.com/rss/articles/CBMiogFBVV95cUxPRW11WEF3ai1LOUF5bmhuRWF6bzdwd1NDQVVwNXhpR0gwdEo0RVJ5d25sZktJVW5PTzMtU2JIUHVnems5Zl92V3VLYlJRTTQ5UGtGRDhIcHh3UXRiVkN0QVNyLUlxTDhOajJyNW4wOXRqV3JUQUxCM09RV0hvQmRBVzhUMTI1bDgtX2puX0RUR1Z1X0VTUkQ4T0ZfM1o0SVR4dUE?oc=5": "2026-09-19T20:17:22.045464+00:00",
+  "news::https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZ0VOa2lkREZaOTVFbjgxOUJzckRScE81NzJjTXBvMVZIc25kbzNycGhJR0xocVlqNUw4U3BPVzIyanc3MkhuTC1oeHc3ZUg5ZE9zOGxuWEFHR2dTc29zRUdFbkM3WGVIU3MxT3dUdmRzR29DY0tLdG96Sk94c0VGNnhDcmpFeFFOVDFXQXVsSUdDY0xRd292RzNFaGdVOHZ2cjhDRkZBa3BPY1hVNFEzZnFDQ2s3WHlEaEhkMzdfYlBHR05xOFdTM1hubVVnVWNJUl9DOWU2OXhNUC0za0pNQlRJMA?oc=5": "2026-09-19T20:17:23.363124+00:00",
+  "news::https://www.sec.gov/newsroom/press-releases/2026-79-sec-proposes-amendments-exchange-act-rule-3a12-8-add-european-union-debt-obligations": "2026-09-19T20:17:28.435970+00:00",
+  "news::https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVzdzSmMzMjFXZUJoZDhZSXdMWnNQYWE5MXMtRXVqRFFwLXVPc09jbEwtZUZPUzVSUTFDUzdrSUpXMlZSUm5obXEyRGVBNTBzUFVHS0duTVhwSTkyQU1Hd0ZGWFBDelhBTkJlQ3dCbUZwUGoydld2bjJSbFlrYWkxazZWOW5yUHdxVWYydy1GblRvdmFOUWVZNl9Fb3o1dWtrU29VdlZqVndnTG5jS2FmRkZRaTRJanIzbkpfZHFKZ1EwZmRYdDlsOA?oc=5": "2026-09-19T20:17:33.530779+00:00",
+  "news::https://news.google.com/rss/articles/CBMi4AFBVV95cUxOak4yeU5EZlpjXzEwajZmX1BGbTBFUFlBU2FPMjBKdXpLNUNfM3N5OVVORFFFTEtCc3lDVTVWWnpMbHJIZDRCLXV4blNIamtsTE42eXpoSzd6ak1rdkJyZldPb1VXVnIwcXp2emktcXJBVnBkeXU3X0F1aDByVkJhODluczJGaDl3UVRWVTRZS3NpMERYSGdqMmh4eTFWRzVTV0RPTDVnUS1FY25wcExHZ1d5TDk5NE5lcGE4cUVLY2Eyc1BnN0Qtd0RrTllWbExXbC1fOF9vTnZ0Z1ltWE5sadIB5gFBVV95cUxONElFbUVzbmtQT284M1dxcGtGblhOdktiQ1hkWkdobHE1Q0p4OHBkaXUyUUR2bGJKUS0xX2NVdC1oRjFsd2ZsN0pfMl83aE1IOEc3SFExSW5jcGJZT04wSTZfRDRrWS1Ca1p0MnVYbFlPSjZWSmo5ajIzWXR5ZE1YZmhnNjBwZk5IOGRlZE84LWxWdHl0blg3azRVV1R6T001RGllM05DWVU4U0ljNDhKc0tGYUx1QS1OWkJMLWF1QXlwY1hnbE54WXF1QmdZWXItdVh4Z2pVeE4wbmo1SlgtOTU5em91dw?oc=5": "2026-09-19T20:17:38.627158+00:00",
+  "news::https://news.google.com/rss/articles/CBMidEFVX3lxTE9JRE9LUnZmTUNlekVlMU55dWtaUVJIbEV6aERIRGpQaTRyQUYwSkFSXzhWbHhlRHFPUTdqMnlRQzg2SjhBLUFSS3FEUGZIRUNDWjdidDRXNDNGdnVlWmhvQll0OFMxV2NEemdxQnJtUmxETFpm?oc=5": "2026-09-19T20:17:43.739635+00:00",
+  "news::https://www.federalreserve.gov/newsevents/pressreleases/orders20260820a.htm": "2026-09-19T20:17:48.812826+00:00",
+  "news::https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260813a.htm": "2026-09-19T20:17:53.927966+00:00",
+  "news::https://news.google.com/rss/articles/CBMijgFBVV95cUxONEhNSGtCSzdCY3gyNktUX1NNbGg5cy0teUhnSkNSUlFfSVU4VXVVR0RacDFwa3Fka0JuWjhZOUJsZVNVSjI4dG1XbmZBRGp0R2pndkduZWUzeG93eVBTNUQ2enVtUU1aMXc3Y3JJVFFLY09FaUdkQm82UEd0cHEtY1BhdDdHT25pUmNHYXh3?oc=5": "2026-09-19T20:17:59.026038+00:00",
+  "news::https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWGg2c0d1ODdHR005SGcyR0wyWkZ2Rm9CX0dGVnNrU2NzNWs3cmFGYWd2Mml4WEoyQnp2X21ZdlZ2a3VMUEpxN2N5UDQtR3Z0cVNGVDh2dWQ0RThPNnlRRUhWUFlEcTBfd05jeXBRdzBhMlM0RDQ4Z3o2cFp1SFZWeWctZlBCQnJheGRxNFgtVWoteDB4RzltUDNWSHRWZzZnOXlFT0ltckFpdndGWVpLWEc3SVRzU3k3VVFEXzNnMmlaVEk?oc=5": "2026-09-19T20:18:04.125410+00:00",
+  "news::https://news.google.com/rss/articles/CBMiWEFVX3lxTE1EdVB3dUpfQkNzOG12dkFoVEVaQVVZQlRwODZIR2F6SGhhNTVjazd5ZVNGSGRqMzVKcmF6OVVtQXRTR0RMR204QldNNEpPU1NNT05HTlB4eXQ?oc=5": "2026-09-19T20:18:09.203177+00:00",
+  "news::https://news.google.com/rss/articles/CBMid0FVX3lxTE5EbFRTWi1mRDI5X2gtck1za2hNZnV6dDNzR3pOM0h0TmJPSEQ0MDNfeXdoeEJyc00wajlRZGRJMTJBUUprWVJSTXVsUTdhRWRMU1ZmcFpoeEI4ZXUxbkg5MnhRUkZDLTFmZHF6bUZoV18zTldhUmJF?oc=5": "2026-09-19T20:18:14.283591+00:00",
+  "news::https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2ZZUElNb2I5QWdXMWF1WnZkbWtmN2NaRmVhc0pQZWt2bFFCcE1rZkNXRkpLVllDMHNoYTdhVEpwMTYzYXYyMHdZR0d6MmdTZmhnd29LQ29NMXozRFc2VGJXUFBobDRnQVh3cUFUNGF2VnBtakZRdXNLUjdHSkhvSU50aEZjZFFYOGE1eU1veHhZTnVzTlhPUHRkeV90bHkwaWNHZGRUbEVQSFA10gGyAUFVX3lxTFBkRUpyeFBzdDBqV0FCbXlZajZ4OUxVVm9lSnVuMEhwekFNc1QtOWVFTkNQSWJHUUVQVVpkTGVDcWwyaGpCTlpDTkllYUZDd2gwNk9VbTd2SnZQTmVxM1JoT28tRTltRUd0b0RDdnZxX01lMkhnZ05WOUJibWtQVy16d0N5Y1dHOWJXcVFURG42ZlFsVGpOVThjcGo5RkgweWh6a1FRekdWUG5QT2JpOHd0RkE?oc=5": "2026-09-19T20:18:19.356518+00:00"
 }
