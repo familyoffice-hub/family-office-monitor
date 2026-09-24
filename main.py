@@ -938,7 +938,9 @@ def run_cycle():
     if to_skip:
         print(f"[i] {len(to_skip)} berita lama dilewati (anti-flood), ditandai sudah dilihat.")
 
-    orch_rows = []  # Fase 2: kumpulkan alert High untuk dikirim ke Orchestrator
+    # Fase 2 (feeder Brief): SEMUA berita fresh yang lolos ambang -> inbox,
+    # bukan cuma "High" & tanpa batas anti-flood, agar Brief harian selalu ada isinya.
+    orch_rows = [_orch_row(it, None) for it in fresh]
     for item in to_send:
         uid = "news::" + (item["link"] or item["title"])
         enrich = ai_enrich(item)   # None jika AI mati / gagal -> alert tetap terkirim
@@ -948,8 +950,6 @@ def run_cycle():
         if ok:
             sent_today.append(item)
             record_daily(seen, item)   # catat untuk Daily Digest
-            if item.get("priority") == "High":
-                orch_rows.append(_orch_row(item, enrich))
             # Kirim draft konten (LinkedIn + memo IC) sebagai pesan terpisah, jika ada.
             drafts = format_drafts_message(item, enrich)
             if drafts:
