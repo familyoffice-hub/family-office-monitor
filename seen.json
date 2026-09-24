@@ -1,102 +1,6 @@
 {
   "__daily_log__": [
     {
-      "ts": "2026-09-21T21:49:40.253736+00:00",
-      "title": "Is That a Prospective Client or an AI Deepfake? An Emerging Threat for Financial Advisors. - Barron's",
-      "source": "GN Wealth Mgmt",
-      "area": "Security Risk",
-      "priority": "High",
-      "alert_type": "SECURITY WARNING"
-    },
-    {
-      "ts": "2026-09-21T21:49:45.785717+00:00",
-      "title": "DJP Bantah Akan Tarik Pajak dari Pemilik Kontrakan dan Properti Sewa pada 2027 - InvestorTrust",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-21T21:49:51.292898+00:00",
-      "title": "DJP Bantah Kabar Data Pajak Bocor yang Beredar di Media Sosial - MOST 1058",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-21T21:49:56.821651+00:00",
-      "title": "Menkeu Suahasil Minta Pejabat Baru DJP Pahami Karakter Wajib Pajak - Jawa Pos",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-21T21:50:02.354242+00:00",
-      "title": "Paragon and Schroders expand Asia wealth teams with senior private banking and family office hires - AsianInvestor Wealth",
-      "source": "GN Wealth Mgmt",
-      "area": "Family Office / Private Banking",
-      "priority": "High",
-      "alert_type": "FAMILY OFFICE INSIGHT"
-    },
-    {
-      "ts": "2026-09-21T21:50:07.849387+00:00",
-      "title": "Why this investment bank expects little demand for tokenized stocks despite SEC’s new trading rules - CoinDesk",
-      "source": "GN Crypto Reg",
-      "area": "Crypto & Digital / Global Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-21T21:50:13.244580+00:00",
-      "title": "Tax, Estate Planning Drive Next Wave of Advisor Technology - connectmoney.com",
-      "source": "GN Estate/Trust",
-      "area": "Tax Planning / Estate & Trust",
-      "priority": "Medium",
-      "alert_type": "TAX UPDATE"
-    },
-    {
-      "ts": "2026-09-21T21:50:18.596591+00:00",
-      "title": "OJK Keluarkan Aturan Demutualisasi Bursa, Kepemilikan Saham Dibatasi - Kompas.id",
-      "source": "GN OJK",
-      "area": "Indonesia Regulator",
-      "priority": "Medium",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-21T21:50:24.007281+00:00",
-      "title": "OJK Terbitkan POJK Dasar Hukum Demutualisasi BEI - Media Asuransi News",
-      "source": "GN OJK",
-      "area": "Indonesia Regulator",
-      "priority": "Medium",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-21T21:50:29.350841+00:00",
-      "title": "IHSG menguji level ini jelang pengumuman BI Rate - idnfinancials.com",
-      "source": "GN Bank Indonesia",
-      "area": "Indonesia Regulator",
-      "priority": "Medium",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-21T21:50:34.716033+00:00",
-      "title": "Nick Reiner says trust fund delays may violate his Constitutional rights - NBC Los Angeles",
-      "source": "GN Estate/Trust",
-      "area": "Estate & Trust",
-      "priority": "Medium",
-      "alert_type": "TRUST & ESTATE"
-    },
-    {
-      "ts": "2026-09-21T21:50:40.121948+00:00",
-      "title": "Protect your digital life! Why estate planning may need to include your passwords - cbsaustin.com",
-      "source": "GN Estate/Trust",
-      "area": "Estate & Trust",
-      "priority": "Medium",
-      "alert_type": "TRUST & ESTATE"
-    },
-    {
       "ts": "2026-09-22T04:03:49.955223+00:00",
       "title": "How to Report a Crypto or Investment Scam in the Philippines: SEC, NBI, PNP, and Other Authorities - bitpinas.com",
       "source": "GN Security",
@@ -1159,6 +1063,70 @@
       "area": "Estate & Trust",
       "priority": "Medium",
       "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-09-24T23:30:00.106059+00:00",
+      "title": "Ascent Law Highlights Importance of Early Estate Planning for Utah Families - The Des Moines Register",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-09-24T23:30:05.381251+00:00",
+      "title": "OJK Terbitkan Peraturan Tentang Pemegang Saham Bursa Efek - Barometer.co.id",
+      "source": "GN OJK",
+      "area": "Indonesia Regulator",
+      "priority": "Medium",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-09-24T23:30:10.639244+00:00",
+      "title": "Who’s Moving Where In Wealth Management? – Deutsche Bank - Wealth Briefing Asia",
+      "source": "GN Wealth Mgmt",
+      "area": "Wealth Management",
+      "priority": "Medium",
+      "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-09-24T23:30:15.873367+00:00",
+      "title": "CFTC updates guidance on tokenized assets, blockchain records after failed vote - TradingView",
+      "source": "GN Crypto Reg",
+      "area": "Crypto & Digital",
+      "priority": "Medium",
+      "alert_type": "CRYPTO / RWA"
+    },
+    {
+      "ts": "2026-09-24T23:30:21.139198+00:00",
+      "title": "ARK Invest Announces Ethereum Tokenization for Venture Fund Interests - tokenpost.com",
+      "source": "GN Crypto Reg",
+      "area": "Crypto & Digital",
+      "priority": "Medium",
+      "alert_type": "CRYPTO / RWA"
+    },
+    {
+      "ts": "2026-09-24T23:30:26.385991+00:00",
+      "title": "Bond Yields Are at 19-Year Highs. Is This The New Normal? - Investopedia",
+      "source": "GN Fed/Rates",
+      "area": "Bond & Yield",
+      "priority": "Low",
+      "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-09-24T23:30:31.650367+00:00",
+      "title": "Tokenized Deposit Networks: A Practical Guide for the Banking C-Suite in 2026 - Banking Exchange",
+      "source": "GN Crypto Reg",
+      "area": "Crypto & Digital",
+      "priority": "Low",
+      "alert_type": "CRYPTO / RWA"
+    },
+    {
+      "ts": "2026-09-24T23:30:36.949987+00:00",
+      "title": "Securitize jumps after regulators greenlight some tokenized U.S. stock trading",
+      "source": "CNBC Finance",
+      "area": "Crypto & Digital",
+      "priority": "Low",
+      "alert_type": "CRYPTO / RWA"
     }
   ],
   "news::https://news.google.com/rss/articles/CBMickFVX3lxTE9OYUpDTEhfV2pGYzN2QTNJeG1BYXp5Y1RoRzhCVlhtUnhIVkZtby1iTDN3QnJzLVVtT2Q5UmJtQnlPdTBLWXhkTzhkaEVmcXZUSFd4RWg1SVRwT25nVTg0YTBEdjBtcmJTVVhkODJDREJTUQ?oc=5": "2026-09-18T03:55:27.643911+00:00",
@@ -2096,5 +2064,13 @@
   "news::https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy": "2026-09-24T21:19:35.316132+00:00",
   "news::https://news.google.com/rss/articles/CBMizgFBVV95cUxNSlRGSW1qdllhNnktN0pZTjl1eUxzVDEyLUNfTzdLNmw1ek0tWU1pUWxhOGV4M09rekFaTUROWUZzMERVYnFtWGJWczRKOVdoMVMwakdNMEtjdDJUSmVDQ05OcUVVdjZFbnVPMUVrRkxMbkY2c1RaWWFEbEROUkRSXzNCWFFkRGhyVVctUzZXNkxXYTV2Y0lZZDgzcVMwZGZleHdZVkh2bDNPcEtEd1R6WHRmSjBZYTZlR1UwekJNcnR3THRyTFpkQThQYkg4QQ?oc=5": "2026-09-24T21:19:40.490158+00:00",
   "news::https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYkFuOWh1VlJpcDlNdFBkdHBjNkh3QW51cm9ybUg1ZTVxVU1QdjRhX2MtLWxpUG9DY1RJdkVKQk84RTFwZVp3SEliUXNUWFNaSDZpSjhBdndlUlZHaU10amdRdEp5S2VxczZsZHpVQXZta2dtN2VRaHBWZENqVVNmZUNwZ2JOMWY4bW5QenJhaE15bE1DcUdNeEI5Q0dXNFF4Wkc0OFZKYnNEQQ?oc=5": "2026-09-24T21:19:45.644122+00:00",
-  "news::https://news.google.com/rss/articles/CBMimAFBVV95cUxPNUt5eGV3X3cyVkNfUmxGNlEzS1lhVzRsNG0wazBLdUQ1dnpyRjR2ZWpxNGY2VER3eGJhNWl6Q2E3eWx0VFowTkY5ZTJGRmRvVFJxaFRZWDh4T0JyMXhSOGxsS2pfT19zZ0dwN291MHJzdzV4TmYxLW91WV9UU2wya1dDUEoxd094SmVzTk55dTJHeDZreEZDMw?oc=5": "2026-09-24T21:19:50.821761+00:00"
+  "news::https://news.google.com/rss/articles/CBMimAFBVV95cUxPNUt5eGV3X3cyVkNfUmxGNlEzS1lhVzRsNG0wazBLdUQ1dnpyRjR2ZWpxNGY2VER3eGJhNWl6Q2E3eWx0VFowTkY5ZTJGRmRvVFJxaFRZWDh4T0JyMXhSOGxsS2pfT19zZ0dwN291MHJzdzV4TmYxLW91WV9UU2wya1dDUEoxd094SmVzTk55dTJHeDZreEZDMw?oc=5": "2026-09-24T21:19:50.821761+00:00",
+  "news::https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNWc2dkEyekJuM3pEUzhlekFqUzJoSEVYY0ZFM0h1d0h2SXQtZXNQREd5R1hPS0p1bmVmeHFCU2RvR2twRVBPejBud0FlQWhZMGVVODE2WFl2OG9lcWlwZzBFcGVnV09DdUw4UDIyYTNWUWlyaHlXVlFHcnJRVElQSDhVdW12SzMxazI5SWctMVdrNC1KVm9xbTlhQWdpdEUwVk1PMnZFbVdDR2UwQnQ0cTVFTEwzbUlwYkZfS2ducTlqcThwczBnQVdqMy1ydXFhRmNJ?oc=5": "2026-09-24T23:30:00.106038+00:00",
+  "news::https://news.google.com/rss/articles/CBMilAFBVV95cUxOdGtLSDgwTXdra1RhMWRYdVZOS3ZJanllbEoyc2JMbHlXaWlMMkdxMmFkSXNBUTBXWEZXUnQ0VFZKSHNtNmlOWTdic0tmRnhDVlF4NzZNZm1jemhjSmo4RHVrSlZhR1lCOVZXQnFZVVFjQy1zLWE4aE9tZ2tkS1E4TkJTQzdIR3hwM2JZek9wQkxXbVh5?oc=5": "2026-09-24T23:30:05.381230+00:00",
+  "news::https://news.google.com/rss/articles/CBMiygFBVV95cUxOaTNqazlmM2F0VHB4TEM1TjF2T04wNW1mVmJ3ZUNlcWFqbjFIV1k2QjJBd3FpUG9HN0NKQlZhMFI0Sm5HSjc1M2JYNnN3cU5udUFOWXVhQ1hUSmYxTHNNNlc1TGlVdi1pRm95NXVCTG83Tlo2V3RUNWZFTDZtWFhDQW5BSmtIeUo4NHBheUpWZVZTa0ZXMFhxTG14alR4NHFjUXBXcHQ4eFFKbnlpTk91dEVIUzBZaGZFTEJ6U3hjRkk4YW9idThWUXNn?oc=5": "2026-09-24T23:30:10.639224+00:00",
+  "news::https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUHpKajI1TlFZekpjLVJldUtYaEdVNHczUGlwRzUzeWFQM0s5cThCWk5FNzcydmk2SGlEV295QjczTF9QVTZYTG5yZlhYVHlUZFJrOXdxaVMtMWNRVlA0Q3RiRTVYYVlfbkxYSG9nRWR2SnVXZ3R6Unlvd29IRTUzVURwWXdHRlhMeE5KSHZya3NIa1U4dHJYSGJqVHlCSkJ5T01BQ2lYRU55aHB0YkZSZW0tNnQzb19seFJCSnRheFE3TmpBVkctV25PdDM4WF9lUkE3bmdTZTQ5QQ?oc=5": "2026-09-24T23:30:15.873347+00:00",
+  "news::https://news.google.com/rss/articles/CBMiWEFVX3lxTE85SGZkVnVrWE1hRE1SUEhVdWsxX3VpeTNKeXEzVU40MWUwZjZkR3UxTWNjQlNtYk9Fa3RjVWxUX1gxRkhxVFVvX09JcEc1SWJoS2ZHbko2RGI?oc=5": "2026-09-24T23:30:21.139178+00:00",
+  "news::https://news.google.com/rss/articles/CBMimAFBVV95cUxNczZUQ0VSQ2NBLXlhVGVacWlZWDdnWmctU0lrZW5Id2M2RENOTDI5cHpkamRMQV9CMEYwM2MwZ3JIMXRUNEpQRTB1ajh4ajBjSTJMazQxdXhvQm1yNjY1LTVJTWItQjZ3d1Nqa19wZW9FalNfeXZVcWRDSkdZR1VoZWt6WVhKMDNOQ0dNdHVONkZxSWc2MmlQNg?oc=5": "2026-09-24T23:30:26.385970+00:00",
+  "news::https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYkdBN2JmZmRXZGpRazRaVXJ6RFdfYVhvWGZTZ0NjbUR6SjRCMkpqWkpUUGthTnZxWGExdEZHRU9peEt3T2lDdUZEajIxNWwyaGNxRVNYQmdfWlRYNG5zRDlnbnV0dzc0TmlaQnRtaHlEOUtBelpYQnRHSDVNY1RhTVhjd1RLLWZzbXNkZTNyVFF3MWVLb1ZtV2djdHZ6blR0T19tTHAzVmFlbWk3dXlVLXk5TzRXSW5uWk1IUXRxb2N3T2VIenpVXw?oc=5": "2026-09-24T23:30:31.650347+00:00",
+  "news::https://www.cnbc.com/2026/09/17/securitize-jumps-after-regulators-greenlight-tokenized-us-stocks.html": "2026-09-24T23:30:36.949964+00:00"
 }
