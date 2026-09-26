@@ -1,102 +1,6 @@
 {
   "__daily_log__": [
     {
-      "ts": "2026-09-23T11:05:27.396957+00:00",
-      "title": "Rejecting the \"U.S. stock market crash\" narrative! Goldman Sachs and Deutsche Bank share a bullish outlook - Moomoo",
-      "source": "GN Big Managers",
-      "area": "Big Institution",
-      "priority": "High",
-      "alert_type": "SECURITY WARNING"
-    },
-    {
-      "ts": "2026-09-23T11:05:32.582689+00:00",
-      "title": "Breaking: Bank Indonesia Tahan BI Rate 5,75% di Era Suku Bunga Tinggi - finansial.bisnis.com",
-      "source": "GN Bank Indonesia",
-      "area": "Indonesia Regulator / Macro",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-23T11:05:37.839035+00:00",
-      "title": "Bank Indonesia pertahankan suku bunga acuan di 5,75% untuk ketiga kalinya - Investing.com Indonesia",
-      "source": "GN Bank Indonesia",
-      "area": "Indonesia Regulator / Macro",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-23T11:05:43.120659+00:00",
-      "title": "Bank Indonesia Pertahankan Suku Bunga Acuan di 5,75 Persen - Warta Ekonomi",
-      "source": "GN Bank Indonesia",
-      "area": "Indonesia Regulator / Macro",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-23T11:05:48.405532+00:00",
-      "title": "Bank Indonesia Tahan Suku Bunga, Opsi Pengetatan Masih Ada? - republika.co.id",
-      "source": "GN Bank Indonesia",
-      "area": "Indonesia Regulator / Macro",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-23T11:05:53.559091+00:00",
-      "title": "Yukon Wealth Management Inc. Makes New $2.96 Million Investment in JPMorgan Chase & Co. $JPM - MarketBeat",
-      "source": "GN Wealth Mgmt",
-      "area": "Wealth Management / Big Institution",
-      "priority": "High",
-      "alert_type": "PORTFOLIO INSIGHT"
-    },
-    {
-      "ts": "2026-09-23T11:05:58.739870+00:00",
-      "title": "Bank Indonesia Pertahankan BI Rate di 5,75% pada September 2026 - InvestorTrust",
-      "source": "GN Bank Indonesia",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-23T11:06:03.904009+00:00",
-      "title": "Tertunda, DJP Ungkap SPP TDLN Belum Siap Dijalankan - MUC Consulting",
-      "source": "GN DJP/Pajak",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-23T11:06:09.118919+00:00",
-      "title": "Implementasi SPP TDLN Ditunda, DJP Belum Tetapkan Jadwal Baru - Ortax",
-      "source": "GN DJP/Pajak",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-23T11:06:14.359915+00:00",
-      "title": "SPP-TDLN Belum Resmi Diterapkan, DJP: Sudah Tahap Akhir Persiapan - news.ddtc.co.id",
-      "source": "GN DJP/Pajak",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-09-23T11:06:19.389944+00:00",
-      "title": "Wealth transfer: how the next generation is reshaping private banking - lombardodier.com",
-      "source": "GN Wealth Mgmt",
-      "area": "Private Banking / Succession",
-      "priority": "Medium",
-      "alert_type": "SUCCESSION PLANNING"
-    },
-    {
-      "ts": "2026-09-23T11:06:24.430883+00:00",
-      "title": "SEC Opens Door to Tokenized Stocks as First Venue Plans Near - CryptoRank",
-      "source": "GN Crypto Reg",
-      "area": "Crypto & Digital / Global Regulator",
-      "priority": "Medium",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
       "ts": "2026-09-23T16:26:56.334261+00:00",
       "title": "Bank Indonesia Pertahankan Suku Bunga Acuan BI Rate Sebesar 5,75 persen - seputarsumut.com",
       "source": "GN Bank Indonesia",
@@ -1351,17 +1255,104 @@
       "area": "Macro",
       "priority": "Medium",
       "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-26T16:03:34.439850+00:00",
+      "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
+      "source": "SEC (press)",
+      "area": "Global Regulator / Security Risk",
+      "priority": "High",
+      "alert_type": "SECURITY WARNING"
+    },
+    {
+      "ts": "2026-09-26T16:03:39.597862+00:00",
+      "title": "SEC Approves On-Chain Trading of Tokenized US Stocks: Which Platform Tokens Stand to Gain? - TradingKey",
+      "source": "GN Crypto Reg",
+      "area": "Crypto & Digital / Global Regulator",
+      "priority": "High",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-09-26T16:03:45.072480+00:00",
+      "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
+      "source": "CNBC Markets",
+      "area": "Gold & Commodities / Bond & Yield / Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-26T16:03:50.055270+00:00",
+      "title": "The 10-year Treasury yield is at its highest in nearly two decades. How we got here",
+      "source": "CNBC Finance",
+      "area": "Gold & Commodities / Bond & Yield / Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-26T16:03:55.053892+00:00",
+      "title": "SEC: 38 Entities Feigned Legitimacy as U.S. Advisers Through False Filings to Lure Retail Investors",
+      "source": "SEC (press)",
+      "area": "Global Regulator",
+      "priority": "Medium",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-09-26T16:04:00.012391+00:00",
+      "title": "Cooperative Extension hosting ‘Protecting Your Legacy: Estate Planning, Land Conservation’ Oct. 17 - oleanstar.com",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-09-26T16:04:05.095583+00:00",
+      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "source": "The Fed (press)",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-26T16:04:10.102873+00:00",
+      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "source": "The Fed (press)",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-26T16:04:15.117824+00:00",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "source": "The Fed (press)",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-09-26T16:04:20.097977+00:00",
+      "title": "This may be the ‘missing piece’ for investors looking to boost AI exposure",
+      "source": "CNBC Markets",
+      "area": "Wealth Management",
+      "priority": "Medium",
+      "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-09-26T16:04:25.118029+00:00",
+      "title": "This may be the ‘missing piece’ for investors looking to boost AI exposure",
+      "source": "CNBC Finance",
+      "area": "Wealth Management",
+      "priority": "Medium",
+      "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-09-26T16:04:30.097105+00:00",
+      "title": "AlphaCore launches family office affiliate via Streamline acquisition - Yahoo Finance",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Low",
+      "alert_type": "FAMILY OFFICE INSIGHT"
     }
   ],
-  "news::https://news.google.com/rss/articles/CBMirgFBVV95cUxNLW1EUUREM3U3NjJjQkJjdU8tSVhfazZPWVZjYU1MN0dYRjZLOW1yLVdabFVPS2g1VWpRaklBc3lsQzdmeWV5QS1KUGtkQmRYMDBGd3lqMmlkNkQzQWVIbE1WSmxnMlJ1N010M0lRQXl5NzFjRGJRbnVROFNfUHdDcGtyLUlhenFpZVgwdUdXZlplRGhqV1o5TXZBVUxDdUhNdGtMODNDMmNXUzY1TFE?oc=5": "2026-09-19T15:38:21.224583+00:00",
-  "news::https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html": "2026-09-19T15:38:26.478851+00:00",
-  "news::https://news.google.com/rss/articles/CBMimgFBVV95cUxOWml1T2hNemc4YWotZ05JbjFwaVJPOC15R19WblF3alpfc3lMSUlpVUFCUnBOWDlzc0JCNTJrX1pSS3diSWcwRjNWdVMzV1ZTenBGYXhNUkZiU1NJbjUwSlJnekpwTDN1V0NXam1URHI5WlMyQlpmTnUxWnBudGU4cHBGNTNaNTBNeGtnUkNfLUMyeHRzX2tmMWxB?oc=5": "2026-09-19T15:38:31.828298+00:00",
-  "news::https://news.google.com/rss/articles/CBMixAFBVV95cUxNNFBraEc0SDVqSk9lU01tM2ktX2JzWC1RZGFQWl9rSUFnUTAtMmJ5R0FSQUhtekg1RHZXdUQtMGRLQ2c5WDZ6YmExbGRJdi1ERXZOck5wTUh6YXF4dUVKNWRUM0NCWnFtRHlRWU4wbklqLXJRR1I2cnFHdDZtRm9tOVBTcDBiMW5ja0NqZFJzd0Z1d0N0WVh1SlpWMjctMG95cE83VUhEMUhtVmRYaGdWNmc5RTEyQ2Y2ZTdITTV0QW54MGNf?oc=5": "2026-09-19T15:38:37.357115+00:00",
-  "news::https://news.google.com/rss/articles/CBMitAFBVV95cUxNRjFocnR6TnRaX19odGE2enVFaXhoclJpVmZ4d2FmR2dLeGdEZ0V2WEliT1Z6NF9TSl9MR1dFVTlvdjdkQlRmWUhqSkZfeVdUYlpIRlhIME40U1FqOFJ1UnNaZTRTMGJaNnVhVnZodFBfem5tNC1wQnA5cVNzdXlYemc4dmJvbXdjbDctS1E5SGZzVUJ6T0JOSnRzaHhxc2Z4bENKUXNGVDRzTTN4RWxFZDBXbjc?oc=5": "2026-09-19T15:38:42.865132+00:00",
-  "news::https://news.google.com/rss/articles/CBMihwFBVV95cUxPWEZKeEhvcWhCeDF4eDlxNnJ5OXhwaGtQYjFtbFBFWVc0Sl9qRzRSU0t2OC1BdEZSangxWnpEbWFkWVNNWXZYZzFVaVpUaDRrQ0lpTU9TNUNWV09YNlV2R0FRTGl1SE5YanpFcWZ2WFY1RFd5SVhfZ0JGMVBqekxnWmdKRzJWQXc?oc=5": "2026-09-19T15:38:48.431531+00:00",
-  "news::https://news.google.com/rss/articles/CBMifkFVX3lxTE9PN3ZycWtJaGFsX0pHMmZBOHBBUUd3cDljdGdxVGVISjNwdmN1c1hxTlJWQUhFX1FLekdfNEtQX0pjd1NSWFpZSG9wMG5sYTBzeElDVm9KdzJwQzV3SGdURDh4Q2VTNlhIRXFpVlJGR2lJV2E5OElYd2pCU1hydw?oc=5": "2026-09-19T15:38:53.734296+00:00",
-  "news::https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYTdNc2JNOGoyOTFuaWhZQ0E1N2tiR2ZLUG9FWFdwU2x4Vm1fakVITWkwbWxyNll4Nzl3Y3RmM25nbEZSY2lSeW40WmZYSjdGNE83Q2JIX0lITElKeUJhdTJtaVkxV0VkTDBQME4wQzFCZkdHNFpzYUJRQ1lPTm9UNURDQTZNU3NWNjRWelNkMVUwNkRsdTVpZzRQeWFNUk9vZXlLYXlxZExheWE0c25lYjQ4UGZPcnduUy1MdmRObi1ma0pHbzN3X213dVBzWmp6ZzQyaQ?oc=5": "2026-09-19T15:38:59.031674+00:00",
-  "news::https://news.google.com/rss/articles/CBMiswFBVV95cUxON2ZhRDFROXp3QXNmcGNQY1pLZTY3M1UycXlORVRFZGFyMFJzbTJHV3JzdnBIcjl3dUdUbEJBY1E3aHNIZGxvX3Y1anFWTTl1RFRBa0FHZU5nSVNscDd0SWRrUmhLZXFKS1J3YmFBakFlT21oS094QThPZzdJZmhTSkYxLThsVHM2T0diRFhDVzBpeVkyb1pONGw1S2czdmxZdEpaaklIRE5HOFV4dzE5UDhPWQ?oc=5": "2026-09-19T15:39:04.358991+00:00",
   "news::https://www.cnbc.com/2026/09/12/inflation-is-outpacing-wage-growth-again-squeezing-americans-paychecks.html": "2026-09-19T20:17:22.045451+00:00",
   "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYmZreXptREpFOVRKTEUydUQ4akczQ0N0V1FvdXNzalZmYkFJU1JBdVI2UDlrbjhOUmppaENvQjlwT3pYWTljQVdXMmw1X1M5MFpIamc3U1doRWtSZS1lbDNzdzVzb25FQVZOMzVEZ3BkZVNsYXdoSS02TlBtbC1iMTNaTzJGV3dHODVGMUtETVd3Tzc5X2VORjcybTNLczZoWE9uR2ZaQmdUY0ZIWDlpLWNRTkJEZ0Q0dWdfN0pydlBwZw?oc=5": "2026-09-19T20:17:22.045462+00:00",
   "news::https://news.google.com/rss/articles/CBMiogFBVV95cUxPRW11WEF3ai1LOUF5bmhuRWF6bzdwd1NDQVVwNXhpR0gwdEo0RVJ5d25sZktJVW5PTzMtU2JIUHVnems5Zl92V3VLYlJRTTQ5UGtGRDhIcHh3UXRiVkN0QVNyLUlxTDhOajJyNW4wOXRqV3JUQUxCM09RV0hvQmRBVzhUMTI1bDgtX2puX0RUR1Z1X0VTUkQ4T0ZfM1o0SVR4dUE?oc=5": "2026-09-19T20:17:22.045464+00:00",
@@ -2255,5 +2246,19 @@
   "news::https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm": "2026-09-26T11:04:00.432001+00:00",
   "news::https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm": "2026-09-26T11:04:05.420962+00:00",
   "news::https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm": "2026-09-26T11:04:10.430997+00:00",
-  "news::https://www.sec.gov/newsroom/press-releases/2026-87-joint-readout-principals-meeting-us-uk-authorities-regarding-central-counterparty-resolution": "2026-09-26T11:04:15.475664+00:00"
+  "news::https://www.sec.gov/newsroom/press-releases/2026-87-joint-readout-principals-meeting-us-uk-authorities-regarding-central-counterparty-resolution": "2026-09-26T11:04:15.475664+00:00",
+  "news::https://news.google.com/rss/articles/CBMikgFBVV95cUxPVkZxbVFBbndTOFFlT21vdDVQN3l0cjJGQzA2NEpsMHVoSVpDUzlETVN3dDFGQjMyazV6bmQ0TGgxUk90UHZtQ0dDTEtPdnFnQXJoQ0JVY2lWc01XTl9mNWhpd3c2dXEwSDdoakFuUE8wWldwRzZjNUNnb3ZTbHRxN2ZtdVU3NTFDVW5SMkhDc2RHUQ?oc=5": "2026-09-26T16:03:33.283257+00:00",
+  "news::https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVEpLODJUZmowN1p0ZnJ0bmR2WjJodl8xVnE5Ym1ubkZ1U2VVeTVtdE80XzZKWng3RkRPTm9vV3B0b0ExQU51eTJwem4yWUc3N3JtTkx4RUtENzBVeUhpVk95djdwUWJTVzJTY3ZyRk51MURFcEhsUUdhY0dVSFdLS2F1WFEyb0VSVHl0QWgzTEZBVUY2aU9lTTNMS0FzaDhqU1lwZS11Ul8xUW5rblBDMTltcTBaNWVDaThtY21xeUpBRFXSAcgBQVVfeXFMTXZzSm1EV3ZueXp3MV8tMzcxM0tLTklQWDVJWGJoUnU1R1plNXJnTUJSV1FxS1phLWNxSkg0ZVdmVHpUZjVncWNJc3c1X3J5RnppQ2Jzc1pya3JKc1ptN2dSZXM2R2tUdXdhVUl2dENVWWo0Q3dqWXEyWlRYQTlkdW9zaDdFRUs4ODFMenpUakZpZ0MydlduVG1vT2pia01vWjhjdmNnRFQ5Z2pMc1hsNmk4MEhVT19VQ0JPaklFRDZCdl9TQXhDWnE?oc=5": "2026-09-26T16:03:33.283266+00:00",
+  "news::https://news.google.com/rss/articles/CBMilAFBVV95cUxOb3dTQTI3X1ZWUkVwLXA5TzljQlB4X0tMZk5ua3plMlIyRzBZaFdjck9OSmxwOGh4YjhlWVhmam5lRzVhVEV1LVNUakJYMHJxS1VFWkV4R3Y0dkdNNjd6YWtaZGluaWc0NUlYdWFqRFktT1pwOVNfNTE5TE5KT0NETVh6cHZoc0E3ZDlLZnhGcTVZcjhh?oc=5": "2026-09-26T16:03:33.283269+00:00",
+  "news::https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LMDZzNnF0NFg4dFZHREpVejJWcm1QUVYydGZIay1ySUMzbUtPcTd1c285SkFMcmNVTnpIakRzUWtrSnpuZ0pEMC1pemdRdWRERjljVUZYaWpjZUxOcGw4?oc=5": "2026-09-26T16:03:33.283271+00:00",
+  "news::https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division": "2026-09-26T16:03:34.439833+00:00",
+  "news::https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNmhRaHY0RkR1UnNISU14ZEg5T0RtUjFNNWVnR3NWY0l5U1BKX19UaWZFbkdheTY0M0tNdmVwZFBCMFhSdnJwUlQ3dzNYcEVINjlFdFZvcXNBUTlmZllXSm9ZcU95NTYtaTZpSU55ZUczbEU0QlVMZDFBM3lwTUw2a2QzLVQwcUhvVHhvak1MdkRkNDU0TVpVRkFLWjA1MHdtWW5RaXNHRXR3c29veDVoeVNBMVNiemd6bk0yYnV2bFd3LWNpNndXQmNLc2d2aWVvQlViclg4TFZnVGZRejFzREdkdXU?oc=5": "2026-09-26T16:03:39.597845+00:00",
+  "news::https://www.cnbc.com/2026/09/26/10-year-treasury-yield-is-at-its-highest-in-19-years-how-we-got-here.html": "2026-09-26T16:03:50.055252+00:00",
+  "news::https://www.sec.gov/newsroom/press-releases/2026-78-sec-38-entities-feigned-legitimacy-us-advisers-through-false-filings-lure-retail-investors": "2026-09-26T16:03:55.053874+00:00",
+  "news::https://news.google.com/rss/articles/CBMizAFBVV95cUxPLVB4SUktbTlVd0F3d3REU3VISEpHbkZjS3ZCOG54aTZhb05STmJOYkNpQU5XX2xoMHpvaTZwV1haZDJadjJBalI4bWlWcDNVb1pzbEFSbVJMSUU3a1hJeGw1M21ZaGNZaElYZy1LVWE1a05CeXhXYkdVLWcwLUhrQWoxc3hfS2x0Ukg2czRwUmtZYi02T0MyeTZBUmFBTWpJSThaQU9qT2dHMThKRUhkOHgxMjV4MVpwYjcxdWl6aFg2bEs5Z0o2Mngxblg?oc=5": "2026-09-26T16:04:00.012374+00:00",
+  "news::https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm": "2026-09-26T16:04:05.095568+00:00",
+  "news::https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm": "2026-09-26T16:04:10.102853+00:00",
+  "news::https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm": "2026-09-26T16:04:15.117808+00:00",
+  "news::https://www.cnbc.com/2026/09/26/ai-portfolios-may-need-china-to-grab-the-biggest-gains.html": "2026-09-26T16:04:25.118012+00:00",
+  "news::https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNXkzV1RfVTNCQ0FGVVR2LXJxaktkcGpCWEdHOEp4VWFQYjJ0bnlyVUd3bTFWaVd2N3R4S3BTR082WDdYOVI0NF8wLTUtUGRHcVZvYnNPZ3hNb1RIaEJZMEtXaHFmbFFuZEtjVVdqQlJxbXdTRVdHbWZkcWtSQlFLeUlLcFdwbEdYdlZndmxZbVYwdDdDX09SdHZCVzJER180MzR4THZsc2Q0U1U?oc=5": "2026-09-26T16:04:30.097089+00:00"
 }
