@@ -1,38 +1,6 @@
 {
   "__daily_log__": [
     {
-      "ts": "2026-09-30T12:12:07.020614+00:00",
-      "title": "Boeing rises 3% after securing U.S. navy deal to develop next-generation fighter jet",
-      "source": "CNBC Markets",
-      "area": "Succession",
-      "priority": "Medium",
-      "alert_type": "SUCCESSION PLANNING"
-    },
-    {
-      "ts": "2026-09-30T12:12:12.008249+00:00",
-      "title": "Inside Man: How Chinese spies used lies, love and betrayal to target the Federal Reserve",
-      "source": "CNBC Markets",
-      "area": "Macro",
-      "priority": "Medium",
-      "alert_type": "MACRO ALERT"
-    },
-    {
-      "ts": "2026-09-30T12:12:17.056152+00:00",
-      "title": "Holiday retail sales are expected to top $1 trillion as inflation boosts growth",
-      "source": "CNBC Markets",
-      "area": "Macro",
-      "priority": "Medium",
-      "alert_type": "MACRO ALERT"
-    },
-    {
-      "ts": "2026-09-30T12:12:22.051653+00:00",
-      "title": "Clients said to be sticking with Morgan Stanley even after leaked deal pipeline",
-      "source": "CNBC Markets",
-      "area": "Big Institution",
-      "priority": "Medium",
-      "alert_type": "PORTFOLIO INSIGHT"
-    },
-    {
       "ts": "2026-09-30T22:01:03.343491+00:00",
       "title": "SEC Charges Two Individuals With Orchestrating Fraud Scheme That Targeted Veterans",
       "source": "SEC (press)",
@@ -895,6 +863,102 @@
       "area": "Wealth Management",
       "priority": "Medium",
       "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-10-03T15:57:41.524876+00:00",
+      "title": "DJP Terbitkan Ratusan Ribu SP2DK, Ini yang Perlu Diketahui Wajib Pajak - Kompas.com",
+      "source": "GN DJP/Pajak",
+      "area": "Tax Planning / Indonesia Regulator",
+      "priority": "High",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-10-03T15:57:46.709880+00:00",
+      "title": "360 ONE launches ‘Lasting Legacies’ family office handbook - MediaBrief",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Medium",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-03T15:57:51.761255+00:00",
+      "title": "Nitesh Arora to lead Equirus Family Office as Managing Partner - MediaBrief",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Medium",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-03T15:57:56.770402+00:00",
+      "title": "Estate Planning in a New Tax Landscape: What Retirees Should Know Now - University of Delaware",
+      "source": "GN Estate/Trust",
+      "area": "Tax Planning / Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TAX UPDATE"
+    },
+    {
+      "ts": "2026-10-03T15:58:01.796165+00:00",
+      "title": "OJK Terbitkan Peraturan Tentang Pemegang Saham Bursa Efek - prabowosubianto.com",
+      "source": "GN OJK",
+      "area": "Indonesia Regulator",
+      "priority": "Medium",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-10-03T15:58:06.795344+00:00",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
+      "source": "The Fed (press)",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-10-03T15:58:11.851606+00:00",
+      "title": "Joint Readout of Principals’ Meeting of U.S. and UK Authorities Regarding Central Counterparty Resolution",
+      "source": "SEC (press)",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-10-03T15:58:16.866402+00:00",
+      "title": "How Nvidia, Micron and a surprising jobs report drove last week's stock action",
+      "source": "CNBC Markets",
+      "area": "Wealth Management",
+      "priority": "Medium",
+      "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-10-03T15:58:21.957412+00:00",
+      "title": "High-tech vehicles are driving up auto repair costs for shops and consumers",
+      "source": "CNBC Markets",
+      "area": "Gold & Commodities",
+      "priority": "Low",
+      "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-10-03T15:58:26.972704+00:00",
+      "title": "New Zealand continues its support for the Trust Fund for Victims - | International Criminal Court",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust",
+      "priority": "Low",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-10-03T15:58:31.997151+00:00",
+      "title": "9 Wealth Management Challenges and How to Address Them - Oracle NetSuite",
+      "source": "GN Wealth Mgmt",
+      "area": "Wealth Management",
+      "priority": "Low",
+      "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-10-03T15:58:37.065653+00:00",
+      "title": "Fed Chair Warsh explains interest rate hike - LiveNOW from FOX",
+      "source": "GN Fed/Rates",
+      "area": "Macro",
+      "priority": "Low",
+      "alert_type": "MACRO ALERT"
     }
   ],
   "news::https://news.google.com/rss/articles/CBMikgFBVV95cUxPVkZxbVFBbndTOFFlT21vdDVQN3l0cjJGQzA2NEpsMHVoSVpDUzlETVN3dDFGQjMyazV6bmQ0TGgxUk90UHZtQ0dDTEtPdnFnQXJoQ0JVY2lWc01XTl9mNWhpd3c2dXEwSDdoakFuUE8wWldwRzZjNUNnb3ZTbHRxN2ZtdVU3NTFDVW5SMkhDc2RHUQ?oc=5": "2026-09-26T16:03:33.283257+00:00",
@@ -1665,5 +1729,18 @@
   "news::https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTEJiYlJ1RGVEZndJYXFETElCTksySkNOYVlhcHVQQXdXRS16TzJoYU8wa3M5T1A5RW1Uclg0eTh6bThxWFV3eEU1MG9kMktnOHd6c1dsekRnUlRGMTNpNlBFazFuNEVCa3VISm5OU256RUlJdmhyLUJTajdNZ3VYczJTOFdMRk1yRl93?oc=5": "2026-10-03T11:20:27.086820+00:00",
   "news::https://news.google.com/rss/articles/CBMixwFBVV95cUxQclpfTmdWcEpwQ09GeFhLUm1weVBmaTRCb29oMEZKeUdJN3Rtc3dsVGlWS2tIOEtzRlQ2M0lrRW9XMDR2V3FyTldKNU1IZ01iNGtMMGlEVmkzVDlfVXBMbHgwU2xiZkZDRlpITHBnMi1IYUJrV2xaWXJRbWZ2V2FwNE1XN2thZG1mUnpiWnIzeTZ3Yi03VDJVNF9PR0lSYXluVHNYZUswcjdibDlDWGtpTTk0clJraDlXTFoxejlKTkd0MHFWVThF?oc=5": "2026-10-03T11:20:32.208720+00:00",
   "news::https://news.google.com/rss/articles/CBMi0wFBVV95cUxONW9raTlPNmpRYllPMXpqakE3NlFBOXBuWDdEb1BfTlo1Tl9MWUVnSWMxSVBGUzQyWm5RU0FWS0g2Ull4RGV4UmtvcTBBd3RjZERTWGQyUGkzN2ROdmtsbFdBUl9iTFVJc0VEeHNPZV94dkc1SGFfdVYyRjNaOTkzWHh1Q0lkOHFEOGRzNWsxMGtOSTExNzZySHV3clVmajlJeGt3NzAzZThINUNJWTlMaEtCdTNSMTV6SnJic09GSll2WTAyRk9SVVA5VzhtQlY1X3Ew?oc=5": "2026-10-03T11:20:37.336787+00:00",
-  "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMGNQRFg0UHE4WTZNQVZSQ2hLbktMMUl5WFhpVk9nUzFDVWkxZFM3Q0tFU0wxSHZMSDNkb0pwaG9xbU00c0FpU0JqNGxncnl0VkZPS0xJc1VUZHRsazNSVWlrNDRWYTFTWnRTMWFyRkJWdzdjaVRLMGtIUlRDRmI1SXJ3MEh6bW0xRTZyRVBGX1BnaFJObjZ2YzJDa050NU9aZ050ak0zZWc1SnUxSUc0NnNCQ3FmTlM4dDBuWjBxdU5Fdw?oc=5": "2026-10-03T11:20:42.516288+00:00"
+  "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMGNQRFg0UHE4WTZNQVZSQ2hLbktMMUl5WFhpVk9nUzFDVWkxZFM3Q0tFU0wxSHZMSDNkb0pwaG9xbU00c0FpU0JqNGxncnl0VkZPS0xJc1VUZHRsazNSVWlrNDRWYTFTWnRTMWFyRkJWdzdjaVRLMGtIUlRDRmI1SXJ3MEh6bW0xRTZyRVBGX1BnaFJObjZ2YzJDa050NU9aZ050ak0zZWc1SnUxSUc0NnNCQ3FmTlM4dDBuWjBxdU5Fdw?oc=5": "2026-10-03T11:20:42.516288+00:00",
+  "news::https://news.google.com/rss/articles/CBMifkFVX3lxTE1xa1FGcmZOb3NHdXJFNm9pNllyM0EwUmpHa0NIZmYxWWRzVUoyOU9KTjdYUmJ4NUFoYzUzdDVrZ0ZQQ3pJU2VEV2g4bDdhRkRUQ3o3Rnl5SlZiZi1SM1FTcTZxdjduNlF4VkNFOHJkRFBudjJYTnJ2U2h2ekIyQQ?oc=5": "2026-10-03T15:57:40.343568+00:00",
+  "news::https://news.google.com/rss/articles/CBMivgFBVV95cUxPMThWZzliTFJsNnpJdEI5Ny0xM2dVVkhzZzk1dnd0WFEzZVZSeGhFcHdBeVdxYjJvN0lMVV82ZVFHUkc4cGxlMDlBNlFPbl9GTWFKeFFmdnFmUzhRVmtLWkUtNzJ6ZXpaNUpnNVdlSW45a0F2ZHVrUGlZcFpPeFRjM3NZS2RmNHN3dDFZenFLcDJyNFdxWWEzZnh4anE1bDlfWHgtWTEzeEpJeGR5eHZ6UzhoTXNBMGVaLXhRbThR?oc=5": "2026-10-03T15:57:41.524858+00:00",
+  "news::https://news.google.com/rss/articles/CBMihwFBVV95cUxQZEJJWEQwdXoydmtaSDBFNE9XVlN6cnNTSHdJeGRlQWxtTVV2bHhqOUhXSDdNMWQ1TXJ4LU9LRk9pbFZ2X3U5RnhGVk11bHp4TGd3c1Z0VS04SFZ2UHhES1B5dTZKdUtUVTQ1UmhvSndTdHlER0JKU3A5alpKWkxnX0tTeUNuNXM?oc=5": "2026-10-03T15:57:46.709862+00:00",
+  "news::https://news.google.com/rss/articles/CBMijwFBVV95cUxOenNOZl9fcUNwWTNOUm0zVEZDcDRlX3BtaXVYcWtaNWdtWEhwU1NUUGxEVXJFYk0zUVp3STNoRmw4ak92bXlyZVJiRHFReU1IN0pycEdoVmhnSmtIbFpIdHA3dEZoSk5iV0p2QmhWWTZablFLVzVRWUtUQldfUlZVT1RPaVl3dUNLTGxIOEdDdw?oc=5": "2026-10-03T15:57:51.761238+00:00",
+  "news::https://news.google.com/rss/articles/CBMilwFBVV95cUxOVGpNR2VvakE1MndYaGZnczJFWTJJYXVBZXYzeXlfUFc0Nzd1RnYwSUg2WnA3Wm5oODZWSVdvaTItalpHVTB2N1ZuaUh3ZVZCTE9MLWNKQTJXVmRTeWVtNjdkLTgtbUl1TE1yUlpMS1V3WTJYeEozNGhCdkpuaUxERFNfZEdxM0ZDaDRBTmpnWE9RaVJNa0hv?oc=5": "2026-10-03T15:57:56.770384+00:00",
+  "news::https://news.google.com/rss/articles/CBMijwFBVV95cUxNeXkzZnVYMi1HRWprWXA4dEdjT1hob2pVT1FXVlpDTWd4TUtjOUl6M05WYnZ4RGUzemNtX0dYOU9VcnZYVjJ2VllVVHRLZG04TDhjN1p5Mjh2QzRYb3c1QnFUSzljRjFHZ2JzTEE0cV9CQU9kY3BqX3dKYVVILVdGWjJyR3ZMT3RZTzA1OGRPMA?oc=5": "2026-10-03T15:58:01.796149+00:00",
+  "news::https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm": "2026-10-03T15:58:06.795326+00:00",
+  "news::https://www.sec.gov/newsroom/press-releases/2026-87-joint-readout-principals-meeting-us-uk-authorities-regarding-central-counterparty-resolution": "2026-10-03T15:58:11.851587+00:00",
+  "news::https://www.cnbc.com/2026/10/03/how-nvidia-micron-and-a-surprising-jobs-report-drove-last-weeks-stock-action.html": "2026-10-03T15:58:16.866384+00:00",
+  "news::https://www.cnbc.com/2026/10/03/vehicle-repair-costs.html": "2026-10-03T15:58:21.957397+00:00",
+  "news::https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeWdoQl91a3FhaEVpRkJlc2s3ODM0SUlfR21HVHg0cVBqdXo1Y1NvTUpEWm5EdF9wcjYwRDJLZF80LXZfVWVNY3NGcUx5RVBRRXU5dGdRNXhYUUh0OHlmcVcxUlRyWlNaTEJyV0pKOXdMX0xwajh6YzFYLWpodjdlNzQzbV9MRFFa?oc=5": "2026-10-03T15:58:26.972691+00:00",
+  "news::https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdm14ZWNXN00zbnk3aUhFVEZSV1UyWnRHMWhPV0x6V1k1NEVLbXFGQnI1VmZXSi1xM3pDRXlyUkU4RVlWd0o4Uk10Zndyel9OX0M3cENRNHJqWEluQ0VBNXgzMXlSY1Z5OERyTUtfRGxvbnFCTDFwWHptVlhTYkQ0RkYtSzlMV2c1NEZNNFdMLWp6VGpFQ1l4ZzFNaEdpTlN0ZzFpcHpZU2w?oc=5": "2026-10-03T15:58:31.997135+00:00",
+  "news::https://news.google.com/rss/articles/CBMifEFVX3lxTE0wWWZhMjFUeFFITzBxWm1ZRjZjS0tnbE00bWxvTUVtem0zMEVGVTBYMW1zZG55MjFWQWxweE9rZnoyOWNKZ0hmZnVqMFh1bzBrOGxLOUwxaEZnT1pUYVBPZ0ZObVNYQUVWNzBfZFB1VEZRSUYtVmxTamZuTjLSAYIBQVVfeXFMT2hrOThNRFpobHE3dlZ0YVVjVkljUzFsaWZFUGFydlVWS1Zmb0RIUGJJaEFpOWRlZnJEUDNCckRHbXhGak1CY016dlF3X2N5NHVTeG54djZtMWlLcXNkUDNjVUEyTjlqSzR5aFl2Zm9pN3B4R25ibEVmNU1LWEN2aEthZw?oc=5": "2026-10-03T15:58:37.065636+00:00"
 }
