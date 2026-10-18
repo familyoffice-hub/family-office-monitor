@@ -1,102 +1,6 @@
 {
   "__daily_log__": [
     {
-      "ts": "2026-10-15T16:35:39.615228+00:00",
-      "title": "SEC Charges Two Individuals With Orchestrating Fraud Scheme That Targeted Veterans",
-      "source": "SEC (press)",
-      "area": "Global Regulator / Security Risk",
-      "priority": "High",
-      "alert_type": "SECURITY WARNING"
-    },
-    {
-      "ts": "2026-10-15T16:35:45.076308+00:00",
-      "title": "Sask. retiree warns others after losing $3K to crypto fraud using AI video of prime minister - CBC",
-      "source": "GN Security",
-      "area": "Crypto & Digital / Security Risk",
-      "priority": "High",
-      "alert_type": "SECURITY WARNING"
-    },
-    {
-      "ts": "2026-10-15T16:35:50.477301+00:00",
-      "title": "Cryptohack Roundup: Ariomex Leak Flags Iran Sanction Risks - BankInfoSecurity",
-      "source": "GN Security",
-      "area": "Security Risk",
-      "priority": "High",
-      "alert_type": "SECURITY WARNING"
-    },
-    {
-      "ts": "2026-10-15T16:35:56.978884+00:00",
-      "title": "Audiensi ke KPP Pratama Palembang Ilir Timur, Susanti Dorong Sinergi IKPI dan DJP Perkuat Kepatuhan Pajak - Ikatan Konsultan Pajak Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-15T16:36:02.367919+00:00",
-      "title": "DJP Prediksi Sanksi Pajak Rp14,8 Triliun Bisa Dihapus atau Dikurangi - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-15T16:36:07.904969+00:00",
-      "title": "DJP: PP Pajak untuk Restrukturisasi BUMN Danantara Masih Digodok - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-15T16:36:13.478785+00:00",
-      "title": "DJP Ungkap Strategi Penerimaan Pajak Kuartal IV-2026 - Bloomberg Technoz",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-15T16:36:19.117566+00:00",
-      "title": "DJP Targetkan Setoran Pajak Digital Naik Sampai 50% - detikFinance",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-15T16:38:04.907516+00:00",
-      "title": "DJP Pantau Penerimaan Pajak Tiap Minggu, Kejar Target Akhir Tahun - Kompas.com",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-15T16:39:50.816944+00:00",
-      "title": "DJP Siapkan Insentif Pajak buat BUMN, Ini Bocorannya - detikFinance",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-15T16:41:36.622616+00:00",
-      "title": "Penerimaan Pajak Masih Kurang Rp750,1 Triliun, Ini Strategi DJP - MetroTVNews.com",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-15T16:43:22.506008+00:00",
-      "title": "Usulan Zakat Jadi Kredit Pajak, Menag Bahas Fatwa MUI dengan DJP - CNBC Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
       "ts": "2026-10-15T21:06:06.434398+00:00",
       "title": "SEC Charges San Francisco Bay Area Private Fund Executives with Multimillion Dollar Ponzi-Like Scheme",
       "source": "SEC (press)",
@@ -1247,6 +1151,78 @@
       "area": "Estate & Trust",
       "priority": "Low",
       "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-10-18T20:19:41.141347+00:00",
+      "title": "China Trust Tax Shift Puts UOB Stock And Private Banking Banks In Focus - Yahoo Finance",
+      "source": "GN Wealth Mgmt",
+      "area": "Private Banking / Tax Planning / Estate & Trust",
+      "priority": "High",
+      "alert_type": "TAX UPDATE"
+    },
+    {
+      "ts": "2026-10-18T20:19:46.106779+00:00",
+      "title": "RBC Wealth Management Appoints Daniel Soo Singapore Private Banking Head, Adds Seven Team Members - Hubbis",
+      "source": "GN Wealth Mgmt",
+      "area": "Wealth Management / Private Banking",
+      "priority": "Medium",
+      "alert_type": "PRIVATE BANKING"
+    },
+    {
+      "ts": "2026-10-18T20:19:51.065289+00:00",
+      "title": "Senior exec quits Cannon-Brookes’ family office - The Australian",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Medium",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-18T20:19:56.036529+00:00",
+      "title": "Estate planning is about more than what you leave behind - Grand Rapids Herald-Review",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-10-18T20:20:01.030915+00:00",
+      "title": "Here are the 3 big things we're watching in the stock market this week",
+      "source": "CNBC Markets",
+      "area": "Wealth Management",
+      "priority": "Medium",
+      "alert_type": "MARKET INTELLIGENCE"
+    },
+    {
+      "ts": "2026-10-18T20:20:05.981052+00:00",
+      "title": "FOMC Polymarket Odds: Fed Rate Hike Probability Falls to 14% Ahead of October Meeting - Cryptonews",
+      "source": "GN Fed/Rates",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-10-18T20:20:10.920555+00:00",
+      "title": "Why a Booth EMBA Was Worth It for a Family Office Leader - The University of Chicago Booth School of Business",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Low",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-18T20:20:15.867653+00:00",
+      "title": "German Exports Rebound amid Demand from the US, EU, and AI Buildout - Goldman Sachs",
+      "source": "GN Big Managers",
+      "area": "Big Institution",
+      "priority": "Low",
+      "alert_type": "PORTFOLIO INSIGHT"
+    },
+    {
+      "ts": "2026-10-18T20:20:20.825200+00:00",
+      "title": "Rupiah Tembus Orbit Rp 18.000, Suku Bunga Acuan Bisa Naik Lagi - Kompas.id",
+      "source": "GN Bank Indonesia",
+      "area": "Macro",
+      "priority": "Low",
+      "alert_type": "MACRO ALERT"
     }
   ],
   "news::https://news.google.com/rss/articles/CBMirAFBVV95cUxOLV9jenBYbTFLUEk2cTQ3TFRCb2RlTDAxRjMyMXR4bEY4dGNPTnUzbEM4VDI0Y2hUdHRwOVpfNzlfcXRtaFhnNm5rSnpzcEFJSWNrMVRCOXdudXpMQkYxVGRRdnVuT24xNkY0bkdvUXBUT25MbExvYTFoUzJGS0lzZU1ERUFuRDJIYl96eUIyeXNROC1BTDVWejI5OWx2cEVBWUk3WEp5MUNmY1h1?oc=5": "2026-10-11T21:39:45.886965+00:00",
@@ -2105,5 +2081,14 @@
   "news::https://news.google.com/rss/articles/CBMijgFBVV95cUxNejZqT0xEUE1BeFZXbmhtUDU5cWdXenIwTkFtYWRhdmtIM2Rfb1VvMGwtelhESVo1eXpiZ3ZhVXFnbTVXb3JiUURuWE56bGlZSVgwdzdSQWNWalpYZ3V1RU9Qem1ySWZza19yZXB2dkh2dDBBWE1BVnJtckFuOWM0RGxWbmZYWWxKMHllRWFn?oc=5": "2026-10-18T15:36:54.341381+00:00",
   "news::https://www.cnbc.com/2026/10/18/top-analysts-are-bullish-on-the-growth-potential-of-these-3-stocks.html": "2026-10-18T15:36:59.411776+00:00",
   "news::https://news.google.com/rss/articles/CBMickFVX3lxTFBEV2p4cjVCMmx4S1hhZ1NTRWJaZVc4WUR3YnNNOXVMVlJUOUM4LWZpOUcyVEdVMXdfSXBLZXRsalRKTnh1cnN1cVZLY0lmWm00cHNZUnkxaVo1S2NOajVZOHQtUnVwV2NMeTBxSmdxeno5Zw?oc=5": "2026-10-18T15:37:04.507218+00:00",
-  "news::https://news.google.com/rss/articles/CBMihAFBVV95cUxPVEwtdDZTcUROWUM5bFVFNV9FMjVRZHI1U0xqU3dVQUJpaGtqZWVwSDBvOXNlWTMwRFVBQlJucktkcHdkRXRROFdQMDZyWlBTTzR5eTh6YV9UdTdzN2ZxaHg0QzRhSUw4V1dpcVNFa0wtOXVCYi13eVhDQzJDaTl2a28xLVLSAYoBQVVfeXFMT0U4QVpuVkUxSl8tY0dRMnpqTFFCeFlyQ29oc204aThFTWh3S3h0XzhyaXZVZ0MtYXJITXM4dUg2Q1hmYmVFaFhOX3JVRTZLMlg5bjNhbDlkeURQeUhMZG1WZFBiZDFkYXVTNHlMLVp5Q1pOLXlpXzZsWXNnMDhoamNZMXh6Y0hLZHZR?oc=5": "2026-10-18T15:37:09.605986+00:00"
+  "news::https://news.google.com/rss/articles/CBMihAFBVV95cUxPVEwtdDZTcUROWUM5bFVFNV9FMjVRZHI1U0xqU3dVQUJpaGtqZWVwSDBvOXNlWTMwRFVBQlJucktkcHdkRXRROFdQMDZyWlBTTzR5eTh6YV9UdTdzN2ZxaHg0QzRhSUw4V1dpcVNFa0wtOXVCYi13eVhDQzJDaTl2a28xLVLSAYoBQVVfeXFMT0U4QVpuVkUxSl8tY0dRMnpqTFFCeFlyQ29oc204aThFTWh3S3h0XzhyaXZVZ0MtYXJITXM4dUg2Q1hmYmVFaFhOX3JVRTZLMlg5bjNhbDlkeURQeUhMZG1WZFBiZDFkYXVTNHlMLVp5Q1pOLXlpXzZsWXNnMDhoamNZMXh6Y0hLZHZR?oc=5": "2026-10-18T15:37:09.605986+00:00",
+  "news::https://news.google.com/rss/articles/CBMilgFBVV95cUxObWs5UFpEZkwwd1BQT0VHa0NqTU1JeC1McVE4Ym5NWl9fZXhYNHRXSmhsQXU4YVFjaUJvbTBSc0E4cE1jU3NFZUh6YnhJSVF0ZktoQ19NYlhkRTY1V0g3eUFmSFBId2hpU0M1REJwWVNmcDB6Q2lVTk9OUlJYR2trZENRc0J2UllVOVhkX2pXSERKYldnMEE?oc=5": "2026-10-18T20:19:41.141330+00:00",
+  "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdjBWdFJ6aTFYQmxxdTN3QV8zUU4zd09SRG9DaURyM19hR1RkUF9LLVdKbGVTVUdTWFlYLXp5ZHJVb0JJc2hTakpOSU83dXJoYXppMTByc2RCVUdfNU4yTEFXbEVDdFhkYVBNTkFBWWxKNTkxQ3ljd3FFMVZQOHlwZE55WUFYT3VZd0NOZHhKVGVNSDB0b2MxOFMzekRRM1M2ZzRQV3Y3OV9KcUZEa1RCRXlONHZjZ1UwMF82RTY1TGVvQQ?oc=5": "2026-10-18T20:19:46.106760+00:00",
+  "news::https://news.google.com/rss/articles/CBMi_AFBVV95cUxNR0tUc0lQdFhKQlh0MTRhMExmSVdzOVVsMVJtZzFDZnhyOVgwaDhjeC0tcnZYaWJNRzMyT0QyRUo1c2lEd0d1c29qU2JWQnQ0eFVBVXM4WGhSWmR2c3NqRjQ5a29CS0VhRlY3UjkyUzJoVDY5bERMM295b3duVHExczVxZkR5UkluQ3RUSGkzQmt2MHFjajZlVC1ZV2UxN2RfTm13NFJVVEdseGhLWFRzVFpuRlI2LUhBOXNXXzRGVW5SOUE4SXVGREZGVm85WFVpS3BsMmVmN3BrZW42UFZsLTdRYVRWMDkwNk9ucTd2WWRaRFRnVHRuWmNyUm4?oc=5": "2026-10-18T20:19:51.065272+00:00",
+  "news::https://news.google.com/rss/articles/CBMi0AFBVV95cUxOS1A1RTVIVTRLVVVDQmtuZENydVBLYmVQMHhoMGpMQXVfT3lsMXlVUDZUZzZnWTFPcjVRcGNncHZ2Ul9wY3Z5VVVoTlJPNEVoMFNzdzA5cWNESjI5R3lLZGtqbzBMZmZMRm4yckJmVDBBbFBZQlFhSFMzbjROdUdXSE9mRlcxajdzWnJjV0VBeGg3QUFqTVRXZkFtdjQxSWpZeTRtM1NBYWtHQkdRVjVveEJGRThKY1JpOEhuOFRyODdoWHZxanR6TWhIeGw2S3A2?oc=5": "2026-10-18T20:19:56.036511+00:00",
+  "news::https://www.cnbc.com/investingclub/2026/10/18/here-are-the-3-big-things-were-watching-in-the-stock-market-this-week.html": "2026-10-18T20:20:01.030897+00:00",
+  "news::https://news.google.com/rss/articles/CBMisgFBVV95cUxOUlF1U1drNFFfSW5GUUlkOTBkUkdyMGppcTA3bmRjZVJOS0NvWnhxTlB0dFJwUEd6WmRWSExqakgwV3VpanlZWWRKNjU0UkR2OW9YQXpPbjVnWll5azhMOGg5cmJEZ0pzZWgtTWxMOVo4bFZndGVQRXh0UC1qdEVYUDkzeHZwb2lWRjEwanJhU2JJbUFEX040czU1djRhdk9peUM3MUJhYVRtMi1FUURfZld3?oc=5": "2026-10-18T20:20:05.981034+00:00",
+  "news::https://news.google.com/rss/articles/CBMiygFBVV95cUxPeEF3TGFhaWNCcW9YNlBfZ3NwN2tTLV9Zd1AwanQtN0xINEFQQXdqOFpJTE95bkROTWpBc1otTVd1dDJlQ0JKNHdYVmZuMHFhdlk1MWNXZWRfQXRUOGRONG5DWUtuSzN0bS1BZ3I2M0EzS2g1ZE1uYXJTQU9uaGFhRUswSm1XR0pEVFczdExwemtaVXpCeVg5bFlLUTBRRmJlN2xqVWhjZk51SGYwd29kdEVuRFhZR1p1Q3pmNUEzNjZrVEhjbXVSeDd3?oc=5": "2026-10-18T20:20:10.920536+00:00",
+  "news::https://news.google.com/rss/articles/CBMisgFBVV95cUxPQmxWSDQ5LVhSZFl5VDRhUVk4U0JULUlnS3hMWTlHUHZFZHczMjZ2dzdFS0YyUnFfRlBZaFRkdmFfQkNBeTBtX2tqUXc2OGlrMXdQczlScVZ4TWt3eUlaSlU0ZEJ1M1JzNGdfOTBWM1JUcVAwM1oycVZPT0ZVSUI0bTRTVUt6d291QTN6VlJPVUJ2MWE1eklIbFhLT2tyT2szalo5TVowS3pLbWt6TEx4MU13?oc=5": "2026-10-18T20:20:15.867635+00:00",
+  "news::https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMXVtb3RmaDBnMThWSElTa3o0aUQyTEd1SVhyNmluSlVKSXRTTS03QW45aGFVYmw2Tm8zclQzUWc5SDFxREJRZ3NQel9FNjRXSDFkYTI2bUQtS3hqQXZtYmFDNlRQQTRzV2haRGtEZmJiNjBsLV85bTB5M1lhblZtRjBXS0RoZlNSUHp1WG5HTTMzOWRNRDVwcmpYSXV6UkJPMURzNzc3dDZNeUY1YjBkX1RTVlVLMjEyMnRtWTBzQkQzZEhTdUZBcDR4V3d3Q1pvS0dDWkRqNjVIcHR5RGc?oc=5": "2026-10-18T20:20:20.825183+00:00"
 }
