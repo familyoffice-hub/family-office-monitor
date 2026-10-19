@@ -1,126 +1,6 @@
 {
   "__daily_log__": [
     {
-      "ts": "2026-10-16T04:03:12.520895+00:00",
-      "title": "Morgan Stanley (MS) Q3 2026: Wealth Management Growth and Institutional Revenue Set the Earnings Bar - AlphaStreet",
-      "source": "GN Wealth Mgmt",
-      "area": "Wealth Management / Big Institution",
-      "priority": "High",
-      "alert_type": "PORTFOLIO INSIGHT"
-    },
-    {
-      "ts": "2026-10-16T04:03:17.662484+00:00",
-      "title": "Amendment K: Lawmakers ask voters to approve investing unclaimed property proceeds in a trust fund - Mitchell Daily Republic",
-      "source": "GN Estate/Trust",
-      "area": "Estate & Trust / Real Estate",
-      "priority": "Medium",
-      "alert_type": "TRUST & ESTATE"
-    },
-    {
-      "ts": "2026-10-16T04:03:22.750434+00:00",
-      "title": "Pajak Perketat Fokus Restitusi, Prioritaskan UMKM hingga Eksportir - CNBC Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning",
-      "priority": "Medium",
-      "alert_type": "TAX UPDATE"
-    },
-    {
-      "ts": "2026-10-16T11:00:15.403130+00:00",
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "source": "The Fed (press)",
-      "area": "Macro / Security Risk",
-      "priority": "High",
-      "alert_type": "SECURITY WARNING"
-    },
-    {
-      "ts": "2026-10-16T11:00:20.670355+00:00",
-      "title": "DJP Tegaskan Pencairan Restitusi Pajak Pertimbangkan Target Penerimaan - Ikatan Konsultan Pajak Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-16T11:00:25.763135+00:00",
-      "title": "Fasilitas Tax Holiday Salah Sasaran, BPK Minta BKPM dan DJP Perbaiki Sistem - Ortax",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-16T11:00:31.040293+00:00",
-      "title": "DJP Terima Hasil Audit Restitusi Pajak yang Diminta Purbaya - kontan.co.id",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-16T11:00:36.235381+00:00",
-      "title": "The Unemployment Trust Fund: FY2026 Income, Outlays, and End-of-Year Balances - Every CRS Report",
-      "source": "GN Estate/Trust",
-      "area": "Estate & Trust / Global Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-16T11:00:41.633847+00:00",
-      "title": "DJP Perkirakan Pajak Ekonomi Digital Berpotensi Naik 50% - Bloomberg Technoz",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-16T11:00:46.887786+00:00",
-      "title": "B.A. Schrock Wealth Management Inc. Makes New $2.30 Million Investment in JPMorgan Chase & Co. $JPM - MarketBeat",
-      "source": "GN Wealth Mgmt",
-      "area": "Wealth Management / Big Institution",
-      "priority": "High",
-      "alert_type": "PORTFOLIO INSIGHT"
-    },
-    {
-      "ts": "2026-10-16T11:00:52.052201+00:00",
-      "title": "Geger Pasar Modal! OJK Denda DSSA Rp1,5 Triliun, BREN Rp500 Miliar dan CUAN Rp100 Miliar - Pasardana",
-      "source": "GN OJK",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-16T11:00:57.232140+00:00",
-      "title": "OJK Sebut Tengah Jalankan Reformasi Terbesar dalam Sejarah Pasar Modal - kontan.co.id",
-      "source": "GN OJK",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-16T11:01:02.481991+00:00",
-      "title": "OJK Jatuhkan Sanksi di Kasus Pelanggaran Perdagangan Saham - Tempo.co",
-      "source": "GN OJK",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-16T11:01:32.981272+00:00",
-      "title": "Bank Indonesia tak lagi andalkan suku bunga demi jaga rupiah, mengapa? - IDNFinancials",
-      "source": "GN Bank Indonesia",
-      "area": "Indonesia Regulator / Macro",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-16T11:01:38.242954+00:00",
-      "title": "Kaji Kenaikan PTKP, DJP Hitung Dampaknya ke Defisit Anggaran - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
       "ts": "2026-10-16T16:20:12.682871+00:00",
       "title": "Perkuat Sinergi dengan DJP, IKPI Jambi Bantu Sosialisasikan Insentif Penghapusan Sanksi Pajak - Ikatan Konsultan Pajak Indonesia",
       "source": "GN DJP/Pajak",
@@ -1151,27 +1031,104 @@
       "area": "Family Office",
       "priority": "Low",
       "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-19T12:36:13.204686+00:00",
+      "title": "Bank Indonesia Diprediksi Tahan Suku Bunga di Tengah Tekanan Rupiah - kontan.co.id",
+      "source": "GN Bank Indonesia",
+      "area": "Indonesia Regulator / Macro",
+      "priority": "High",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-10-19T12:36:18.427560+00:00",
+      "title": "Ajukan SKB PPh Pasal 22 Impor di Coretax, DJP Tegaskan Syarat Kepatuhan dan Penghitungan Pajak - Ikatan Konsultan Pajak Indonesia",
+      "source": "GN DJP/Pajak",
+      "area": "Tax Planning / Indonesia Regulator",
+      "priority": "High",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-10-19T12:36:23.641211+00:00",
+      "title": "Rosen Group Private Wealth Management Welcomes Paul Marche, CIM®, as Portfolio Manager - PR Newswire Canada",
+      "source": "GN Wealth Mgmt",
+      "area": "Family Office / Wealth Management",
+      "priority": "High",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-19T12:36:28.943695+00:00",
+      "title": "Grant Private Wealth Management Inc Purchases 4,075 Shares of GE Aerospace $GE - MarketBeat",
+      "source": "GN Wealth Mgmt",
+      "area": "Family Office / Wealth Management",
+      "priority": "High",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-19T12:36:34.133157+00:00",
+      "title": "Sanksi OJK Terhadap 3 Emiten Dinilai Tepat, Langkah Penting Jaga Kepercayaan Pasar - Media Indonesia",
+      "source": "GN OJK",
+      "area": "Indonesia Regulator",
+      "priority": "High",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-10-19T12:36:39.126718+00:00",
+      "title": "Morgan Stanley’s Wealth Management Focus Is Paying Off - The Daily Upside",
+      "source": "GN Wealth Mgmt",
+      "area": "Wealth Management / Big Institution",
+      "priority": "Medium",
+      "alert_type": "PORTFOLIO INSIGHT"
+    },
+    {
+      "ts": "2026-10-19T12:36:44.144274+00:00",
+      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+      "source": "CNBC Markets",
+      "area": "Big Institution",
+      "priority": "Medium",
+      "alert_type": "PORTFOLIO INSIGHT"
+    },
+    {
+      "ts": "2026-10-19T12:36:49.149691+00:00",
+      "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments",
+      "source": "CNBC Finance",
+      "area": "Big Institution",
+      "priority": "Medium",
+      "alert_type": "PORTFOLIO INSIGHT"
+    },
+    {
+      "ts": "2026-10-19T12:36:54.194196+00:00",
+      "title": "Madison Capital Group Names Chris Best Managing Director to Lead RIA and Family Office Distribution - Business Wire",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Medium",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-19T12:36:59.184133+00:00",
+      "title": "Benaifer Malandkar, CIO at RAAY, Patni Family Office, on How Family Offices Approach Startup Investing - Indian Startup Times",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Medium",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-19T12:37:04.233353+00:00",
+      "title": "Getting the Family Office Planning Sequence Right: Insights from Nirav Dinesh Kumar Shah - Hubbis",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Medium",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-19T12:37:09.350856+00:00",
+      "title": "JPMorgan Chase opens special branch aimed at affluent clients in Buckhead - The Business Journals",
+      "source": "GN Wealth Mgmt",
+      "area": "Big Institution",
+      "priority": "Medium",
+      "alert_type": "PORTFOLIO INSIGHT"
     }
   ],
-  "news::https://www.cnbc.com/2026/10/12/china-gold-buying-interest-rate-.html": "2026-10-12T05:08:35.455468+00:00",
-  "news::https://news.google.com/rss/articles/CBMihwFBVV95cUxNXzZOWTdxX1lPX1BMLWZyTW1jbzFScWF5VkRsM3E0a1pGWTczLVR1QnNJZlVoMXFPZGQtZVg2c2RQbjItQTZRM2RHeFkzbF9ILV9nLXNpTWZ5bkR3SVA0Mk1wSnh1ZUxsY25lbHprMDRjWkxfOGNOYjJBSDVMUWJxUzdiNVpOLUnSAYwBQVVfeXFMTmE5OTNka2M2QkhvTmViUVIwVEFBNTZqaGh0ai1UdUY3eURKMUhNcVIzdWp5YWZ1YkFvajNnX2pRdGlxb1E4OUxyaWUwYU11SVNmVnozRnVSQ1R6RG00VnlTdm5oUy1XMmk3eURHVFVVdkY3Q1lmTFRxOERlSmZvMW43eTlSWEg3YldpenA?oc=5": "2026-10-12T05:08:35.455479+00:00",
-  "news::https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHVEblBrX1ZQSTBsMXdCdnM5UlVpbGFMTTdnanowWW9UdTJpQnN2QWN5TEFFQndtSEtHVVRNaGgydGZ4NDlxdGhOQkJkUS15TTUwTmtURzNyVGN4M0p0SWh3Mjh1RnlQbEZKMTdGMV9qNnJoTVNzOU4yMFI5a3NfUE5Td1hJMExrUWRvUW82ZHFIWlQ5?oc=5": "2026-10-12T05:08:35.455482+00:00",
-  "news::https://news.google.com/rss/articles/CBMibkFVX3lxTE1VUG1rdThITmlSbjk4ckV6TzZFcXVObkdNS1F1VjhlLUFQN1NvRTVaa0lOTXphR1RxVjhUTnBrbm1WYXBlbWViYl92ektVeHlTaVJTZ3MwMVRaRzRxdmxkVll0MzI3VWgzNThGSm9R?oc=5": "2026-10-12T05:08:35.455484+00:00",
-  "news::https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTHQxUWl1SlZ0c3VXSFM5SmFTUHFpLUJuRE9HVmtTdGcwNTFSLUVFejdDTlgteXd5VGc1RlhhNDF3Tk5NbTA1Vl9ndjFDaFFtMTFKc2IxRGJNV0o2UndIamhrT1dvS21OWUFXaklrM1JBamhOV0Z1djFVaGRqeXM0XzRldEs3ZWZwUmlrUlI1dUpTSDMzT3c5MnNDc1U1MTNheUdIS1ZPOVVNdjdEUFBnakZ2clQzcnVIOHlhdHN2dHZnSFU?oc=5": "2026-10-12T05:08:35.455485+00:00",
-  "news::https://news.google.com/rss/articles/CBMisAFBVV95cUxQbi1CQThBSXdGQnJTcEQ2NEloU250QjJGSDB6RWZaTGJaTzJVclZGRVY3blNlR1pwV0I4WDFha2xDSUtQY1BReGRJZ3R4Qk9CQVdodlpRbFd1XzZUOVI4UjFCZU1uWFp2MUxDU0Q4NG9UX2pfWlA3V0F1NUNFc2lKOHhZN3Z2d09DUkw1bC0tdlVCRTNRTGJpRFN6aXMxUml4MzlKc1FRREZCdGNnQ0RvNw?oc=5": "2026-10-12T05:08:35.455487+00:00",
-  "news::https://news.google.com/rss/articles/CBMib0FVX3lxTE9aQTI5TnA0bk5pNlk0b0E3NkpjR1Jfd1BFa1FwZ1ZhY01FS1NfMFBHVnBySWdFY1FBN1RibF9hZk1tU180bU1EdTFQS3JuNHotRE5TNjk1REFsdG5iY2hqeXpmeEJNMVNFWnQ5aF9fSQ?oc=5": "2026-10-12T05:08:35.455488+00:00",
-  "news::https://news.google.com/rss/articles/CBMitwFBVV95cUxOUlNZNWhRblM3SnFlOGEwSmdqQ0tXSk1wbF9RNXVyUm50Vk9rZG8zc051bzNwMTdEUEZpTnh3b1QwbFFCTDlKSklJTDFCNTVzOFAyNFlkSjV3emJ1N1FobENUMzE0OU94VlFyRUlUdjY4NjZDVU1xMFZ0bjR2dHJYTDVHR3Nqakd6OFUxaEcwMEhQVGhDZl9KdXgwZkZPSFlIaURtajgzZkZFclpIMm1lcG1vRmZWbTA?oc=5": "2026-10-12T05:08:36.956386+00:00",
-  "news::https://news.google.com/rss/articles/CBMisgFBVV95cUxNUW9YMmdQb25jYURSdjdZZVdVLTMtTTgtd09wVms5RkExWENUMmZTelBLOUd5V2JxM05pTDlPSE56TmI5MFVrWU9lMGFjNVlkalM3d2JzRmRtOWlva0t2aFF2VkNjNGdfNEVyMHV5NGxDWGFZejcwVi1aMm5kTTFEbkJNYTdnOFRTWlJJSC1MVFRoeXZHMzJRMUhkWEtrc2xjUjJ4MWlVMS1SaXBlQ2x6UkZR?oc=5": "2026-10-12T05:08:42.289205+00:00",
-  "news::https://news.google.com/rss/articles/CBMiowFBVV95cUxNWE03NHRuamdjS1poV0VhMnB6dTFyeW85ZURHNWxvalN6N0pDZlFyVXIxYnhqSDdyVlJPMjFVMDc2OWE5ZXMwN2U3MndRWE5VNjBXMHFwQmt2ajFISjMxTTdjbnhRblk2TlpEZkkyaEdibldMUXlucmRKaDVPclZuMEtvUXFqV3lHR25jMzg2SkFCbGI3TWtRYzRmQW5nOWhOOUxV?oc=5": "2026-10-12T05:08:47.575279+00:00",
-  "news::https://news.google.com/rss/articles/CBMilgFBVV95cUxQUFp3WE5ObXU5RXdTWEd3MDlCQThZNzZKb05vLVI4Skt1MkpPSHJNMUN2N1JuZFpZeV9XZFlGN18wU044eE9LWENTX0tseVJkSVBSYmZoS3lUelllZ2xneFRWUzg2RVZCUTB4Q3U0bnVGVnd0YnVMX0MzdHl4ZVExQXRjejlrUFBUR1lBWFhQZHlYN0RCN2c?oc=5": "2026-10-12T05:08:52.865497+00:00",
-  "news::https://news.google.com/rss/articles/CBMisAFBVV95cUxNSlp3SmdMTzhBekF4RzZGZ3IxNlV4bEJlZnpmUzdPeWZIR1QxTTFzWldvbzRWS3hEcTRYbFhjU0hlR1VPU2lsUmdHVUdKQ2MxcWxlaWg4dFRUSktreG9lT0o3WTg5aTVOSG5qd0tPekV6b2NlMVcxaGNDQ1lpSnd4bkVHNXZGME5hazRmX2ZRTXhQSVllbnlUd3h0TFdvRlF5X2NWRDYyd1ZlU1hxY1J1V9IBswFBVV95cUxPRGlfMkdKNGhqN1Vkemd4c2RlRTRheWdZVXpsdUNqZnNoTlJ3VkJWbmtwZ3ZvMjhzdUVwc19DcjlxVnhMcEJXejRzYndOZnY3WUFBRFR1c3o1clB2SHZfRzhQR2JPLTBHTFp1S2RwUm9GRGlvZFgxNTRwd3ZxSjM2S2dkWW5kaG01Qmdsd3pDODZoWURuUGhOVDJEQXl2R3lmYXBHMVYtOVFiLXlVbm5NU2Z6Yw?oc=5": "2026-10-12T05:08:58.187880+00:00",
-  "news::https://news.google.com/rss/articles/CBMimwFBVV95cUxNc25Sa1BtQ1RKWENvejNieGlyRjFSUGw4bWNqX1h0Z2E1aTcwMUNSVjdTaEZaSl9OVGw3VEZiYnJPUVVEQW4za0ZZVk9ybllaX1otQ1R6YWxlekNleUg3d2FBTU85OE1rY3QtcUw3NGlPY0RTTmF5ZzNjc01sUE9oNnpWWklPSk91NlY4VFU2XzY4QlA5ci1TbHpHcw?oc=5": "2026-10-12T05:09:03.375111+00:00",
-  "news::https://news.google.com/rss/articles/CBMic0FVX3lxTE5MelhkMHNUTGRNQWFTd1FhOVFFR3luQ2dyNjZzWkZPYjhjcDFtWHVwNmc4Z3M3OVhpbjlWMXV1V1lMUnBWQ1h1cl8zMEdOMXRzWjFQRXcxRXN5eExROUItYnpHRnlQZ3pHWVlubnhJbEwwNUE?oc=5": "2026-10-12T05:09:08.528365+00:00",
-  "news::https://news.google.com/rss/articles/CBMirgFBVV95cUxQS2dRN2NlNjBXeHhFR0pHVHVaVlRjcjJNUmFqOUVmZnhEWC1NNEdTM2w4YzFrRHZVbDZuZjM1cm5CWk9fckJrQWZKemZlWG11SjJiZl9hZktCSXVFQUdqOThqckZMTEtNRHRsMTRuZ0hTT0hZSHBoc052TC11UmVla1BBR09ybWxDOTczbFFiUEJER0lGM2s4eG5SNW9xSVhtWnRsc1hzVWFHUnRpbEE?oc=5": "2026-10-12T05:09:13.680318+00:00",
-  "news::https://news.google.com/rss/articles/CBMipwFBVV95cUxOLVlYVVZ3LXFiQ1RpOGdMSUpuQ3lyM3VCNHVNeDBzNmxoOFQ4cjlKZEtOOU9JZThjRi1NdHRKMGVUNGcwRU9LNkM1NzA5aWJRM21VRmJfMkFQMXViVjd1TjVtZUlDQ0ZrRHp1UFBhWHhsRVVQb2dnS1JnU0hMaXdsZXppWmVqMmduci0zRV9lVFhTeDlyZ1VPTV82UTZoTkhuWm9pQk1oQQ?oc=5": "2026-10-12T05:09:18.856768+00:00",
-  "news::https://news.google.com/rss/articles/CBMiogFBVV95cUxNdXRuZDBTWEQ1V21OakhkcEJWZWlTNVVkWl81YVI0TnhfQzl6WUEwbjREbm9BRU9pVG1xWlJ5RkJtMW41cjVnQ21GVkpBX1VmN3ozZ3VOd2FtYTRIbE5feW9GU2ZzX1hMRnM2aTZETHhvRDVfaUs4UlpSWjZ4d3c4RGhGWnZFcGpuLVlHMENWWi1RM0I4SW1oQ2NPcmpjMWVjeUHSAacBQVVfeXFMTTB1WGFYbFBIYmJUVXQ4THNpQkFMZGZxX2hkRl9rbFBNb2lKNmRucjBLQWtJall4aGRtZi1hUVNqOHJoQmtXUmRnSmN2Zkh0cXFxRUk2WTVEbkJFZlVTSjFLQnllNUlwX01DaEx3MGVrUVBFRjdfNFYzVm9KNGpLRnBkMkhweTktbVMwLTVJT1JBQVVqQmRvRzg5UDNYMFZheVU0NWlFYjQ?oc=5": "2026-10-12T05:09:24.070864+00:00",
-  "news::https://news.google.com/rss/articles/CBMinAFBVV95cUxNS3FOVkFqcl9uTDhxTmIxcFJMS0c3Zy1wMGNRRGs4MFBzWlZacEZEVjk3V0UxazdjdnNEaHYyZnVkMkxiYTNtV29WRGR0d2JRRlRpLXJ1RWozTzR2RVZsSHRPVnB2T3NBSVBsRWdGRW5kM3hrdk1XdTg3aFMxdGhzZF9ZeW41S1RWdmxvc1lDcjRkQjFjRjduRWJiemQ?oc=5": "2026-10-12T05:09:29.241543+00:00",
-  "news::https://www.cnbc.com/2026/10/12/oil-prics-today-iran-us-saudi-arabia-crude-.html": "2026-10-12T05:09:34.401570+00:00",
   "news::https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcnVEN2lxSjNSM0hXMWRSX0xaZGJwQWJRc05BQXNraEp6c0RiX2IxQnVXRDZzNlAyX1FsRm54SnZfMU50OS1QY21fQkR2MUM4Nmd4bUtpa2E5RHAwYjdoOGY1S2Uwek9MR1JDZzU4LWtITWYtZTFodERyODI1OWN4QXpCMlVzMUhlTlJVZHhqeU5xenVHSWNIb0JRNExPckNJODdmcWViZDNpUFE?oc=5": "2026-10-12T14:51:29.077913+00:00",
   "news::https://news.google.com/rss/articles/CBMitAFBVV95cUxQSHh3NTRmVTY3cVRiSWZaMHNRelpWcFY1OGpqZ1hCRUEyUWxfS09QY3F3Wm9XcDY0czdWRWRkZW5pWUgyRlZWcmU1bExKaWczOVZJSlo1NmpmTUhCdzdKZmtYdUZQQ2pYT1AtU2hSaXJkbzJiZHQyZG1LQm16UGVSakhxTEt2TlNRTkh6ajJmSHpYUHNySDdZUlNkZlR0ZW1CZWozbDZpSFUzblZVelFfVFZHSnY?oc=5": "2026-10-12T14:51:29.077923+00:00",
   "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVXZZT09MNzZpOEk3cnJvWVBHS0hPRzZsN1ZYRXMydkEyZjVBbGo1U1pMX2t3NlVBODVrSkd1MVZ1ZGhuM29Bb1p2SGN3VUFwLXZiN0RfREpPWXdYTWRhWHVKOW9PbUk2WDkyMU9Dc19vaVUwd2JMZ012Q25rMWR4OVNNcVdOLWdjMFFoZTBSeDBYanNxbnN4MjlXS25udUF0bmZCdnlsWmJrc3Y2R3NEY1UtcUo5WjVSdkJfNmZqTVZEUQ?oc=5": "2026-10-12T14:51:29.077925+00:00",
@@ -2001,5 +1958,59 @@
   "news::https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yNHpXYTl6VzBmd2l1OFk0SmVZSF8xd3MtenFjZU8wUnhzbEFUUFg2LS1FRWJ2aDZKN1ExUmxQNUJOWVdkd2xOTV9mYUloMHRGdmJBN0xveXJHUQ?oc=5": "2026-10-19T03:56:16.419029+00:00",
   "news::https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRHJFbUwwTFN4NjZBdGw4ZEluQksxeC1fSGpwM0kxQjdGV2h6aXZGWW44Q016OWhOWXF6U0NEWUdobVRJUEdwdl9Oc1Z1UVllbUdqX1NhbzIzcHVCWENlb3IwSjQyUzg2MVBBejRfTm5RTU1jcFd0VWFDSTA3MUxyaDRzZWh4UElVTkdxS2NSWDFETm9ITzU3TDdPUGVHOEVXWU5jUFNSX2xNaXJCSEQ4TnV1bEJRZnJyYUlqM0FDeTI1Sm12OEJ4UDdmSlpIYXpVNDdZOXdB?oc=5": "2026-10-19T03:56:21.381965+00:00",
   "news::https://news.google.com/rss/articles/CBMimAFBVV95cUxPb09UWnEwSU1VdHgtUml6YmpKelRqVHQycDZwRzVuaXZyOVJXc2xEYm5hYkdlZGowY2IyZXdibEZHTmt2dXFFb013dVpqald4c0dZWGhNNVg2ODZWem16cThzbXNZSkppUnpZV0EwejQ0ZUZMTUpjYWlhRXVsRV9PekFJYk04TmFPbnhfWGRqeXJKMlhRSUl1bQ?oc=5": "2026-10-19T03:56:26.411612+00:00",
-  "news::https://news.google.com/rss/articles/CBMirwFBVV95cUxOQzFPNnBtc3p1d3dxYVRiVHRnTmxHR2p4ZlZKR2s4WHVYMmQ3dHlqRVNONGdOZFNQWldtLTZRb1RfRnVlcVNwNWJjQkQ3MngxUWFOZUNULVpRSUVDZnFydTMtR050UHhtSWRqM3ltMkpfVXQzQTlMMTlrYzlnSkw1Y0Vwai05YXNIb3Bhd1JWSUlKYzMwTGJLWFZYX3BPOTE1dVlqeVJSbXE3TjcwcFVn?oc=5": "2026-10-19T03:56:31.455646+00:00"
+  "news::https://news.google.com/rss/articles/CBMirwFBVV95cUxOQzFPNnBtc3p1d3dxYVRiVHRnTmxHR2p4ZlZKR2s4WHVYMmQ3dHlqRVNONGdOZFNQWldtLTZRb1RfRnVlcVNwNWJjQkQ3MngxUWFOZUNULVpRSUVDZnFydTMtR050UHhtSWRqM3ltMkpfVXQzQTlMMTlrYzlnSkw1Y0Vwai05YXNIb3Bhd1JWSUlKYzMwTGJLWFZYX3BPOTE1dVlqeVJSbXE3TjcwcFVn?oc=5": "2026-10-19T03:56:31.455646+00:00",
+  "news::https://news.google.com/rss/articles/CBMib0FVX3lxTE1nUzdzVnFiMmJCeWJJaVF2cjY5c1lrdkNyMFhqZGRqcGdDaU42WG9icUlJM1daS05OeThBNFpGQVJ6MjZFN2psQkI1WGFGMXJpRHY3RTVzdVI3ZExKVkN3ZVNMcDRwbk9zaVRoLVZrQdIBdEFVX3lxTE1mWUNCVkNBVTBnTHdJcGtFQnpqVzFnV2ZVVnNSUUxTMzlrQkwwLVJudmI2RHRwVUx1bzBCV1FPT3RqRmlMMzlOOXBfeUtWRVE2b1N2ZV8xMkVKOWlPWmNZSVFldDVzdjh5Z3VlRnZkNTFfLWY5?oc=5": "2026-10-19T12:36:11.985510+00:00",
+  "news::https://news.google.com/rss/articles/CBMixgFBVV95cUxPRUluR0JZSFpYRE80WmZhbks4TGlMcW9aTjBMUjBDYk1SMHk2TVduZUxUWUg1bml6dFdPVXRRT0FIdFF2clF5YUNPU3NTU25TSU9FSFhPWlJERUo1d2NZQlM2S1BrSTFxN2dPNy0yQkNXdk1ob0pmc000TjJrRmhKWVJVWTM0cm13X21sVWhYb3pQN0wzWUhNREtKS0hqQkVjX0NKMmhZYlRNdWR0S1hvTERndGE4OEUyUUdOZjhNU3RfX1E5amc?oc=5": "2026-10-19T12:36:11.985522+00:00",
+  "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTkU1RUdnUmxhR2kwN0lhSS0yNDBhNnk0V2VvdFhvMjg4VGNlc0J5M2FpWHVYVXg5NGk4TGZ1SDFiWEkzWUJNUGNRTFM5SUxDLW1CbTZlZlo0ZzVFX3lnU3YyXzRaczlmQVB3LXFhUWxPSllXOVdhcEJzcm1YZEFSdkFiSkRSWVFsMXNnaDVKdHQ3RUduWVdTZjVmZXR2bnozMUFCVzhrNUdMMjg0bmJnYUJLQ2F5b2pkbXBHWmJ3OEZHQQ?oc=5": "2026-10-19T12:36:11.985524+00:00",
+  "news::https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWkpweXFodUVXNzZIR1pfNGt6SHZSZm11c2hfVU1wNnBLczlDNHhHUnJsNzFTelI1VWNZTnNkS29ZY3pFTGJmOVlFeC1QRmc3TC0xcmVhLTBaaXJ0aFZ5dDcyOGxlaHFpeVBfRGppSEpaRjFuUU1mSkd0LTIwdVlSSVZDZVBRbDExRnpVRWZTZHR1ZjVqdnVHVkl3OXhGZkxnYXhNX25iOFJRNEFWRzdZdTVZc1VSdFpPN2lpZHhsZmp1RmprU2JhV1Q0TVgzVklw?oc=5": "2026-10-19T12:36:11.985526+00:00",
+  "news::https://news.google.com/rss/articles/CBMixwFBVV95cUxPWG93cXczNi1vSlJWLWdBX2ZsZFFSRjREaXFPUkU1Rk4yRzJYSThjcl9GQ2gxbGxyWGpYcjZwQWFhMXpmc0hzUEpod2JxY1VyYm43dldEZTExY3NhSkJ6aWNTaE1YSjJMeTBhWHRpSk92ejZjVjVadHg0MlVpNmZrNktCLXZaV3RCWnF4MUtpajZvbXlqYmhuOUZGa3JzeDl4RE9nNk41TmVnb0dGX0h5WHZLVDdZS0p5c1A1UVZ2WEszX0ZBZ0Nn?oc=5": "2026-10-19T12:36:11.985528+00:00",
+  "news::https://news.google.com/rss/articles/CBMi3wFBVV95cUxOY0t6WGdDVm5aSXZHbHRlLXp3eDItTXZ6UzBZQWp2eERScXRGU0wteHAtNUZIYVdlbi1mNWtnMUpMMDBrTDdRc3NwamhZb0pwRUl6dHE4aTh1SXlJajFuTG43RVFaZGZBS1NWaXFGTHNtVmdUaE5fUndDT3phUWxfMFQ1eGVEQVhOUXRxMERZeXZJMERjM282Tkw3dGpDVzNOcUhtOTE2Zm5VVXRaYXNjZzJHNmUwZlA2S0Y4U25nRzRNUVlOMGZpakpfY011amdvSkQzMEUwMkdOSG91clZR?oc=5": "2026-10-19T12:36:11.985530+00:00",
+  "news::https://news.google.com/rss/articles/CBMiugFBVV95cUxNOG15RlBiODBGRVM1NzBJU01lMjk2Q1QtNnFIOHg4eG5SVkF6UVplVU9SU3lMQVpVbk4yXzdyU3JSR3ZOcTF3d2xmeXdXLUZxM1ZQZXlxalhGMG9jekxySVlSLV9xSHo3VEZCQ1RvN1M2ZEFSQzl0Rjk5Y2RrNkRzdjJXOUtPQ2Q2ZHRrbGUzOTI4Ylk5c0JmZ3VKSTFaUzZYaEhTdDBoRmo4Tkl5WWFEaVRnWUtUMW96c1E?oc=5": "2026-10-19T12:36:11.985532+00:00",
+  "news::https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSExWR2UxekJVUmNCaXJ2dGFNYTEzVGpmSFRpNHFwRC1ldWE2M2NuNTFRNGZKd2dmV3FDazc0RWU4emVyNklSb0VJX1ZUd0JDM1R3eDZYMnkwcVpfazRzNXN3OXZCa0ZibW5WeDZBZHdsb0M1NmxFMkR2dWt1Z0tlTENaZVB5V3JGTHhPZkhQc3lIcTVrNHNyZVBHSl9KN3Mzbl9kbzM4WUJZSVhtekNXUElzZkJ2dFdyRWlvcWlzUTFfR3RGcW40X21lWGxoSDBlS1lmRVBB?oc=5": "2026-10-19T12:36:11.985538+00:00",
+  "news::https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTFI2UlAxUUJ5Q2s2cEJqRl9zR0dYaTdfdWZhMlZ2VlFmMnltSjFQRTBlT3NUOGxEelV4dUJ5X2t0dVE5YS1MSUhLX0Rra29MdVRHWVFkLUMwNjI2YU96T2NPakZlcWtnWDJRbG1rZ3o1M1laM0hsbGlxY3BPN3JpLXVJcE1nRHRpNUlaWDBsQVZObl9pUVdmUmpDZXVrQ2hIQnZwVldfVFM?oc=5": "2026-10-19T12:36:11.985540+00:00",
+  "news::https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aVTdySk1xbnRsdTRiN0RzdnItS2hiTi1RMVo0dktNOVctZHdZeGhTNk5wcFJFVmRLdnJLOXg2ZEE4MTBYMFNWaXl4UVZENDc0V1pPTGlLMFdLdl84OWpjYkU1RGx1UQ?oc=5": "2026-10-19T12:36:11.985542+00:00",
+  "news::https://news.google.com/rss/articles/CBMixgFBVV95cUxPcExDZVVDUDlUZW9nRWszMGZVZk1xeHZhUzg4ejh1aWdJc2lJZ0xkeEtobzZteHlXaUF6Z0RrSHp1Nk9wME9vTUJpay1XX3piZFZNcEZCbG9MUFZxSzBSUURsTWpuWHI5UHY1VmZPMGVVWG0xM1dTd3BQdUVIQUJqV09zdDdCNEx6cmpQNUxYQkxZekFlRlU3Q2ViamhaVkVWc3NlbnByWUNOaHpWYzZfbzQxWHBzN3g5OFZLRDlDZUljcldmb1E?oc=5": "2026-10-19T12:36:11.985544+00:00",
+  "news::https://news.google.com/rss/articles/CBMingFBVV95cUxQNV8yNXBBTWJhT3RjcWw1a1BiV1hIZTRQeDNPOVdCaEdwZ0tFOVJNQzYweW5Ba2xLOElfeDlTZ2ZHNDY0Q1RGM0RvWm5DUDROZHlNbHdTazBiQ216VTFrMVdrZl9SLUFmVGNiOHZsRk0wUzU2N3F5QXVZT1BtczdqZ0dTdzBDRDRwN2RMN0xlOWRWOW5tdzIxdFQxd011Z9IBowFBVV95cUxOTm5kSjlxWHdoYzdOYldYN0gtZ2p3X3lqMVBEOU5sLWtoNVJzcUlmMnpWLXd0R2RsbDY1TldhSktTYkMzOFMtNGFuOG55U1hMWkJudGlzdWUzdm5kX21wcW5TT3UwcjJqMjVVSVNKWGI3dVVVTjJHZ0R6SUdvWGxkcGgwSFh0bFowUmI3M28xRk5mUXdOV0Q0b29NTEU3NDMzakhF?oc=5": "2026-10-19T12:36:11.985546+00:00",
+  "news::https://news.google.com/rss/articles/CBMihAFBVV95cUxPSTRuN0IxUzRPbU1vLXI3d3lQbEUyYUNMVU9GT0dPZmRORFVGc0RKMk1OXzBVdDZaZzMtZzRMMlpxR3p2MUdpeUpmZ0pDOERqWDZDblpjMGVZaUMyTE41MDh5ZGJXM3FZeThBaTRZME93RmRYSUY4Y0RUZmJ6cjNUTXR0aFg?oc=5": "2026-10-19T12:36:11.985548+00:00",
+  "news::https://news.google.com/rss/articles/CBMilAFBVV95cUxNaVlLYUJQRUdTdWxCMy1DUEQ3S2NtMVlnQnJTYWFoLU1RZy05bEVuN3pRdllkX1VTemFDQ1JWSGt5X0NUbXRBS2NUdnpjNGw5aEtIaVBDQWFKUGhsdDJXdzZWYU1TWmFqTXV4Qnp0TGpOSWZwdkhoaVZyQzA5akstTjhkSTd4WXgxc0lRQWpzbUU0R2VR?oc=5": "2026-10-19T12:36:11.985549+00:00",
+  "news::https://news.google.com/rss/articles/CBMimAFBVV95cUxOcTBDZmNvVzZkbnZQa3Z3MGllOTR2S0VuMnlSRE1ZOGhyTm5Jbm9DTzhaZl9QMm5TTThHY0tKNlBRZGZyRXFoSGl2ZFk3VFRzN3VuelZxaW1FU0VBU0JMd2ZaNG9PMXFSUk9ZNGZRTTNHbjJHaTlmUXhZWnM3VU1WU2daLW5GMElXN1Q0TmllQmVGaVB6UUZMUw?oc=5": "2026-10-19T12:36:11.985551+00:00",
+  "news::https://news.google.com/rss/articles/CBMixwFBVV95cUxNNmR4OEJEbUg0dGNIOGtIWi1YSWpNYUR3V0NQdWNqcmxxXzRvNkNaNmUwNVhaWUJnYVZNSlNiOHlwTVBDMFFpU2hKSEozN2dlMnhOeGw1ZkxJUGxtV1NIS2FQNWlTUDBEaTk0MzNTREdRaTBHM18xdFREbXktTGEtX1hRa3Bzc2tvZFhrZVR6d3FiSU84Z0hzd0dmdVNBMTBJQmtYMXRhREFBdmdsZ2EzcHBvcXgwS3phdHNGV2t2Z0Y0SUk4TExB?oc=5": "2026-10-19T12:36:11.985552+00:00",
+  "news::https://news.google.com/rss/articles/CBMimAFBVV95cUxObVBnZzZlS3hmV210UVVQZ2lIYXNpdEI1em00Q25LclhydGZtYUlNNlpkRDhjaW5xYkxEdHdpVUVvRGNnQ0kyY3hTZW9DN09EV0kzMmRkalhZbHZfNEEtcm8wYmFsLVV2MVVYMlRPTnZpaVo5b3N3VGdNRTBnWTN0ZmZXbjRSd3VSWngwcFBYSWlEaFIxelZPZA?oc=5": "2026-10-19T12:36:11.985554+00:00",
+  "news::https://news.google.com/rss/articles/CBMidkFVX3lxTE54NnlHdWFMTTRYRm5XWF95UEdKTDh1NVlFbFBvUnBCenZrbUJFVUlEbHB6c1l1Tm1laklKZFZRSDR6YWtYZ054WVBLckVNMm9PelJxN2hjR0daeHBYeWx1ci1aZDZCWnB1dktTb3ZwVi1BdXpqZGc?oc=5": "2026-10-19T12:36:11.985555+00:00",
+  "news::https://news.google.com/rss/articles/CBMimgFBVV95cUxQYWt0MWFNTGFHWnVlM1BZaWIxbFFwcnF2ZE0xQlhKRG9aSmRVd0VoYzJodHhNM1JWdGwyamRaSFk4c01DUmFOTFBlZGxBOVplY0pCWVNsS3QxWm8yWlNZeXltYndmUFV2aU5QNVYyTmJJODNoSTFzdXpkWnJoY0pMQXNJcFItRU9ndm82cjd4clpPejBBQXNUQmRR?oc=5": "2026-10-19T12:36:11.985557+00:00",
+  "news::https://news.google.com/rss/articles/CBMi8gFBVV95cUxNa1MyRzc2b19JU2Q5OEltR25QY1hsOHZYSl9hRGx0XzlVNVl4SjZra1pSZ2s0WmplU3Y1d0xOOXlrR0RkYjR2RW1YVldfcEZkMXpCOGNBMEFRQnpuUmhqb0IwZF9pRnQxOU5vOThQenh2T18wS2QyVnZ0dDVtazBrNjZHbEZSbHRfLTFjSExWQ3M1S0JGM2pMN2Zxa0ZpVk9Zd0xUZ1V4Yk1Vbk9xM0VBOWFEOUpzMXJpSEJISUEybzVwZWNPdWtod1dTY3Fyak84SGFhN0JGQ3cteTNiWnVISFdjeloxM3lEYUxhZTR2OGVxUQ?oc=5": "2026-10-19T12:36:11.985559+00:00",
+  "news::https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaUE3X191NThUZ3hYWFp3SkFPWDExZTZIWjl1bXhRRHQ5NWY1cEJtV2lTUVcxbnJfZ1kwaEZ0aWFGSEp1Z0tnWkRqbW5ubzlacV9sMnZ2VUNsNExJcmZ4ZXV0Rmx6ZkpiMmstNGNvM08yQTY5ejdNX3NCY0NxbkNlRkcwaHUzWnpJbW92TUl1Vkg1aV9RaFlKNHVuSHg5OGhmenFQRnlKTG1lV1B0Z3RHRFVPU3c2bGM5RTlrRmNPbEpXaGc3ckJtcFMtQWNVQzc3SEp0d2RCMA?oc=5": "2026-10-19T12:36:11.985560+00:00",
+  "news::https://news.google.com/rss/articles/CBMingFBVV95cUxQMU1IMk5GRE4zNjRqSWdSSXNZTWFLSW5KZnlmbktWQzVaV2dxOGVjTnhNRWpzYmgxYXpyQnBhanp4RWZZVXJkNkVUS1E5OW41U1Q2aGpOVU9ZR0xqWFRQTlJXZi1mMEFwSWJfYlREQ0MzaUZkRUt4S0o4dHFIZkt5RTRZX2l6NEFCSU1YdE9pSnUzWFNRejhxYzdaRDY5dw?oc=5": "2026-10-19T12:36:11.985562+00:00",
+  "news::https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVkhfMlZLNmZocS1GX0JMR0NmQzlwbGNRMnhBVVdnN3dCeUJzZUhTZWVoZ1lxajU4TnZrNHVHODBYd1hkQ0dlOFZHN2l3eEV1b3dpRXQ2dXdiT21Vd20zS09VSGRLdEMzVENMbXBVTG1ucHZBWTJPM0NPMG5DU1V5cFhKaXJyR1I3c2lLZE5CZmQ1UW5hS3FScXJ0cHNma1BHUFA5THBHcXl4MFNfS3Z1N3JYeXZQRHdoOUF6M19lMVp6YldUOExnY19taHZjYXk1SDlFYWRDMGkxaXZCdVBCU0paMzJIRl9Od3UxRTNHVjlrZGJsTUctVQ?oc=5": "2026-10-19T12:36:11.985564+00:00",
+  "news::https://news.google.com/rss/articles/CBMizwFBVV95cUxQVWRmdUwzWTdXczB5cnZMSWNNWHlrcFJlS1R1dHBfWnE1eWNuTmt2TGZqZHFNOF9iODVvLUJuSS0zQ3pJb1NHMjV3YnRuZXRIa21HSFZyUGhuenM1bVg4OEhWTzJ6amxlelBNN1F4OEhrelZnVUtucHlrOFEwOUI4Q3JiNDF0eHc2a0tIUUsyTGtiMFMzWjBHakF2cXJPZnFpTEd2MWUzeUxrX1BWUm1IRDM2aTNJQ09xdEdjNnFVNWdSRHhhQTNuN3EwRm1leHM?oc=5": "2026-10-19T12:36:11.985565+00:00",
+  "news::https://news.google.com/rss/articles/CBMi4wFBVV95cUxOOWlWZE9ORDBLTHBQNkZ2Z0MzYXA5YnJJYkVaZE1vZUgzYTFKbmt1NVV4MTllazdlNWFJaFhhQ0V5RGpOMXFLbkZRMmlZWC1MYUx2WVJmNndYc0ZEamdNMTlWNlBWeWE0UXkyWm5od3MxQkFhc0dLSllfZllUSF8xUkl6aUZ6Mk5ENzJkeWpVZnhtMmdheVRMY01yc1luNUlSTlJIZ0lBWmNBcmpMSEFTVFZxUUF6ZThUTU9tLXNKZ2RuVWd1bk1KR3VnS3F0dFBDTFh4ZU9KRG9qbVU2NmNITkwwWQ?oc=5": "2026-10-19T12:36:11.985567+00:00",
+  "news::https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUTh1SFAwUkdudlU3U2FXb1dxblhSWHpUNVVLM0lheUNUQWktSFh5ZGFmb000QmE1WmFxUkZiQVYxRFAzX3lnQjVYMTZWdE1WSFRGRE1yS3p0all3RlE5X1R4bkhqZlFPMGVNUy00WUdIWVpOM0RwdVpyOHUzcy1JU3AzTG9iNGpYY3g4bmJiWWdNcFFWdXpWajdpQ29yR05aZm56ZURvSTk1c2dxMkVGd0R6UWRjZlRsUnFCa3otWUlvNVZ6ZWZSZi14OHAxcjUw?oc=5": "2026-10-19T12:36:11.985568+00:00",
+  "news::https://news.google.com/rss/articles/CBMi7gFBVV95cUxPb1ZSQ2JhSFVVcjlDQ0pJb21aNGFJVGE4Z1VBZHhFWlJtd2xsS2hsSzRjNUpMRGRpYnk3Q05EVFhhYkJ1WkJfeUZtVExhRUw4MjFUQlBENWRpTG1ZX3hRZGdPUW4tZVBZZEEtWmpHSmhCN0VJVS1oRXpGRDZtNFREM2hwTlRRYm1Ud29OVjB2T1dtbkExOC16dENnbWFEdm14a3dRMmhTamxUTU1qeWVUY2J4Vnp6eEpjekhlM1pBdHowNjdRbF9kdUIwOVZLNUgyb3BzQ3ljT0xEVEtnbGhRYlFDb3dLQjZEWFpwZWtn?oc=5": "2026-10-19T12:36:11.985570+00:00",
+  "news::https://news.google.com/rss/articles/CBMimAFBVV95cUxOcExwR25TZWMxanJudUxtdEh2MHNKMlI0T1BwTVRHRzN5LVhJSTRYRnl3Q1ZfR19ZV2twQWNfX25nYWYtM1FJVmF2dHhuWmI5WmJ4SEdhanhRaF9MYm5Ic2NZaDZnTXBfaDJDNzg5OEVGaWZwLVA3VFhZWmwwSlJSUEJRNnJDMWNDNEtKM1A5OURRZmRDTHNRWdIBngFBVV95cUxOYmltWlBhbDhkTmtYeGc3dWZKcFlVTWZsVWVXUjdqRjNLaEVTdVpyMkRYaWliN1dsY010SHZkZ3I5ODJ4X3h2alc5NGF4cm5Yal9ZV28zWTE2bVY3RTl2WGdwMnJuNXB0dlAxNWN4T3VnVDBTUTV4a3pvOXV1ZXZlMmxjbVlKNVpseDB2SFJIc2lMUHNCdi1URGZaNUhKQQ?oc=5": "2026-10-19T12:36:11.985572+00:00",
+  "news::https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUGk5LWxXV2ZGUkx4N2hUaUNzV1ROY2VuNFRic0Fya2RpUGc2NjV0T2pBVmtxN0lTb3JmcnR6bE1BR2h1RFFteGlocEFObkFZMHd5dlVMamo2MXpmOXFrcGh1WnUzX0VDTU4xa2o5bk5kVU9nZG1UbzEwb18ycHNVNkN3TF92VUJfeURMRDlRVHN3d3pVdmlBdmxqdnM4SUp0NlBPNG80YXh4ZFRSTmFZNnhSMFlfTDRvbjZuTlU3cmhTWmNOTlVkYWtuNWpvN3Y4UVN6dTcwMTZ2T3duUTRraEVZcmtWU09XZ1E?oc=5": "2026-10-19T12:36:11.985573+00:00",
+  "news::https://news.google.com/rss/articles/CBMiugFBVV95cUxNTlNlUHBhZEV2YlFVaGNESGpRcXFoUDhlOHBtTDVkNlFhMDI1T0VYYXR6c2lEWUpQQlV5bS05YUNHU0NaV3k4UUVqWHk0M0tsTkRHT1ROOUk1WTJnQURJVUhDOEc1ZkJjeHlLU1lzeGhHOFd5QTl5SXdGd2trMUdPTS1ORUoyWFdLLTljajNEeUV0X2w1OE9NeVRlem15eUhtRGZJZDI4S3NtSTQzeFl1ZFg5bFZxTnc3aEHSAecBQVVfeXFMUFhyNGtvaEpSeXQ1WFR5WnJvMVNpalBpekJWdVNxeW5ZRWZDUmp1LUhhcnNmRDhVQXllRE10LUh5am1fblptbU9yQVg1b2dtc1lIRnZ5cjdWWEg1XzUtRm9GWktpUmVQM2NqT2ZBV2hzczB2MS1vQTI3ODBvRTBvQi1EaXp3RVBHcmdpRENXdXJxSDFwOHFVaTlvNnM2a3V1bngzU0RZc2hNQzN2M3FmcDVrZ2pIMVhlUmlFZ3R2ZUw1QmF6Tzlta2NhSDJHaU85QXFMd0RiMllMQ2dKVWFCZWZ0VldOOTQ0?oc=5": "2026-10-19T12:36:11.985575+00:00",
+  "news::https://news.google.com/rss/articles/CBMib0FVX3lxTFBRdDlnS1dLZE9JZnkyNG5pV0FDd2hrclJqNk5qbmhRbTNwaFNNV3NuaW05RHRrR1F3Q2czR29OdkN1UDRYRm13UGZmQlJDbHY4Tnh2TzJHcE9JQVVSai1Yd0ZOdDlVTnNkX0thOFZJMA?oc=5": "2026-10-19T12:36:11.985576+00:00",
+  "news::https://news.google.com/rss/articles/CBMigAFBVV95cUxNX05sQldtUjU3RGpPNjJTc2ZpZTRhOWNIbzNLWVpFNk40Q2JjTGpMWG5ETTl2a3V1T1JVNWxLZTNicXRyUHZ5aGtydHd3ZTVnQlVZU3c5TnZUOS1VUURCb2dUYzdMRmU4T2liaEkySzI0RG1uUkpkVE0tczdzendiWQ?oc=5": "2026-10-19T12:36:11.985578+00:00",
+  "news::https://news.google.com/rss/articles/CBMimwFBVV95cUxQUE1pVF91OFZhY2R0WGljdk05Q3lzT25kNnRXemR5N2hoWWZ6dldLNGJiNndYeFc4cDk1LUVlXzNLRW1TSW02Sm9UZEVtcUl2ejZicXVmOHNrOTM4Mzg2U3JCS2pzVnJ2MW4wVUszMDdCUDBnXzVYa3dXTU1oSDJ2aFhtaHEtb0hmUEhWQkJMaGNwekx2WVZxcXhQdw?oc=5": "2026-10-19T12:36:11.985580+00:00",
+  "news::https://news.google.com/rss/articles/CBMivgFBVV95cUxPZDF0dktlZDBtRnJ4MFdOcTZKMjhCd1dFbmR2MzFTWW45WmtwYktqRkNjbXdXcFdyMW9HUGkyaTJEVmxsQjhUWFNkMjAwM0hRTm5wWG9iWUNmN3doeDdhTk9RbVRtUnRBVldNNGZnaHdJeXRuNnU0WHBrRVk1d21GV05NY2JmSzVlZlhBR2NpbTlxRi1fZlhZQzdMQVdlU2tueFNzQm9YYXkyeHhndkUxS2dKT1JlR0w1bV90Znh30gHDAUFVX3lxTE00RkdRY243VEhHR1dBdTdIb1ZvcUM2VG1sbXBmTTdwZmk5eGowZlBNcXBuekg1Q1Q3QXRtR1pDTU5kSHJaQXRueU94MHlzYjBPcDFhUzE4V0l0eE5WVmFGU1B3M1NKSkVHOFJTYTFTZ1FGS29xdzdhbDdJM2VmeElrSnVXbG81N1lPdk52cXBEZjJLNTlwTmViVVFTNTVwUTk1czNTUG5Sbm5SbVUtVkplbGFRXzhZSGRHMFZmNjRuZGtCQQ?oc=5": "2026-10-19T12:36:11.985581+00:00",
+  "news::https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html": "2026-10-19T12:36:11.985583+00:00",
+  "news::https://news.google.com/rss/articles/CBMi4wFBVV95cUxOekFmVjdlc0haRFREM1NXM3lUT1laUVZJVEFGLVYtQlRaNGl6WnJ1S21TVldhblZleXljaGp4SUhXNUF0aFBkXzRrSUZweTh1cUI1RDZ4VzdrTHFydGpXWk5GZXNtOWN2ZlUyVjlINVU5RkhhbHR2S0stc2p3U3BxR3NiUG1MeTFmNjRpQlpCMU85YmdBSkRIaU9jYTlucDlldnlVUnpOeHpWWTJIZFdEQ2NCQmhvaFVqdkI0N2ZrdF9sYzE4bEJWS3Z3TXRSMUYzem5UTmJkV1Z6ODl6eUphUFM1QQ?oc=5": "2026-10-19T12:36:11.985585+00:00",
+  "news::https://news.google.com/rss/articles/CBMipgFBVV95cUxPazNEdl94cndaYWN1M0VDUThiV3NHd2lGZWNGMVZpQmJNTWRfbWlNZFZ0RFBjUHNuc05oZVVCS210bU9ENW5RWERXcmVEaVlPeElVTjVKWG1ZTDA1QkZCSW1EcTd6a2RUTTBMMm8xdWNPVFpDSV9RdVFreDVkQ0tBdmJXdnNKNEcxRjJvejdabS1HRUlZcTltUTlhaFJXWE9jYm4waktR?oc=5": "2026-10-19T12:36:11.985586+00:00",
+  "news::https://news.google.com/rss/articles/CBMipgFBVV95cUxOeHFNcFY5a2xUTG5xYnZVMmxNSm5RQ3pPTmx6Vk5aWmZNRF9SUWVVSnhXWGZLUzhxOU5sQm01MlVQbHBVajJrLXZTS0I4VllJamhkZGltYVhBeURqRWpjZGZDVHF1dVBHbkdDVHlVNEczVXNPQ1hHQ1dtTFVEZUJFeGVZcjlHSXNlQ0ZvWWdiMU0yXzdwOFFvT0h6RFg1VFRYZXJaSzl3?oc=5": "2026-10-19T12:36:11.985588+00:00",
+  "news::https://news.google.com/rss/articles/CBMipwFBVV95cUxPTlczd2R4OUlRaDhNNVJid0JwU1lmejJpMTVhMVh3OW9wc3RWa000aElXMVRhMXA1UWlUMFRoZXp3b0czMnhCTFZGU3BHbkZqN3B5OVBMWmVrZ0gtbjdTZHVmYzRhbnJEalF6VDZZdzE0akZJQU1RR3FKSjJpc3pkbHNxa3lLeVoyU05PMmprVkM0d3ZrdDF0eEZsUDBkOWtua01HaHVYVQ?oc=5": "2026-10-19T12:36:11.985589+00:00",
+  "news::https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVEpLODJUZmowN1p0ZnJ0bmR2WjJodl8xVnE5Ym1ubkZ1U2VVeTVtdE80XzZKWng3RkRPTm9vV3B0b0ExQU51eTJwem4yWUc3N3JtTkx4RUtENzBVeUhpVk95djdwUWJTVzJTY3ZyRk51MURFcEhsUUdhY0dVSFdLS2F1WFEyb0VSVHl0QWgzTEZBVUY2aU9lTTNMS0FzaDhqU1lwZS11Ul8xUW5rblBDMTltcTBaNWVDaThtY21xeUpBRFXSAcgBQVVfeXFMTXZzSm1EV3ZueXp3MV8tMzcxM0tLTklQWDVJWGJoUnU1R1plNXJnTUJSV1FxS1phLWNxSkg0ZVdmVHpUZjVncWNJc3c1X3J5RnppQ2Jzc1pya3JKc1ptN2dSZXM2R2tUdXdhVUl2dENVWWo0Q3dqWXEyWlRYQTlkdW9zaDdFRUs4ODFMenpUakZpZ0MydlduVG1vT2pia01vWjhjdmNnRFQ5Z2pMc1hsNmk4MEhVT19VQ0JPaklFRDZCdl9TQXhDWnE?oc=5": "2026-10-19T12:36:11.985591+00:00",
+  "news::https://news.google.com/rss/articles/CBMirAFBVV95cUxQb2ZZUElNb2I5QWdXMWF1WnZkbWtmN2NaRmVhc0pQZWt2bFFCcE1rZkNXRkpLVllDMHNoYTdhVEpwMTYzYXYyMHdZR0d6MmdTZmhnd29LQ29NMXozRFc2VGJXUFBobDRnQVh3cUFUNGF2VnBtakZRdXNLUjdHSkhvSU50aEZjZFFYOGE1eU1veHhZTnVzTlhPUHRkeV90bHkwaWNHZGRUbEVQSFA10gGyAUFVX3lxTFBkRUpyeFBzdDBqV0FCbXlZajZ4OUxVVm9lSnVuMEhwekFNc1QtOWVFTkNQSWJHUUVQVVpkTGVDcWwyaGpCTlpDTkllYUZDd2gwNk9VbTd2SnZQTmVxM1JoT28tRTltRUd0b0RDdnZxX01lMkhnZ05WOUJibWtQVy16d0N5Y1dHOWJXcVFURG42ZlFsVGpOVThjcGo5RkgweWh6a1FRekdWUG5QT2JpOHd0RkE?oc=5": "2026-10-19T12:36:11.985593+00:00",
+  "news::https://news.google.com/rss/articles/CBMiogFBVV95cUxObzItX29GSllDNU1GUzJDdU9jV2MxRy0yVlZ2dXFfa0NUbmhSNjR4ZUpYcWZQdUZZeUswT3lKcFNSRE5yYlExMFhVeVMyZ0F1UTJPVmkxR2lLS3I3eFJBUVFBNHRMeW1tSTZPRzZIMWl4Ym00X2dGZEZDUkE4eFBuSkVfQ2hiV3ZhTm1jOUxJQVloUkRreTVPY295Ri03Sl96ZVE?oc=5": "2026-10-19T12:36:11.985594+00:00",
+  "news::https://news.google.com/rss/articles/CBMi9AFBVV95cUxOak1RdXN0S3diRDVEMk9xeGJXNDNHRDRDT25SNm1MUEloVlBrc1JfRFU0Q2Y3bEVxV2lRdWVHNTVtY1dKTl9DUmlwZFUzaU5HVzl5TmFFQlItNVE4WS0ya3dvMjZLNXBxZmEyOUE3QjRGaEdCN0IxOUE3RGJPMXB0cWc5NF91V09fcmpLVjRiLXZaNWdfcmFOaEZjRWZTYVNvUURXbi02aktGbWtUSFptMDVhb1B0eEtlT2xQY1lWaFhBa2pUOFZLUjRjMExSSHNuLW9uUUxhZVNTTkh5VUQ2VXREbkhiNEdKY3BFVEdnb3ItUl9n?oc=5": "2026-10-19T12:36:11.985596+00:00",
+  "news::https://news.google.com/rss/articles/CBMipAFBVV95cUxQRHd0bUFoenh6NVRwNmJTcE9Wc09MMHFSbi1JRlBrbEhSbDdZWTlObjUxOFR3UVVxbzQ2OHhvWXU0NVNBRGgwVzV5TmViaXU0UDZ1MXl3YTluOFBzOEJvU1d0eHRRdXJZZnpacEVTdERDT1pwX0s4cmFHaG4zalI3VzFLLW1EeU5OVnF0UWgzLVlmUHZWMERFU3ZWSzNxZENLeWlWT9IBngFBVV95cUxOSE5RSUR5M19jWm5ud09kb1ZpcU5uNWhFbjZ6WnpZcEM4NW9FMjNNOWVYQU5pRnh3cU1kYTFRV0dKTUlUZjBzX3ZnQ2V6eDYzNU43QTVlbnVBWUdtMDlkRk5GNDVRU2VETEQtaTdaS0U3aDNuZGRhMzZ3dTlwZ2JteGlKQUxEQUxfdkZUY3dDYzNFWDNHUDNZMFZRWlF5Zw?oc=5": "2026-10-19T12:36:13.204668+00:00",
+  "news::https://news.google.com/rss/articles/CBMivgFBVV95cUxNWlpjbVhONXlFU2VuWXRKT2xuRFVSeTFYM2tNaUd1OV9tT2hfR2VpZTlfOXhBVTduc0JPdG1aRUtfd0VfbVZOYXpkVkRTam9tU2oxM3B0UHVWcWN0SzJtVmJIQ1NuYTI4eDZVY0FVZnJQaWQyVmR0ckg5amFla0ZOOGhvRHdCRExtM25nQlRRbkVTdnd3SlVsaUE5aExfNFhNUVc1MEZmOHBwV19fWGZMMHl6RmFvOW9jXzhOSDN3?oc=5": "2026-10-19T12:36:18.427543+00:00",
+  "news::https://news.google.com/rss/articles/CBMi1AFBVV95cUxON3E1MFlCOElxR2pzU2lfSHduSHY5Wk9zRVliYkpHVGoxTnBzNGxGUG5jU0JpdHdybEdjbnJqaHE5b0o3RDhBYUtpMDBzNTdBMkw0N1pvQ1owYVQ0dUNJUXMwUkVLR1pQZVZRZHB0cHZDRFRsajMyMHNjMXBpeDhQSFhIcGtKaG44S0NjNjZKb3FGeFdnb2lFMUNCdUVWWG11dkxyUmo2eThicDMyUDgzemZibndqUUxfbVJ1SGJQTzJGSXAtcGkxWXpNM1lDQnhmM3RZVw?oc=5": "2026-10-19T12:36:23.641193+00:00",
+  "news::https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRk5qY2JHTEprc0NmWGJobUoySUV2NVl1aFpvbFhqQ2hEb3dzZmJuRHY3MnZGaTZSOW5VVmEwZjd4V0lqWTE0V0lPcHlYR2V5bmdMUllQajZuVUx1N3piYm5rTDhoWnRrVlhnbnY2RW5EbmZscGxEd0lDX0NkemZ1azU4cGpkVjRCa2o3ZXFXVVViNTNybmRMZHZ2QkFwaGQzTmpNcExrNmJLcDJ0Ri1rU0w2WW1PcXg4VEZUcjE3ZjZ6R3l4ZTNnclR1YTVFLTY3YzlR?oc=5": "2026-10-19T12:36:28.943677+00:00",
+  "news::https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcUFwMHN2alpteG93N3BVLTl2bHdLMHM4R2tpLVc0VnFPbE1PWVYzTjZNWnZrbVFuZVpoZEFYY3p4SkpRSWxFUUZOSDJFUFZPc016dVZjQ2diNC1wcHE2bVRIMmRyNGVZckhMQ09SMll6SW9WNnJ2eDdSNkdUdTAyajJBNGFXV0dFZmJJOFF3ZE5wWnA3UTlwY0RoUDVWSVJRLTc5MG83U0RJa3ZtTUIyWHdNMWRGOVgxTzhDVmFBM3I?oc=5": "2026-10-19T12:36:34.133138+00:00",
+  "news::https://news.google.com/rss/articles/CBMiowFBVV95cUxQTlpMREVraS1IMXdPdDNidzY2elZmQ2hMU2V2TzMwdzhVdG5ZdFh6T25QUUEtUVVsbWttYWpfQ0VOSTFlbjVRc3NaZU93bk1CaUFVTmdlZTdmdHJROEpIa3hvZTY3XzFWNDNpc1Foa2M5MTg4S3ZIVGJoZUdOeTJwSzRNYl83S1FlcjJnU3VRY0NhZFoweXphcWpKSWlqLVZnalN3?oc=5": "2026-10-19T12:36:39.126700+00:00",
+  "news::https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html": "2026-10-19T12:36:49.149670+00:00",
+  "news::https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVjh4bVhXZkJYekdIMDdBY1RCUDdZdDctRENGYWlSS0pKTXVmR0ZiUWU3UDZPYS05N2RiQjRRc042T2QzSnNVMmx3dFZpN0pTMUVsdTBObkdubmU3TlRKaEJjQ1VIRVlQWmdYLVpVNXlPRVNqNGNNSVBydlEzNk11bm5rYVNCNmEzWFdBRkxsTkRkN0FoQ3lPUkJ4aVJzOU1jQjlMN2Y0RG9lMm5FNUpzX3VmNzFXSk9UZ1pUSXVEcFUzdnBKdmd0azJWcWR6VG1ZNDVJTVk0Wldsd25TQU1YRXllLUQwbzFGUXkwYg?oc=5": "2026-10-19T12:36:54.194179+00:00",
+  "news::https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSGRKdFNkYkJnZXF5Vm5hRkx5TW5GTmdnRmFrSlFYR241ZEs5RkZ2NkVlUlFYQUxqc3ZTTktUMExESkR1X0xkZlVrdWsteWRaRW0yOVV6WGdfNEcydjRvbTdpNmFzYTBLY0xvczUtZzRQWENObWI3b1BSYy1XQmRfa0FLYVV3SjFTYXhOaDJhMkoxQWF6NFdPNnVlZTFSRjhKWHlOclh2RmpRNVoybjRocUVxVnFpNDRweGtIdlJCdDNZc3VpVUFoTmszbENyS0hiSk5CMkJNYWg4UlBGUnUw?oc=5": "2026-10-19T12:36:59.184116+00:00",
+  "news::https://news.google.com/rss/articles/CBMiugFBVV95cUxNZk5XYXZVQlQzNmxWSFNsVWZ5dWZJaDZ0VEtDTzQyRWdCdm56dlFlMHRlR0JfQVVUM3hXbmxaUDl1OHZPSjRrdURhNGJqcGJwdzBJVWtSUUFPSi1BaUVDNzA1a2QxQ19zQlFSa3AyTmtZaXhsamdhYjgzekx6NzFUNDBWSFVZclY5amRXeFFMbGd5bVd3bk1qbVFKY3MxYXBfS1UzU1kzYWE5ZTFyVUZ5U0JBTFpTdERlTGc?oc=5": "2026-10-19T12:37:04.233337+00:00",
+  "news::https://news.google.com/rss/articles/CBMipAFBVV95cUxNUk03T1Y4b1lQbFRIbG9pVEFxY1JrREU5Y2VsMklJak9lVFluZmh5V0JXNDZKem54ZTViV1lobzJJeTd2LVhNcUljMDFCSG82S3VseTk5SXZyZjQ5bGp4Yy1GNG0tWUp1bHlnSkVhdEdORHB3ZG5kMEc1Mnpha0ZxT0pkYkwxTTJDMTk2VjBDbGZkSFRGUFE1bmZvRHU0dF9NWlRhVg?oc=5": "2026-10-19T12:37:09.350837+00:00"
 }
