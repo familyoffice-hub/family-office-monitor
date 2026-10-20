@@ -1,102 +1,6 @@
 {
   "__daily_log__": [
     {
-      "ts": "2026-10-17T03:40:45.918346+00:00",
-      "title": "IKPI Palembang Perkuat Sinergi dengan DJP, Susanti Tekankan Integritas dan Profesionalisme Konsultan Pajak - Ikatan Konsultan Pajak Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-17T03:42:31.554358+00:00",
-      "title": "DJP Hapus Sanksi Pajak hingga 100%, Bisa Diajukan via Coretax - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-17T03:43:01.972006+00:00",
-      "title": "PEGAWAI DJP SELALU BERDALIH “SUDAH SESUAI ATURAN”, TAPI SIAPA YANG MENJAMIN ATURAN MENKEU TIDAK MELANGGAR HUKUM? - Aktual.com",
-      "source": "GN DJP/Pajak",
-      "area": "Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-17T03:43:07.110448+00:00",
-      "title": "Yield SBN Bertahan Tinggi dan BI Tahan Suku Bunga - Demokratis.co.id",
-      "source": "GN Bank Indonesia",
-      "area": "Bond & Yield / Macro",
-      "priority": "Medium",
-      "alert_type": "MACRO ALERT"
-    },
-    {
-      "ts": "2026-10-17T03:43:12.244425+00:00",
-      "title": "Goldman Sachs Picks Top African Gold Miners on Growth, Cash Flow Outlook - Yahoo Finance",
-      "source": "GN Big Managers",
-      "area": "Gold & Commodities / Big Institution",
-      "priority": "Medium",
-      "alert_type": "PORTFOLIO INSIGHT"
-    },
-    {
-      "ts": "2026-10-17T03:43:17.344379+00:00",
-      "title": "Will Oil Prices Decline as Middle East Supply Recovers? - Goldman Sachs",
-      "source": "GN Big Managers",
-      "area": "Gold & Commodities / Big Institution",
-      "priority": "Medium",
-      "alert_type": "PORTFOLIO INSIGHT"
-    },
-    {
-      "ts": "2026-10-17T03:43:22.444180+00:00",
-      "title": "VestGen secures Willow Tree capital to fuel succession push - FinTech Global",
-      "source": "GN Wealth Mgmt",
-      "area": "Succession",
-      "priority": "Medium",
-      "alert_type": "SUCCESSION PLANNING"
-    },
-    {
-      "ts": "2026-10-17T03:43:27.520484+00:00",
-      "title": "More Than 70% of BNB Chain Tokenized Stock Trading Occurs Outside US Market Hours - bloomingbit",
-      "source": "GN Crypto Reg",
-      "area": "Crypto & Digital",
-      "priority": "Medium",
-      "alert_type": "CRYPTO / RWA"
-    },
-    {
-      "ts": "2026-10-17T03:43:32.649639+00:00",
-      "title": "Citizens Bank hits $18.5B in private banking deposits, plans 6 new offices in 2027 - The Business Journals",
-      "source": "GN Wealth Mgmt",
-      "area": "Private Banking",
-      "priority": "Low",
-      "alert_type": "PRIVATE BANKING"
-    },
-    {
-      "ts": "2026-10-17T03:43:37.738783+00:00",
-      "title": "Deutsche Bank to Launch Bitcoin and Ethereum Custody Within Weeks - TradingView",
-      "source": "GN Crypto Reg",
-      "area": "Crypto & Digital",
-      "priority": "Low",
-      "alert_type": "CRYPTO / RWA"
-    },
-    {
-      "ts": "2026-10-17T03:43:42.833112+00:00",
-      "title": "WATCH: Warsh says 'inflation is too high' after Fed raises interest rate 1st time in 3 years - PBS",
-      "source": "GN Fed/Rates",
-      "area": "Macro",
-      "priority": "Low",
-      "alert_type": "MACRO ALERT"
-    },
-    {
-      "ts": "2026-10-17T03:43:48.011994+00:00",
-      "title": "Apple and Google Ramp Up Stablecoin Hiring as Big Tech Deepens Push Into Digital Assets - Bitcoin Foundation",
-      "source": "GN Crypto Reg",
-      "area": "Crypto & Digital",
-      "priority": "Low",
-      "alert_type": "CRYPTO / RWA"
-    },
-    {
       "ts": "2026-10-17T10:21:59.510118+00:00",
       "title": "Kanwil DJP DIY Catat Penerimaan Pajak Rp4,5 Triliun Per September 2026, Tumbuh 11 Persen - kabarnusa.com",
       "source": "GN DJP/Pajak",
@@ -1127,6 +1031,86 @@
       "area": "Indonesia Regulator",
       "priority": "Medium",
       "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-10-20T04:07:50.257027+00:00",
+      "title": "SEC Coordinates with Global Financial Regulators to Raise Fraud Awareness During World Investor Week",
+      "source": "SEC (press)",
+      "area": "Global Regulator / Security Risk",
+      "priority": "High",
+      "alert_type": "SECURITY WARNING"
+    },
+    {
+      "ts": "2026-10-20T04:07:56.615879+00:00",
+      "title": "Bank Indonesia faces mounting pressure to hike after MSCI threat fuels market rout",
+      "source": "CNBC Markets",
+      "area": "Indonesia Regulator",
+      "priority": "Medium",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-10-20T04:08:02.383872+00:00",
+      "title": "RBC Wealth Management named Outstanding Private Bank in three categories at the Private Banker International Global Wealth Awards – Company Announcement - FT.com - Financial Times",
+      "source": "GN Wealth Mgmt",
+      "area": "Wealth Management / Private Banking",
+      "priority": "Medium",
+      "alert_type": "PRIVATE BANKING"
+    },
+    {
+      "ts": "2026-10-20T04:08:08.304927+00:00",
+      "title": "Multi-Family Office Asset Pools Report 2026 - With Intelligence",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Low",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-20T04:08:14.036428+00:00",
+      "title": "Investment Views from Our CIOs - Goldman Sachs Asset Management",
+      "source": "GN Big Managers",
+      "area": "Big Institution",
+      "priority": "Low",
+      "alert_type": "PORTFOLIO INSIGHT"
+    },
+    {
+      "ts": "2026-10-20T04:08:19.973850+00:00",
+      "title": "Goldman Sachs raises obesity drug market forecast: Oral GLP-1 enters mass market, projected to reach $114 billion by 2030 - Moomoo",
+      "source": "GN Big Managers",
+      "area": "Big Institution",
+      "priority": "Low",
+      "alert_type": "PORTFOLIO INSIGHT"
+    },
+    {
+      "ts": "2026-10-20T04:08:25.706408+00:00",
+      "title": "Apa Itu Family Office? Ini Penjelasan, Dampak, hingga Contohnya - detikcom",
+      "source": "GN Family Office ID",
+      "area": "Family Office",
+      "priority": "Low",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-20T04:08:31.606878+00:00",
+      "title": "Family Office untuk Keluarga Superkaya, Mengapa Baru Dibahas Jokowi Sekarang? - Kompas.id",
+      "source": "GN Family Office ID",
+      "area": "Family Office",
+      "priority": "Low",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-20T04:08:37.042067+00:00",
+      "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
+      "source": "CNBC Finance",
+      "area": "Macro",
+      "priority": "Low",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-10-20T04:08:42.306403+00:00",
+      "title": "Inflation likely peaked for 2026 but will remain sticky, according to prediction markets",
+      "source": "CNBC Finance",
+      "area": "Macro",
+      "priority": "Low",
+      "alert_type": "MACRO ALERT"
     }
   ],
   "news::https://news.google.com/rss/articles/CBMinAFBVV95cUxOMm5ETlVoY190WGNCaUJvS2pscFZFVHlyTlJqbWlwbDRucFFYeXBseXV6S2JROGJ3YkQ1QllkSzlHYUxzbEhaMWpaVU5hbm5mMC10X2xPcGhCbDFSd0stS0RFQV9Ja2pXUTJvM2hDa1UxYklxRTZScEVHbGFUeC1keWQxRFVFLUZSLVpLTUk1bGtyMlJpY3lPTDBzZTI?oc=5": "2026-10-13T13:50:43.229508+00:00",
@@ -1981,5 +1965,15 @@
   "news::https://news.google.com/rss/articles/CBMi6AFBVV95cUxOaTFleGNmNjBCY0tZUDc2Q1BDSHFrNzRpV0Q1WUxnblpIRkpyalVmQnhtT3JSWmc3dmlSVExzcThyOTQ1VzUxak04emdKamNHNDQzV3NiZWp3ZGxEY0x4VEtfM3hzUE5wV25SeWRhY0QzemJ4YnVDay1lUG1HTmdBUVFPaEY1N3QxYzVwdU01YVNhOGpzNTRscS1EQWFYRXJhSFM2cGd5V0tsclZqZ0xELVFmcm5RbHdOcnRPZXgzUHE3bnkxQzdBc2hDbk8xaEFtMXNHTm55R1hhSUtoOEhtOHhVSFZQOEw5?oc=5": "2026-10-20T03:17:25.776386+00:00",
   "news::https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZFNtd1NVYzg0NWVDWFUxTFhudmJHOEMtLWNRQUZxVEk0VTNtQzBZLXVtaXNwTHFXXzU4SGttQ1pkeDhqVUtWY1dFczhaRUdSQS1CWUhjYVRZN0NqYi05NDJaNndOVDBldWpBSGRsVFR2bDNLMmNEVlVEQV9oNXUzR21mbzZoM3YteWtyOXhvNThzZzBtcllIdTl6X1pxc2dLMUFieEZlU1ZjMlNtZGJ3WWpMZzJ0YWU0NkdfMlY1Z2JxTzB1M2hKSUpXRENXMGZFTFhabFRiZnkxRU5OUDROSmZR?oc=5": "2026-10-20T03:17:31.299239+00:00",
   "news::https://news.google.com/rss/articles/CBMi7AFBVV95cUxQbGR5QU1wdFdhY2czeExpMlNJNGJ1R1kyT1Y0RFFzV2RCWDZ2U29tYjlIWE1EakV0SmdVZlFwN3JVQnF4UFhiYTZsVWVvR21WQi1qSVd5dTZqelEyRi1pUXJWZEYtamlCOEd3OTlpQTlINnl1eWY2bjNxQ2lZMmUxd3N3aUFCVW5mVnVWVzY4SHJGQXVkLWhCa2toSlFVblZXMXQxTTFaZUxtM1VYc3RwVms1djZGZE5JU3FMYmN6dVh5a0F2c1g0azYwMlZxRUE3NktORnp0WHVHVXA0VXphdE1nOUt6YlJqZE5HTg?oc=5": "2026-10-20T03:17:36.831465+00:00",
-  "news::https://news.google.com/rss/articles/CBMizAFBVV95cUxQRUJwVXhlTW9HOTg5anZXMm5mMnBPclk0Y1c5bTU0QUVMZl9nSFE4ZndYOGNPMnlzWTk3LUVpRDIyakJrQUtmbHlOWkNhckZKd0kxOGZ6YUllX3dsbUkzeTZpR2FDZ2RudjFSdWZobzBpcXVrdFBOYWRIY0RIbHJ1bjlhLUtzbld4RDhsaEkyOEVIR3ZFa1lNTm5lS2ZvV1pxX0N3bHM4a3FkZVF5UTVuX040SXZEbW9lSWxxRUhNNUNsVDRFSnpMeTg0Slk?oc=5": "2026-10-20T03:17:42.536692+00:00"
+  "news::https://news.google.com/rss/articles/CBMizAFBVV95cUxQRUJwVXhlTW9HOTg5anZXMm5mMnBPclk0Y1c5bTU0QUVMZl9nSFE4ZndYOGNPMnlzWTk3LUVpRDIyakJrQUtmbHlOWkNhckZKd0kxOGZ6YUllX3dsbUkzeTZpR2FDZ2RudjFSdWZobzBpcXVrdFBOYWRIY0RIbHJ1bjlhLUtzbld4RDhsaEkyOEVIR3ZFa1lNTm5lS2ZvV1pxX0N3bHM4a3FkZVF5UTVuX040SXZEbW9lSWxxRUhNNUNsVDRFSnpMeTg0Slk?oc=5": "2026-10-20T03:17:42.536692+00:00",
+  "news::https://www.sec.gov/newsroom/press-releases/2026-101-sec-coordinates-global-financial-regulators-raise-fraud-awareness-during-world-investor-week": "2026-10-20T04:07:50.257005+00:00",
+  "news::https://www.cnbc.com/2026/10/20/indonesia-msci-inflation-interest-rate-.html": "2026-10-20T04:07:56.615858+00:00",
+  "news::https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnNhaU5OQ2tMdHhRMHlwcDY1dGM2LWZtcHcwWkxYNEhuNlpJM0JWSktTcGJGU1FNOHRoZjJpaFJhNEdQVzQwY0gxeEJiQ3lPMFhHWDUzVzJIVjhPd1JmbTFoQUVRNmFNNHJXOXlDd0dLX2d5bnM3MEpNOVhxSkExN3ppb1psZFloR3hBZXRVRjQyQm0wYnc?oc=5": "2026-10-20T04:08:02.383853+00:00",
+  "news::https://news.google.com/rss/articles/CBMijwFBVV95cUxNSXJ3UnV2QTc3bWUyckQ4M0s3Q3M4NGItZ19tbExOc3VJTDFqTmVPekpJdGV5UFpEUHk3ZHhnVW5zSERCZjRMSVowSEN4ZklrOUdmTWpTT01VT0tzU1l4Ync2dGhDZ2NEV1BVaWdqQkd1aVh1YzJOZlhCVnYxc1E5V1Zwdkx1bjg1ZklBUktHdw?oc=5": "2026-10-20T04:08:08.304907+00:00",
+  "news::https://news.google.com/rss/articles/CBMiekFVX3lxTE5tYUt2LUR6YUFTX29Pcy1zV2tiMTlZUDY0dXFGRHo3V0U5azF3TFQ4R05yQTJiRTdPLUo3VVZLcGpmSHlHSlFRdGhiOC1nX2stQ0VwVWpmSHRNX2FCWnp1c1lBVEVrZy1kWER0OFo4TVhUUGVhakFoa3p3?oc=5": "2026-10-20T04:08:14.036409+00:00",
+  "news::https://news.google.com/rss/articles/CBMipAFBVV95cUxNMU9wMmxxSVNFYkhJaG1kMi1GYTdCNlAzTEpiX2VTX0Y1QlVWZHFUTGVEcU0zb2ozcDYzUXdyWlVYbmVQRU1VTXV6MEh5Qk55ZkEzNnZVc2M3LW5JNExIR1V1X3Z6Umw4SnhjUzlKSUIzUlVpdHE1ZGFhNnBtUmF6b0dFdVN2VEhJQU1rREJOMEFPb0o1a1FGN0JDSWUwMXBHWXNrMA?oc=5": "2026-10-20T04:08:19.973832+00:00",
+  "news::https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSDgwWnRvOVl0WTI5X2ZSdHp3SHVqNng5R0c2c1dTOU8zaUpFMnVDN0E1M0pJWmlpNGFFbVdtcVl2ZjM4eEpkRjlYQ2tmQVNtbjVteVdZV0g5WEJSM1FDa3plSkJ5VlVvY19YdDdaYUhGeTZDS0o4T1ZaVFNNQllFV3JXdnViS0tMMzh4VXBHMEg0eFpuRUhSMDVrcnlrc3ZDWHVnMWhsRWtld9IBrwFBVV95cUxPYlgybHV5V3owV2c3S2VBVDh1Q2ctZ29obmJoOVVhY3JUMUQyWGZ4ZTBXOVRfSUNUWkNKMGlMeDM1NWZwbVNGNHZIVnFhQi1yb0d2QmRCRlUxRzJUOEJiekd3X3pZbG1WOTFNeWxwWE10djFHRHlERnRrSU9kekkxUW5tX3laT3BwZ3ZUTDVrVG9tQ3ZxQmpnR2FFSzFYR0RoZkgzNkdzT1NZNDdTZ2pV?oc=5": "2026-10-20T04:08:25.706387+00:00",
+  "news::https://news.google.com/rss/articles/CBMiswFBVV95cUxON2ZhRDFROXp3QXNmcGNQY1pLZTY3M1UycXlORVRFZGFyMFJzbTJHV3JzdnBIcjl3dUdUbEJBY1E3aHNIZGxvX3Y1anFWTTl1RFRBa0FHZU5nSVNscDd0SWRrUmhLZXFKS1J3YmFBakFlT21oS094QThPZzdJZmhTSkYxLThsVHM2T0diRFhDVzBpeVkyb1pONGw1S2czdmxZdEpaaklIRE5HOFV4dzE5UDhPWQ?oc=5": "2026-10-20T04:08:31.606858+00:00",
+  "news::https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html": "2026-10-20T04:08:37.042049+00:00",
+  "news::https://www.cnbc.com/2026/10/12/inflation-will-remain-sticky-in-2026-according-to-prediction-markets.html": "2026-10-20T04:08:42.306385+00:00"
 }
