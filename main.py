@@ -269,6 +269,49 @@ def tg_escape(s):
     """Telegram HTML mode: escape karakter < > &."""
     return html.escape(s or "")
 
+# ----------------------------------------------------------------------------
+# LINK PENDEK + THUMBNAIL: ubah link Google News (news.google.com/rss/articles/...)
+# menjadi URL asli artikel, supaya Telegram bisa menampilkan gambar preview.
+# Jika gagal, link asli tetap dipakai (alert tidak pernah batal karena ini).
+# ----------------------------------------------------------------------------
+_GN_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+               "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
+
+def resolve_link(url):
+    """Return URL asli artikel. Link non-Google News dikembalikan apa adanya."""
+    if not url or "news.google.com" not in url:
+        return url
+    try:
+        m = re.search(r"/articles/([^/?#]+)", url) or re.search(r"/read/([^/?#]+)", url)
+        if not m:
+            return url
+        gid = m.group(1)
+        # Langkah 1: ambil signature & timestamp dari halaman artikel Google News
+        page = requests.get(f"https://news.google.com/rss/articles/{gid}",
+                            headers=_GN_HEADERS, timeout=15).text
+        sg = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        if not sg or not ts:
+            return url
+        # Langkah 2: minta URL asli ke endpoint batchexecute Google
+        inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,'
+                 'null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],'
+                 f'"{gid}",{ts.group(1)},"{sg.group(1)}"]')
+        payload = json.dumps([[["Fbv4je", inner]]])
+        r = requests.post("https://news.google.com/_/DotsSplashUi/data/batchexecute",
+                          data={"f.req": payload},
+                          headers=dict(_GN_HEADERS, **{
+                              "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"}),
+                          timeout=15)
+        body = r.text.split("\n\n", 1)[-1]
+        data = json.loads(body)
+        real = json.loads(data[0][2])[1]
+        if isinstance(real, str) and real.startswith("http"):
+            return real
+    except Exception as e:
+        print("[i] Gagal decode link Google News, pakai link asli:", str(e)[:120])
+    return url
+
 # Tombol untuk menghubungkan ke Connector Bot (Tools B).
 # callback_data HARUS sama dengan yang dikenali Connector Bot.
 ADVISORY_BUTTONS = [
@@ -312,7 +355,7 @@ def _split_message(text, limit=3800):
         chunks.append(current)
     return chunks
 
-def send_telegram(message, buttons=False):
+def send_telegram(message, buttons=False, preview_url=None):
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_IDS:
         print("[!] TELEGRAM_TOKEN / TELEGRAM_CHAT_IDS belum diisi. Pesan tidak terkirim.")
         print(message)
@@ -330,8 +373,16 @@ def send_telegram(message, buttons=False):
                         "chat_id": chat_id,
                         "text": part,
                         "parse_mode": "HTML",
-                        "disable_web_page_preview": "true",
                     }
+                    # Preview (thumbnail) hanya di bagian terakhir & hanya jika ada link berita.
+                    if preview_url and idx == len(parts) - 1:
+                        data["link_preview_options"] = json.dumps({
+                            "url": preview_url,
+                            "prefer_large_media": True,
+                            "show_above_text": False,
+                        })
+                    else:
+                        data["link_preview_options"] = json.dumps({"is_disabled": True})
                     # Tombol hanya pada bagian terakhir pesan.
                     if buttons and idx == len(parts) - 1:
                         data["reply_markup"] = json.dumps(_build_keyboard())
@@ -543,7 +594,8 @@ def format_news_alert(item, enrich=None):
     ] + summary_block + [
         f"<b>RECOMMENDED ACTION:</b> {tg_escape(action)}",
         f"<b>ASSET CLASS / AREA:</b> {tg_escape(area)}",
-        f"<b>SOURCE:</b> {tg_escape(item['source'])} — {tg_escape(item['link'])}",
+        f"<b>SOURCE:</b> {tg_escape(item['source'])} — "
+        f"<a href=\"{html.escape(item.get('real_link') or item['link'], quote=True)}\">Baca selengkapnya</a>",
         f"<b>CONTENT IDEA:</b> {tg_escape(content_idea)}",
         f"<b>PRIORITY:</b> {item['priority']}  |  Score: {item['score']}",
     ]
@@ -943,8 +995,10 @@ def run_cycle():
     orch_rows = [_orch_row(it, None) for it in fresh]
     for item in to_send:
         uid = "news::" + (item["link"] or item["title"])
+        item["real_link"] = resolve_link(item["link"])   # link asli -> thumbnail muncul
         enrich = ai_enrich(item)   # None jika AI mati / gagal -> alert tetap terkirim
-        ok = send_telegram(format_news_alert(item, enrich), buttons=True)
+        ok = send_telegram(format_news_alert(item, enrich), buttons=True,
+                           preview_url=item["real_link"])
         # Tandai sudah-dilihat apa pun hasilnya, supaya tidak dikirim berulang tiap jam.
         seen[uid] = datetime.now(timezone.utc).isoformat()
         if ok:
