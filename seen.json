@@ -1,102 +1,6 @@
 {
   "__daily_log__": [
     {
-      "ts": "2026-10-28T12:23:57.896025+00:00",
-      "title": "North Korea Stole 76% of All Crypto Hack Value in 2026 — With Just Two Attacks - TRM Labs",
-      "source": "GN Security",
-      "area": "Crypto & Digital / Security Risk",
-      "priority": "High",
-      "alert_type": "SECURITY WARNING"
-    },
-    {
-      "ts": "2026-10-28T12:24:03.546003+00:00",
-      "title": "Digital Wallet Fraud: How It Works and How to Fight It - FICO",
-      "source": "GN Security",
-      "area": "Security Risk",
-      "priority": "High",
-      "alert_type": "SECURITY WARNING"
-    },
-    {
-      "ts": "2026-10-28T12:24:09.015612+00:00",
-      "title": "DJP Catat 5.757 Wajib Pajak Sudah Terapkan Pajak Minimum Global - Ikatan Konsultan Pajak Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-28T12:24:14.611490+00:00",
-      "title": "DJP: Makin Cepat Bayar Utang Pajak, Makin Besar Sanksi Dikurangi - DDTCNews",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-28T12:24:20.260206+00:00",
-      "title": "DJP Tegaskan Penghapusan Sanksi 100 Persen Bukan Pemutihan Pajak - CNN Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-28T12:24:25.760275+00:00",
-      "title": "Sanksi Administrasi Pajak Kini Bisa Dihapus, DJP Ungkap Persyaratannya - CNBC Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-28T12:24:31.209551+00:00",
-      "title": "DJP Ingatkan Penghapusan Sanksi Pajak Tidak Berlaku Otomatis - Ikatan Konsultan Pajak Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-28T12:24:36.874059+00:00",
-      "title": "Bos DJP Ingatkan Penghapusan Sanksi Pajak Tak Otomatis, Wajib Diajukan - CNBC Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-28T12:24:42.429576+00:00",
-      "title": "DJP Dorong Wajib Pajak Segera Selesaikan Kewajiban Perpajakan, Manfaatkan Penghapusan Sanksi Administrasi - Ikatan Konsultan Pajak Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-28T12:24:48.054302+00:00",
-      "title": "DJP Ingatkan Wajib Pajak Waspada APK Palsu Penghapusan Sanksi Pajak - Ikatan Konsultan Pajak Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-28T12:24:53.720023+00:00",
-      "title": "DJP Hapus Sanksi Telat Lapor SPT Pajak 100 Persen hingga Akhir 2026 - CNN Indonesia",
-      "source": "GN DJP/Pajak",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
-      "ts": "2026-10-28T12:24:59.242214+00:00",
-      "title": "Gelar RUPSLB Hari Ini (28/10): BEI Bakal Bagi Dividen Pertama Kali dalam Sejarah - kontan.co.id",
-      "source": "GN OJK",
-      "area": "Tax Planning / Indonesia Regulator",
-      "priority": "High",
-      "alert_type": "REGULATORY UPDATE"
-    },
-    {
       "ts": "2026-10-28T22:21:42.665442+00:00",
       "title": "DJP Catat 22 Ribu Wajib Pajak Masuk Cakupan Pajak Minimum Global - CNN Indonesia",
       "source": "GN DJP/Pajak",
@@ -959,19 +863,104 @@
       "area": "Indonesia Regulator",
       "priority": "Medium",
       "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-10-31T17:01:16.624150+00:00",
+      "title": "Binance’s $6.3 billion hack raises questions about crypto wallet safety",
+      "source": "CNBC Markets",
+      "area": "Crypto & Digital / Security Risk",
+      "priority": "High",
+      "alert_type": "SECURITY WARNING"
+    },
+    {
+      "ts": "2026-10-31T17:01:21.966192+00:00",
+      "title": "Binance, crypto and hacks: What to know about keeping coin safe as cyber criminals advance",
+      "source": "CNBC Markets",
+      "area": "Crypto & Digital / Security Risk",
+      "priority": "High",
+      "alert_type": "SECURITY WARNING"
+    },
+    {
+      "ts": "2026-10-31T17:01:27.336245+00:00",
+      "title": "Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday",
+      "source": "CNBC Markets",
+      "area": "Security Risk",
+      "priority": "High",
+      "alert_type": "SECURITY WARNING"
+    },
+    {
+      "ts": "2026-10-31T17:01:33.080825+00:00",
+      "title": "DJP Catat Penerimaan Pajak Digital Rp 58,75 Triliun - شبكة تواصل الإخبارية",
+      "source": "GN DJP/Pajak",
+      "area": "Tax Planning / Indonesia Regulator",
+      "priority": "High",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-10-31T17:01:38.748878+00:00",
+      "title": "Serius Tegakkan Hukum, OJK Jatuhkan Denda Rp2,52 Triliun Kepada Pelaku Pelanggaran Pasar Modal - Inilah.com",
+      "source": "GN OJK",
+      "area": "Indonesia Regulator",
+      "priority": "Medium",
+      "alert_type": "REGULATORY UPDATE"
+    },
+    {
+      "ts": "2026-10-31T17:01:44.484010+00:00",
+      "title": "Dhvani Shah’s move from pension fund to family office — same investment toolkit, a much different portfolio - Pensions & Investments",
+      "source": "GN Family Office",
+      "area": "Family Office / Wealth Management",
+      "priority": "Medium",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-31T17:01:50.165129+00:00",
+      "title": "The Joys of Preparing for Death: Why Estate Planning Feels So Good - Bloomberg",
+      "source": "GN Estate/Trust",
+      "area": "Estate & Trust",
+      "priority": "Medium",
+      "alert_type": "TRUST & ESTATE"
+    },
+    {
+      "ts": "2026-10-31T17:01:57.161826+00:00",
+      "title": "Trump promised to slash energy costs  — but gasoline, diesel and jet fuel all soared instead",
+      "source": "CNBC Markets",
+      "area": "Macro",
+      "priority": "Medium",
+      "alert_type": "MACRO ALERT"
+    },
+    {
+      "ts": "2026-10-31T17:02:02.297596+00:00",
+      "title": "Crypto industry pours more than $200 million into 2026 midterms to pressure Congress on favorable rules",
+      "source": "CNBC Markets",
+      "area": "Crypto & Digital",
+      "priority": "Medium",
+      "alert_type": "CRYPTO / RWA"
+    },
+    {
+      "ts": "2026-10-31T17:02:07.946471+00:00",
+      "title": "Goldman Sachs Picks Top African Gold Miners on Growth, Cash Flow Outlook - Yahoo Finance",
+      "source": "GN Big Managers",
+      "area": "Gold & Commodities / Big Institution",
+      "priority": "Medium",
+      "alert_type": "PORTFOLIO INSIGHT"
+    },
+    {
+      "ts": "2026-10-31T17:02:13.461535+00:00",
+      "title": "New Family Office Firm Takes Flight - Family Wealth Report",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Low",
+      "alert_type": "FAMILY OFFICE INSIGHT"
+    },
+    {
+      "ts": "2026-10-31T17:02:18.957272+00:00",
+      "title": "Michael Dell's Family Office Close To US Insurance Group Purchase – Media - Family Wealth Report",
+      "source": "GN Family Office",
+      "area": "Family Office",
+      "priority": "Low",
+      "alert_type": "FAMILY OFFICE INSIGHT"
     }
   ],
-  "news::https://news.google.com/rss/articles/CBMinAFBVV95cUxQdTZhUjJ4bEU2ZkkyTWtWU1E1bnFWd2pOZV9GWUQ4M2N6Z1VZN29iUTFfd1lvYVQ4U2RyQjhMUVAyaHpBNmZuTjFZVjZ5UHdTZndFbTJZREYtUzRVMEd3NWtfR0d1WTdUV2pjYnZvcTBfeXBiSEpDeXUzVGx2ZGkwTHk1WERBY3UxMFFtX0ZIQTRlM3NmamcxX29nOHA?oc=5": "2026-10-24T15:37:46.747333+00:00",
-  "news::https://www.sec.gov/newsroom/press-releases/2026-104-sec-proposes-expanding-securities-eligible-cross-trading-registered-funds": "2026-10-24T15:37:52.045100+00:00",
-  "news::https://news.google.com/rss/articles/CBMioAFBVV95cUxPbmNPUkkycHhReFpBUkx1Zzh0NkprYmp5TDJNY0ExSUhfQjJYSDhwdnpKRGZnUFYxT0QtenY5TXFqS04wdzk1RVFnd3VvampnT1lFQ25Dc09yTjNyb0N1WVpLbU5fQU9iQjRQRjA1dTFjQlM1N1FFVzViWTJfcUd0QlhhM3YyaHkxRTVpOUZNXzJoYzVxYmJNT090blFrYVdB?oc=5": "2026-10-24T15:37:57.932411+00:00",
-  "news::https://news.google.com/rss/articles/CBMikAFBVV95cUxORXZKTnpFVGo0eDduRkFCTnpCUWE2V2s1cjFGYUZMLWR5eDBOYXRrR2h3ZVl4ZjBUSmEzRGkyOURiWUI2TDF1Q1VRdVRnVFBiT3JWd1EwOHFXa3Q5MHY5SlV1Z3kzV2ozR09TUENuaEZacDh1SDB4ZlduVU1oOGpMRUtvb1JGeExmZm5JR1lFcjU?oc=5": "2026-10-24T15:38:03.606572+00:00",
-  "news::https://news.google.com/rss/articles/CBMiiwJBVV95cUxNNDdCaENjN2FMLVpBOEs5amQ3cnB4Zm45N245alNHbUgtc09nLTIzN3hjeTdYcUZXWWJKZlpoUmhuT3NGT0huYkN2UGx1RndjeW5QRmRDb1RyNnZlQWphV2dsU2pmT29tajRiS0hlbWVKUGdEODA1NWd3X0JZb2tQTnZLS2lYSFEtVDM4a2pTX3dKZEVraWt3ejFTZFJ6bmMzNXI4Y243WC0yVW81dkNKZVBxOTlNU0FrWjhDblJIanZoTG5xNFRwUUtac25JZGpxQ2tsV0JSYy1wRF84NDVFUUU1WkNRTTFWanRVdFVhblVodnpxT0hjeGp2MXFtRWNUb3lVcGRuVzFNa2M?oc=5": "2026-10-24T15:38:09.343746+00:00",
-  "news::https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm": "2026-10-24T15:38:14.666769+00:00",
-  "news::https://www.cnbc.com/2026/10/23/america-by-the-numbers-how-voters-feel-about-the-economy-inflation-ai-and-trump.html": "2026-10-24T15:38:19.789566+00:00",
-  "news::https://news.google.com/rss/articles/CBMinAFBVV95cUxNLTFGM0otWmZxaklzOTYtU1R4TUxkaTlLWVpkaTZ6a19FN2Zza0x3TTA0WjRxZWs3X196SHhRUDlIZGdTbDlBX1VTR0ZVbTZsazNCRHFDY2NMV1lMdllZSVJ1TEpTM1RxWHNETXotSmxFeDJUV1ZfSWFPRUN2WV9qNXdKMnNtZmRieDZPRUVQZlBKWk9tc2RyR3dqc24?oc=5": "2026-10-24T15:38:25.342753+00:00",
-  "news::https://news.google.com/rss/articles/CBMiogFBVV95cUxPSjFHZ3pSSzc3S040U3FTZW45OFZTT0kyNFM2S2lPU0txSnhTUEl5ZEEwdkNha01QREEyWWJaendwLXFXaGM5aldpY1ljZFJpdkhObU5rLUFKTjJfa2h5SmJtT21EQlhTc0tpTENoNjAwZFVoQTVlQVB2R1E0Q0YzYmhmRDNib3Ezaml3VFlfZkNxLWNWN182Ykl1dllyNjBtQUE?oc=5": "2026-10-24T15:38:30.804161+00:00",
-  "news::https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUTk5ckFtakpxdnN0QURNS00wN1lIZ0NPYW9pNTYtQXAyVXVDVU92am9ld2d2Qnl2d1M0TF81YUVhLTJSUnlNX3dxVlRVWEhNcVRGN1VMLWYwT2M2MHJmTzlLbEsyRlo4TUpkVEE4N2N6ZnhjZm12b0FoQ0JYLTItY0ZYYWo2NC1zQjhOUmRhVGpvbXM5Z3JuWnhLaGRZV0V6RDkxamZqM3NEdw?oc=5": "2026-10-24T15:38:36.509457+00:00",
-  "news::https://news.google.com/rss/articles/CBMihgFBVV95cUxPamdZTHZHQlJRZHgwVnZRcm10VWlUYkNIeFdNT1FtU3dwd3U0QmowM25maENXVEJMZkpCbTFqc3JNakdkU29aS2tPOWRPN3Y0dTlMSXo0MzlpaHk3RDFrQUVJSzBDWHBIZWtfdm1GMW1CU2lBeXRrNWpnYjJGUXpmUXZuZzFNdw?oc=5": "2026-10-24T15:38:42.094159+00:00",
   "news::https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html": "2026-10-24T20:27:52.054086+00:00",
   "news::https://news.google.com/rss/articles/CBMiigFBVV95cUxNWDA0MmVnQjl3SlhES3NjMUNzbzcxU1EyNDFDYWtlVXpHdXFOWDZBM0JLOTFlb3Izb1lCYmVESVRYRDhFRmUyd0cxN1ZqZGZHX1FmaFVfYTZjRExjQnY3TWcxU0sxN1ZxMTdqZS1PYmVGYVNRZkxmRVhXYTQwa1haNURRaGlEODBNa0E?oc=5": "2026-10-24T20:27:52.054097+00:00",
   "news::https://news.google.com/rss/articles/CBMilwFBVV95cUxPdlZPWFNoZVhXZDROVjZ4NTlCRTY2TVFKaThRNjRuazVaNWlrcWp3U1Zubi1nUTUxMXU4dE1xaWVyRktJMm8yZm05NUNSU1p3YWFpN1hVa2kzaEw2WXdlZkZMekUteTZEWDN6LVVfUng5T3pUaGxaeEZpUHVhNWhsLVM1cUo1RlQ4ZlZ2UUNNMjlkWGc0ajA4?oc=5": "2026-10-24T20:27:52.054099+00:00",
@@ -1931,5 +1920,23 @@
   "news::https://news.google.com/rss/articles/CBMimgFBVV95cUxOdGY3R3Utd1FIVWxjclppQVhNanlwTWNNWC1jUnpULTRnZ3cyV19iTHVNWHQ3X3pCelVZTmI0dTF6aG1ZZXB4aFdFTWpWbWJvYzNVc3Y3T21hcE81WjVaMVYtWF95Njh5clRUOWNodldqYXktU0FpRmJxeWhCZE02SWRzLVVESHNRWlIwellQRkUtd1l4S0JIUlRn?oc=5": "2026-10-31T11:55:30.264138+00:00",
   "news::https://news.google.com/rss/articles/CBMigwFBVV95cUxPeTFtQ3JqVms1Um1OZkdyb1FMejdVTDVBUWpYNzVkZUlGdW95WktHYldQajFSSDllNlZWNjBXaVVOMWo2Nno4Tm5fazRoOFRsdC00R3lqZlY1Y2RwRVd0aXB6b1A1anM1NklHSXNYQ0Zvb0ZuYUQ0c2hYVHVfQ1RwRi1fMA?oc=5": "2026-10-31T11:55:36.046035+00:00",
   "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTkU1RUdnUmxhR2kwN0lhSS0yNDBhNnk0V2VvdFhvMjg4VGNlc0J5M2FpWHVYVXg5NGk4TGZ1SDFiWEkzWUJNUGNRTFM5SUxDLW1CbTZlZlo0ZzVFX3lnU3YyXzRaczlmQVB3LXFhUWxPSllXOVdhcEJzcm1YZEFSdkFiSkRSWVFsMXNnaDVKdHQ3RUduWVdTZjVmZXR2bnozMUFCVzhrNUdMMjg0bmJnYUJLQ2F5b2pkbXBHWmJ3OEZHQQ?oc=5": "2026-10-31T11:55:41.695596+00:00",
-  "news::https://news.google.com/rss/articles/CBMiigFBVV95cUxNaUNIQlR6TV9qT2RvbVRwdnJTb21KVzVwZm4wVnhnODZIZ1hZZmxpUEFQTWJGaF9mWVRpVmdBYTJKNzczMmg0Y1o0Q1ZqeEJfWjUxcDJHcGdmZGVRdXYxU1QxMnVueGJMOVFFb0xlZ3p2RVAzY1Jhc2pKZU5keDFBTzBPOUNNUXpYYVE?oc=5": "2026-10-31T11:55:47.517777+00:00"
+  "news::https://news.google.com/rss/articles/CBMiigFBVV95cUxNaUNIQlR6TV9qT2RvbVRwdnJTb21KVzVwZm4wVnhnODZIZ1hZZmxpUEFQTWJGaF9mWVRpVmdBYTJKNzczMmg0Y1o0Q1ZqeEJfWjUxcDJHcGdmZGVRdXYxU1QxMnVueGJMOVFFb0xlZ3p2RVAzY1Jhc2pKZU5keDFBTzBPOUNNUXpYYVE?oc=5": "2026-10-31T11:55:47.517777+00:00",
+  "news::https://news.google.com/rss/articles/CBMingFBVV95cUxOblRRMFpSVW9vVVBRdG5pM2VLbWhON0ZoNl9vcUo0WFp5Yzl0Z2N3d3Y1cHZISXBqZDRwbVQ2c1ZWcjlxbXdoQU90QzJONFh1QjI3cmMwWGFHNGJ1RVNuU1dXRTY3OHZPWEdNN2ZUQkx4VlNOU2wxVVZPQjZYZkZtN29CWDNiS21JeWFDaHp3OXZKcTNYQ1FRS0MySllEQQ?oc=5": "2026-10-31T17:01:15.148644+00:00",
+  "news::https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZHlJUldBcUZFTmVKXy15SGFXUjE4VzVBZ2t1UWVCNzRVMkhaMU96ejU2d0hzdTJyWjhvUXVweDFjRTVVaEdzMFlDZHFhZGpOdnBLTktCQjNEdGxnVFhnSTQyQzZNR3F5bjRFNHdPRnVrdk5tNTZMUl81M0ZkTllHdjJ0UDVhLUVSY0RXTVd3c1owOS1kRlFrTzMtRjV3cE9BQUxBaFl6MHNMMXpsUlNodndwZFJhbEYwNzlBeTVxckIzUQ?oc=5": "2026-10-31T17:01:15.148652+00:00",
+  "news::https://news.google.com/rss/articles/CBMipAFBVV95cUxPOWp6QmtlRW9pWmJROWdDMFdJcG5sNHNuZ2dBcUk1blFvMHRNaThnRUxlVGpUYjN1cG9obHlMcy02ZW9iUmU0RW50OHBkVzJNNmEyMFAzb3Z3cGpnOTFWZVJZaGd5VjhzVE5zYXRpcmRJR1JQdzRtXzFzTWY0YTlGRERZeDd2Y3JCUXJhSXd2alhIZ1RkQVFLUVR0OVRVUC1wSFdZVw?oc=5": "2026-10-31T17:01:15.148653+00:00",
+  "news::https://news.google.com/rss/articles/CBMi0AFBVV95cUxOczRRV3Q5aTNreU9LTlROZXRsZWhpaFFtemdOVW9IMmhfeWJmNXJnWGtqTDE1ejJMYzBJOGlKSU1wTEZwUmVEci05cjJ0M0pzOUF0dnVhU3B5OEltbjZCYWhuSXRBY3FjSEY4ZlUwUi02OExOYXQ1eVBUYXBqYnhvNVNXYUgxSENPckFBc1dyTGI2ZXlWU3dXRjlSSjNyNy1KRjNUd3lfX1QyalhyaGlRbGJ2eUV6dFdUMUtidFl0YWhYdmFjRzVVajVUV0EySzh2?oc=5": "2026-10-31T17:01:15.148654+00:00",
+  "news::https://news.google.com/rss/articles/CBMi9wFBVV95cUxQcTNVWlFscmtMTWViR282ZnlvQlI1Umc1RmpRTGRudGZnd1Uzb0tVTjZKMU13cjBJbkZ4U1h4LUd6cTFmR0tIUFpfaGdSX1pNM1hqMDNzcWltaGpQS2tpQ2pzQ21veUFsSEc0UmN4X214WW42LWZOd2N1RlpyUG9hSkpwSXBZb2EzVWhmNk45NkxBd09XTDVWc2wwaEh0ZzQ3c04yZlFsU0FiMWRfT3lXN2Z1OFJMZTVYQ2lzSzhZdkRTVGJINWxXYnZ6THZEMjc4dUpibU1hUjY1RkZ3VVNjemdPSkEycHVGUmdhSWJfRnJOcmgtMzNJ?oc=5": "2026-10-31T17:01:15.148655+00:00",
+  "news::https://news.google.com/rss/articles/CBMiowFBVV95cUxNV0FmNHhZVlJjaDJmQVM0Zlc3U1lZZFJvTWI5UjdxVUlNMTFkUG91VlIySGF4TGl6eS02TF9GYXpRc1dyeGd5ckc3UWlGUDU2eWZGdWQ0MzFFblliRVJjeV92VlhNNWFqVDhxYTNOZ0RvVlhIUHR1ZjRlQi13ZjRrVW1MR19rUGpuNWNVVGh1X0xFVjlOLXVnbjFUTHZvTkc5bWc4?oc=5": "2026-10-31T17:01:15.148656+00:00",
+  "news::https://www.cnbc.com/2026/10/31/binance-hack-crypto-wallet-safety.html": "2026-10-31T17:01:16.624137+00:00",
+  "news::https://www.cnbc.com/2026/10/31/binance-crypto-hack-safety.html": "2026-10-31T17:01:21.966178+00:00",
+  "news::https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html": "2026-10-31T17:01:27.336231+00:00",
+  "news::https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzUUV5STQwVjV0b0V2MHBGY0VTSk5mMU1EN3FqN3FrUzdMbllKT05iekpxY3RBNnNUTXpUVjEta2M4UXd0VGJvbnJfMU5OZmcyVmZJ?oc=5": "2026-10-31T17:01:33.080809+00:00",
+  "news::https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWItNUdCYXhCdk9IWFZIc3Y2a3BvRGMxSWhYVk1kV250V2dIQnZORU04ZG9pejQ2bXQ4Y1FHc1g3d2VzalBINmlxOUstUnIxdFR0djJlMFluTnp3ejBzY0dLZXlwb1VrV29EaS1TMng4OERmczRKa1VUYjVYUXhxZzF4bkcxVnlKcFRHS0FPaFpka0lIclNYeHgyTUQtNEVmQjZkaUpZaHVZT3NKM1pnV3FwZUV2dw?oc=5": "2026-10-31T17:01:38.748857+00:00",
+  "news::https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWU1hTVFZSHNHbFBCZG5pdDdXR1F3R2VjN0hnVVVIa1U0WlRpd3Q0UUdzN3FYUFZ2VjRMbnVlRW9zTlpLelVEVFp6OEdldW5aNHBJNkVEd3FIdEVSQnRLVVFnRzM1Sm1YYjFMMUZtNlpTWjhtdW52VlNOUTVwODlBTUVHVGFNWUFKczU1bWdDdC01OWh4dUx6VUhDOWhabGg1UnM4NkExN3hRSnBEdDVBSXVHWkVoUDlOd3NyTmwwTlhmN1o5VjVqMUpmUGlnNjgzb0kwMWsxcDgtcE9LR25XNFRHWTREVHA0VG9iV2NwdnI?oc=5": "2026-10-31T17:01:44.483989+00:00",
+  "news::https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUTdDV2RhWmx2QnZwT1ZKVW9MZWFNcWVlSDN4RTdsX1ZFZ3ZvaG16UU56VkZZZmk5cEZ0VVAwRm9zVWlEOGczNUI2UTNNakNoOURJdXdESkhHYmJKdVQySGhzdEEydWEzdGhDaldJVDBublZUSmFWbUpLQUdMMHJENTZrU0tUc3JWVUFaWXEzMndvdjE3V2Q1Um9yN3VlOXlwdEQ4cUJpNWZkeDJiVVVMOEpRcmowOVJBN0kyT0czdG1FQ1VENjlkN1dLdHdxSnVVSk0wU2x6VVJSUQ?oc=5": "2026-10-31T17:01:50.165110+00:00",
+  "news::https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html": "2026-10-31T17:01:57.161804+00:00",
+  "news::https://www.cnbc.com/2026/10/31/crypto-industry-spends-more-than-200-million-to-sway-the-midterms.html": "2026-10-31T17:02:02.297583+00:00",
+  "news::https://news.google.com/rss/articles/CBMiowFBVV95cUxNeEpSbjJ0bU90eWV5T1FVSWxKNlVpWVFmOGZwXzh5c09kbnAzRmlKSlhjWEtWY0QxbEtQank3alVMa1hEUFpsdW93WXRmLXR5aDc4c1NzQUtVeE45bWZYNGF5NGc5MXVycUFROHBhaHhMNUxoRm84QmtiMG5Rc3cxb0dEOGZOLU5RR0FfVEZybXdFLVBjYXlMZXBCVHE1ay1aN1pr?oc=5": "2026-10-31T17:02:07.946456+00:00",
+  "news::https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR3RRQ01ibkV5MllpeWRhTmNMZmFJaThDaVpPNVcwQWlYMlAzRlZ4VGlJVnBuN2J0dGhpbFhQNk9iZVhvRlVrRW1KcTZERGYzalU2a3A4THRJbm8wSV81ZWs1dnRDZDBxQjBRVVhmU093Y3ZtaU5hNnhUWE5CZFQyQVRxbTlPNWc3VWdN?oc=5": "2026-10-31T17:02:13.461521+00:00",
+  "news::https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSTNMQU1VN2JPU2FneGJvd2JyMFdPMmtBM2g2WmdWT2RST2RJeG52dkc5T3luM3JVWVJybHJJd1RJRmk5ZGlOMndldzdJbldzZHQ1ejlNTDRHWXBXSWQ2T1Jxd0hLUThfNkZQOTBDZnVlalZZc1RlWGkzSU02ZkpWQjgwTE5tRF93bHowMnBRbExqdXV4NUxFbWkxZFBaaUZfV1Y0UTlzRFd1aVBURnAwVUpaM3hfNmtlMjE2RHN4N24xNDE2dUdFUGZhYmVRQk44TzJXbjRocw?oc=5": "2026-10-31T17:02:18.957253+00:00"
 }
